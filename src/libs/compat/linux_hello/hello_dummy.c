@@ -8,9 +8,15 @@
 
 //#define printk(fmt, args...) do{debug_puts(fmt, ##args);} while(0)
 
+
+static int len(const char * a) {
+	int i = 0;
+	for(i = 0; a[i] != '\0'; i ++);
+	return i;
+}
+
 /*
  */
-
 int printk(const char * a, ...) {
 	//dde_printf("printk not implemented\n");
 	
@@ -18,6 +24,6 @@ int printk(const char * a, ...) {
 	 * simplify printk in haiku
 	 * @xinyx
 	 */
-	debug_puts(a, sizeof(a));
+	debug_puts(a, len(a));
 	return 0;
 }

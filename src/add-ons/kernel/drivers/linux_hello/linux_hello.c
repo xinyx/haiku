@@ -19,54 +19,54 @@
 
 //MODULE_LICENSE("Dual BSD/GPL");
 
-static int hello_init(void)
+static int linux_hello_init(void)
 {
-	printk("Hello, world\n");
+	printk("linux_hello, world\n");
 	return 0;
 }
 
-static void hello_exit(void)
+static void linux_hello_exit(void)
 {
 	printk("Goodbye, cruel world\n");
 }
 
-//module_init(hello_init);
-//module_exit(hello_exit);
+//module_init(linux_hello_init);
+//module_exit(linux_hello_exit);
 
 #define DEVICE_NAME "linux_hello"
 
 int32 api_version = B_CUR_DRIVER_API_VERSION;
 
 static status_t
-hello_open(const char *name, uint32 flags, void **cookie)
+linux_hello_open(const char *name, uint32 flags, void **cookie)
 {
 	*cookie = NULL;
-	//kprintf("hello opened!\n");
-	debug_puts("hello opened!\n", 14);
+	//kprintf("linux_hello opened!\n");
+	linux_hello_init();
 	return B_OK;
 }
 
 static status_t
-hello_close(void *cookie)
+linux_hello_close(void *cookie)
 {
-	//kprintf("hello closed!\n");
-	debug_puts("hello closed!\n", 14);
+	//kprintf("linux_hello closed!\n");
+	linux_hello_exit();
 	return B_OK;
 }
 
 static status_t
-hello_freecookie(void *cookie)
+linux_hello_freecookie(void *cookie)
 {
-	//kprintf("hello free!\n");
-	debug_puts("hello free!\n", 12);
+	//kprintf("linux_hello free!\n");
+	debug_puts("linux_hello free!\n", 18);
 	return B_OK;
 }
 
 static status_t
-hello_ioctl(void *cookie, uint32 op, void *buffer, size_t length)
+linux_hello_ioctl(void *cookie, uint32 op, void *buffer, size_t length)
 {
-	//kprintf("hello ioctl!\n");
-	debug_puts("hello ioctl!\n", 13);
+	//kprintf("linux_hello ioctl!\n");
+	debug_puts("linux_hello ioctl!\n", 19);
 	if (op == TCGETA) {
 		return B_OK;
 	}
@@ -75,19 +75,19 @@ hello_ioctl(void *cookie, uint32 op, void *buffer, size_t length)
 }
 
 static status_t
-hello_read(void *cookie, off_t pos, void *Buffer, size_t *length)
+linux_hello_read(void *cookie, off_t pos, void *Buffer, size_t *length)
 {
 	*length = 0;
-	//kprintf("hello reads!\n");
-	debug_puts("hello reads!\n", 13);
+	//kprintf("linux_hello reads!\n");
+	debug_puts("linux_hello reads!\n", 19);
 	return B_OK;
 }
 
 static status_t
-hello_write(void *cookie, off_t pos, const void *buffer, size_t *_length)
+linux_hello_write(void *cookie, off_t pos, const void *buffer, size_t *_length)
 {
-	//kprintf("hello writes!\n");
-	debug_puts("hello writes!\n", 14);
+	//kprintf("linux_hello writes!\n");
+	debug_puts("linux_hello writes!\n", 20);
 
 	return B_OK;
 }
@@ -113,12 +113,12 @@ device_hooks *
 find_device(const char *name)
 {
 	static device_hooks hooks = {
-		&hello_open,
-		&hello_close,
-		&hello_freecookie,
-		&hello_ioctl,
-		&hello_read,
-		&hello_write,
+		&linux_hello_open,
+		&linux_hello_close,
+		&linux_hello_freecookie,
+		&linux_hello_ioctl,
+		&linux_hello_read,
+		&linux_hello_write,
 		NULL,
 		NULL,
 		NULL,
@@ -134,13 +134,11 @@ find_device(const char *name)
 status_t
 init_driver(void)
 {
-	hello_init();
 	return B_OK;
 }
 
 void
 uninit_driver(void)
 {
-	hello_exit();
 }
 
