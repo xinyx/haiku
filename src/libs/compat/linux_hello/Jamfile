@@ -1,0 +1,14 @@
+SubDir HAIKU_TOP src libs compat linux_hello ;
+
+UseHeaders [ FDirName $(SUBDIR) ] : true ;
+UseHeaders [ FDirName $(SUBDIR) compat ] : true ;
+UseHeaders [ FDirName $(SUBDIR) compat uapi ] : true ;
+
+UsePrivateKernelHeaders ;
+UseHeaders $(HAIKU_PRIVATE_KERNEL_HEADERS) : true ;
+
+SubDirCcFlags [ FDefines _KERNEL=1 ] ;
+
+KernelStaticLibrary liblinux_hello.a :
+	hello_dummy.c
+	;

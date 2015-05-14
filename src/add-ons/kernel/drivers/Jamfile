@@ -19,3 +19,4 @@ SubInclude HAIKU_TOP src add-ons kernel drivers printer ;
 SubInclude HAIKU_TOP src add-ons kernel drivers timer ;
 SubInclude HAIKU_TOP src add-ons kernel drivers tty ;
 SubInclude HAIKU_TOP src add-ons kernel drivers video ;
+SubInclude HAIKU_TOP src add-ons kernel drivers linux_hello ;

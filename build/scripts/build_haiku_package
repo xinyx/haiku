@@ -72,7 +72,7 @@ extractFile()
 
 	case "$archiveFile" in
 		*.zip)
-			$unzip -q -d "$extractDir" "$archiveFile"
+			/usr/bin/unzip -q -d "$extractDir" "$archiveFile"
 			;;
 		*.tgz|*.tar.gz)
 			tar -C "$extractDir" -xf "$archiveFile"

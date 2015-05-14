@@ -1,6 +1,6 @@
 /*
  * Copyright 2005-2007, Haiku Inc. All rights reserved.
- * Distributed under the terms of the MIT License.
+ * Distribut。ed under the terms of the MIT License.
  *
  * Author(s):
  *   Ingo Weinhold <bonefish@users.sourceforge.net>

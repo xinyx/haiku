@@ -21,3 +21,7 @@ KernelAddon console :
 KernelAddon usb_modeswitch :
 	usb_modeswitch.cpp
 	;
+
+KernelAddon hello :
+	hello.cpp
+	;

@@ -1,0 +1,13 @@
+➜  haiku git:(10e57f6) ✗find . -name "*freebsd*"
+./headers/build/host/freebsd
+./src/build/libroot/fs_freebsd.cpp
+./src/build/libroot/fs_freebsd.h
+./src/libs/compat/freebsd_network
+./src/libs/compat/freebsd_wlan
+./generated/objects/haiku/x86/common/libs/compat/freebsd_network
+./generated/objects/haiku/x86/release/libs/compat/freebsd_network
+./generated/objects/haiku/x86/release/libs/compat/freebsd_network/libfreebsd_network.a
+./generated/objects/haiku/x86/release/libs/compat/freebsd_wlan
+./generated/objects/haiku/x86/release/libs/compat/freebsd_wlan/net80211/libfreebsd_wlan.a
+./generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/contents/develop/headers/private/libs/compat/freebsd_network
+./generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/contents/develop/headers/private/libs/compat/freebsd_wlan

@@ -1,0 +1,43 @@
+# build and run haiku
+
+
+sudo apt-get install qrencode attr
+sudo apt-get install git nasm autoconf automake texinfo flex bison gawk build-essential unzip wget zip less zlib1g-dev libcurl4-openssl-dev genisoimage libtool
+
+git clone buildtools
+git clone haiku
+cd haiku
+git checkout  10e57f6
+git tag hrev49060
+
+cd ../haiku
+jam -q -j8 @nightly-ra
+cd ./haiku
+./configure --build-cross-tools <arch> ../buildtools
+
+cd ../buildtools/jam
+make
+sudo ./jam0 install
+
+modify 
+build/scripts/build_haiku_image
+build/scripts/build_haiku_package
+
+change content:
+"@unzip" to "/usr/bin/unzip"
+	
+
+cd ../haiku
+jam -q -j8 @nightly-raw
+
+then you will get
+./generated/haiku-nightly.image
+
+
+#run
+qemu-system-i386 -hda haiku-nightly.image
+
+#or
+kvm -hda haiku-nightly.image
+
+

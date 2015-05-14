@@ -174,7 +174,7 @@ extractFile()
 	case "$archiveFile" in
 		*.zip)
 			echo "Extracting $archiveFile ..."
-			$unzip -q -d "$extractDir" "$archiveFile"
+			/usr/bin/unzip -q -d "$extractDir" "$archiveFile"
 			;;
 		*.tgz|*.tar.gz)
 			echo "Extracting $archiveFile ..."

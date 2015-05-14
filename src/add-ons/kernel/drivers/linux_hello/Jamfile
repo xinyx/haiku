@@ -1,0 +1,16 @@
+SubDir HAIKU_TOP src add-ons kernel drivers linux_hello ;
+
+UseHeaders [ FDirName $(SUBDIR) ] : true ;
+UseHeaders [ FDirName $(HAIKU_TOP) src libs compat linux_hello compat ] : true ;
+UseHeaders [ FDirName $(HAIKU_TOP) src libs compat linux_hello compat uapi ] : true ;
+
+UsePrivateKernelHeaders ;
+UseHeaders $(HAIKU_PRIVATE_KERNEL_HEADERS) : true ;
+
+SubDirCcFlags [ FDefines _KERNEL=1 ] ;
+
+KernelAddon linux_hello :
+	linux_hello.c
+	: liblinux_hello.a
+	;
+
