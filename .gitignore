@@ -8,3 +8,5 @@ build/user_config_headers
 .*.swp
 
 conf.sh
+
+.*
