@@ -1,0 +1,2533 @@
+Starting build of type regular ... 
+qrencode support not available on x86 
+...patience...
+...patience...
+...found 10248 target(s)...
+...updating 4 target(s)...
+Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o 
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:7:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:10,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h: In function 'list_del':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:4:35: error: 'CONFIG_ILLEGAL_POINTER_VALUEUL' undeclared (first use in this function)
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                                   ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/const.h:5:18: note: in expansion of macro '__AC'
+ #define _AC(X,Y) __AC(X,Y)
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:4:31: note: in expansion of macro '_AC'
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:11:46: note: in expansion of macro 'POISON_POINTER_DELTA'
+ #define LIST_POISON1  ((void *) 0x00100100 + POISON_POINTER_DELTA)
+                                              ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:74:16: note: in expansion of macro 'LIST_POISON1'
+  entry->next = LIST_POISON1;
+                ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:4:35: note: each undeclared identifier is reported only once for each function it appears in
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                                   ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/const.h:5:18: note: in expansion of macro '__AC'
+ #define _AC(X,Y) __AC(X,Y)
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:4:31: note: in expansion of macro '_AC'
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/poison.h:11:46: note: in expansion of macro 'POISON_POINTER_DELTA'
+ #define LIST_POISON1  ((void *) 0x00100100 + POISON_POINTER_DELTA)
+                                              ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:74:16: note: in expansion of macro 'LIST_POISON1'
+  entry->next = LIST_POISON1;
+                ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/percpu.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:254,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/percpu.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/threads.h:4:18: error: 'CONFIG_NR_CPUS' undeclared here (not in a function)
+ #define NR_CPUS  CONFIG_NR_CPUS
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/percpu.h:8:39: note: in expansion of macro 'NR_CPUS'
+ extern unsigned long __per_cpu_offset[NR_CPUS];
+                                       ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cache.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/cache.h:6:25: error: 'CONFIG_X86_L1_CACHE_SHIFT' undeclared here (not in a function)
+ #define L1_CACHE_SHIFT (CONFIG_X86_L1_CACHE_SHIFT)
+                         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/cache.h:7:30: note: in expansion of macro 'L1_CACHE_SHIFT'
+ #define L1_CACHE_BYTES (1 << L1_CACHE_SHIFT)
+                              ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cache.h:8:25: note: in expansion of macro 'L1_CACHE_BYTES'
+ #define SMP_CACHE_BYTES L1_CACHE_BYTES
+                         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:102:30: note: in expansion of macro 'SMP_CACHE_BYTES'
+ } __attribute__((__aligned__(SMP_CACHE_BYTES)));
+                              ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:102:1: error: requested alignment is not an integer constant
+ } __attribute__((__aligned__(SMP_CACHE_BYTES)));
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/percpu.h:6:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:254,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:117:39: error: requested alignment is not an integer constant
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+                                       ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/percpu-defs.h:35:38: note: in definition of macro 'DECLARE_PER_CPU_SECTION'
+  extern __PCPU_ATTRS(sec) __typeof__(type) name
+                                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:117:1: note: in expansion of macro 'DECLARE_PER_CPU_SHARED_ALIGNED'
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:147:1: error: requested alignment is not an integer constant
+ } __attribute__((packed)) ____cacheline_aligned;
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:175:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:6:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/numa.h:4:25: error: 'CONFIG_NODES_SHIFT' undeclared here (not in a function)
+ #define NODES_SHIFT     CONFIG_NODES_SHIFT
+                         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:35:30: note: in definition of macro 'DIV_ROUND_UP'
+ #define DIV_ROUND_UP(n,d) (((n) + (d) - 1) / (d))
+                              ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/types.h:7:21: note: in expansion of macro 'BITS_TO_LONGS'
+  unsigned long name[BITS_TO_LONGS(bits)]
+                     ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/nodemask.h:9:18: note: in expansion of macro 'DECLARE_BITMAP'
+ typedef struct { DECLARE_BITMAP(bits, MAX_NUMNODES); } nodemask_t;
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/numa.h:6:31: note: in expansion of macro 'NODES_SHIFT'
+ #define MAX_NUMNODES    (1 << NODES_SHIFT)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/nodemask.h:9:39: note: in expansion of macro 'MAX_NUMNODES'
+ typedef struct { DECLARE_BITMAP(bits, MAX_NUMNODES); } nodemask_t;
+                                       ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cache.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/cache.h:11:31: error: 'CONFIG_X86_INTERNODE_CACHE_SHIFT' undeclared here (not in a function)
+ #define INTERNODE_CACHE_SHIFT CONFIG_X86_INTERNODE_CACHE_SHIFT
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cache.h:18:35: note: in expansion of macro 'INTERNODE_CACHE_SHIFT'
+  __attribute__((__aligned__(1 << (INTERNODE_CACHE_SHIFT))))
+                                   ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:67:3: note: in expansion of macro '____cacheline_internodealigned_in_smp'
+ } ____cacheline_internodealigned_in_smp;
+   ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:67:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:429:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/pvclock.h:4:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/fixmap.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/apic.h:12,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/smp.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/mmzone_64.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/mmzone.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:542,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/clocksource.h:91:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:4:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h: In function 'gfp_zonelist':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:123:2: warning: implicit declaration of function 'IS_ENABLED' [-Wimplicit-function-declaration]
+  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:123:17: error: 'CONFIG_NUMA' undeclared (first use in this function)
+  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
+                 ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/vdso.h:8:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/elf.h:20,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/elf.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:15,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:25:13: error: missing binary operator before token "("
+   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
+             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:142:45: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
+ #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && USE_SPLIT_PMD_PTLOCKS
+                                             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:25:13: error: missing binary operator before token "("
+   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
+             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:402:46: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
+ #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && !USE_SPLIT_PMD_PTLOCKS
+                                              ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h: In function 'mm_tlb_flush_pending':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:442:11: error: 'struct mm_struct' has no member named 'tlb_flush_pending'
+  return mm->tlb_flush_pending;
+           ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/irq.h:172:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/hardirq.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/hardirq.h:8,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/interrupt.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:27:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/irqdesc.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/irqdesc.h:70:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from src/add-ons/kernel/drivers/linux_snull/snull.c:27:0:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/interrupt.h:51:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/bitops.h:16:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'PageHead':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:89:22: error: 'PG_head' undeclared (first use in this function)
+    { return test_bit(PG_##lname, &page->flags); }
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/bitops.h:232:25: note: in definition of macro 'test_bit'
+  (__builtin_constant_p((nr))  \
+                         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:122:34: note: in expansion of macro 'TESTPAGEFLAG'
+ #define __PAGEFLAG(uname, lname) TESTPAGEFLAG(uname, lname)  \
+                                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h:136:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/scatterlist.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dmaengine.h:8,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__SetPageHead':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:101:16: error: 'PG_head' undeclared (first use in this function)
+    { __set_bit(PG_##lname, &page->flags); }
+                ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:123:2: note: in expansion of macro '__SETPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__ClearPageHead':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:105:18: error: 'PG_head' undeclared (first use in this function)
+    { __clear_bit(PG_##lname, &page->flags); }
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:123:31: note: in expansion of macro '__CLEARPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'ClearPageHead':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:97:16: error: 'PG_head' undeclared (first use in this function)
+    { clear_bit(PG_##lname, &page->flags); }
+                ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:157:24: note: in expansion of macro 'CLEARPAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+                        ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/bitops.h:16:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'PageTail':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:89:22: error: 'PG_tail' undeclared (first use in this function)
+    { return test_bit(PG_##lname, &page->flags); }
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/bitops.h:232:25: note: in definition of macro 'test_bit'
+  (__builtin_constant_p((nr))  \
+                         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:122:34: note: in expansion of macro 'TESTPAGEFLAG'
+ #define __PAGEFLAG(uname, lname) TESTPAGEFLAG(uname, lname)  \
+                                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h:136:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/scatterlist.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dmaengine.h:8,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__SetPageTail':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:101:16: error: 'PG_tail' undeclared (first use in this function)
+    { __set_bit(PG_##lname, &page->flags); }
+                ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:123:2: note: in expansion of macro '__SETPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__ClearPageTail':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:105:18: error: 'PG_tail' undeclared (first use in this function)
+    { __clear_bit(PG_##lname, &page->flags); }
+                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:123:31: note: in expansion of macro '__CLEARPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:16:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_queue_limits.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_queue_limits.h:12:2: error: requested alignment is not an integer constant
+  unsigned int limit ____cacheline_aligned_in_smp; /* Current limit */
+  ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dcache.h:12:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/lockref.h:8:13: error: missing binary operator before token "("
+  (IS_ENABLED(CONFIG_ARCH_USE_CMPXCHG_LOCKREF) && \
+             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/lockref.h:13:5: note: in expansion of macro 'USE_CMPXCHG_LOCKREF'
+ #if USE_CMPXCHG_LOCKREF
+     ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:7:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dcache.h:86:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:12:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list_lru.h:22:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:14:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/radix-tree.h:40:31: error: 'CONFIG_BASE_SMALL' undeclared here (not in a function)
+ #define RADIX_TREE_MAP_SHIFT (CONFIG_BASE_SMALL ? 4 : 6)
+                               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/radix-tree.h:42:37: note: in expansion of macro 'RADIX_TREE_MAP_SHIFT'
+ #define RADIX_TREE_MAP_SIZE (1UL << RADIX_TREE_MAP_SHIFT)
+                                     ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/radix-tree.h:62:20: note: in expansion of macro 'RADIX_TREE_MAP_SIZE'
+  void __rcu *slots[RADIX_TREE_MAP_SIZE];
+                    ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:570:9: error: requested alignment is not an integer constant
+  struct list_lru  s_dentry_lru ____cacheline_aligned_in_smp;
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:571:9: error: requested alignment is not an integer constant
+  struct list_lru  s_inode_lru ____cacheline_aligned_in_smp;
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:672:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h:14:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/ethtool.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/net.h:27:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/if_ether.h:4:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/ethtool.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__nf_copy':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h:1170:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_NETFILTER_XT_TARGET_TRACE) || defined(CONFIG_NF_TABLES)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/mib.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/mib.h:15:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/ipv4.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:14,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_frag.h:14:9: error: requested alignment is not an integer constant
+  struct percpu_counter   mem ____cacheline_aligned_in_smp;
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_frag.h:57:2: error: requested alignment is not an integer constant
+  rwlock_t  lock ____cacheline_aligned_in_smp;
+  ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/ipv6.h:6:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:15,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/dst_ops.h:40:9: error: requested alignment is not an integer constant
+  struct percpu_counter pcpuc_entries ____cacheline_aligned_in_smp;
+         ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:20:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/x_tables.h:16:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IP_NF_TARGET_ULOG)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/x_tables.h:19:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_BRIDGE_EBT_ULOG)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:25:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/xfrm.h:58:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:84:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:87:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IEEE802154_6LOWPAN)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:120:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IP_VS)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h: In function 'rt_genid_bump_ipv6':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:174:17: error: 'struct net' has no member named 'ipv6'
+  atomic_inc(&net->ipv6.rt_genid);
+                 ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/srcu.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/notifier.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/memory_hotplug.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:538,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h: In function 'task_css':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:52:10: note: in definition of macro '__rcu_dereference_check'
+  typeof(*p) *_________p1 = (typeof(*p) *__force)ACCESS_ONCE(p); \
+          ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:52:37: note: in definition of macro '__rcu_dereference_check'
+  typeof(*p) *_________p1 = (typeof(*p) *__force)ACCESS_ONCE(p); \
+                                     ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stddef.h:3:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stddef.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/posix_types.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/types.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/types.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:10,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compiler.h:111:43: note: in definition of macro 'ACCESS_ONCE'
+ #define ACCESS_ONCE(x) (*(volatile typeof(x) *)&(x))
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:138:2: note: in expansion of macro '__rcu_dereference_check'
+  __rcu_dereference_check((p), rcu_read_lock_held() || (c), __rcu)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compiler.h:111:50: note: in definition of macro 'ACCESS_ONCE'
+ #define ACCESS_ONCE(x) (*(volatile typeof(x) *)&(x))
+                                                  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:138:2: note: in expansion of macro '__rcu_dereference_check'
+  __rcu_dereference_check((p), rcu_read_lock_held() || (c), __rcu)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/srcu.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/notifier.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/memory_hotplug.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mmzone.h:538,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:4,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:14,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:56:12: note: in definition of macro '__rcu_dereference_check'
+  ((typeof(*p) __force __kernel *)(_________p1)); \
+            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netlink.h:7:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/neighbour.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:25,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/scm.h: In function 'unix_get_peersec_dgram':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/scm.h:43:51: error: 'struct scm_cookie' has no member named 'secid'
+  security_socket_getpeersec_dgram(sock, NULL, &scm->secid);
+                                                   ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/scm.h: In function 'scm_passec':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/scm.h:75:37: error: 'struct scm_cookie' has no member named 'secid'
+   err = security_secid_to_secctx(scm->secid, &secdata, &seclen);
+                                     ^
+In file included from src/add-ons/kernel/drivers/linux_snull/snull.c:30:0:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:225:2: error: requested alignment is not an integer constant
+  spinlock_t  _xmit_lock ____cacheline_aligned_in_smp;
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:243:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:316:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:667:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_FCOE)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:684:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_LIBFCOE)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:905:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_VLAN_8021Q)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:908:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_NET_DSA)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:911:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_TIPC)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:954:9: error: requested alignment is not an integer constant
+  struct netdev_queue *_tx ____cacheline_aligned_in_smp;
+         ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:1064:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_FCOE)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:1068:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h: In function 'dev_net':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:1097:23: error: 'const struct net_device' has no member named 'nd_net'
+  return read_pnet(&dev->nd_net);
+                       ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:6:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:126:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:331:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
+               ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h: In function 'sock_net':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:254:29: error: 'const struct sock_common' has no member named 'skc_net'
+ #define sk_net   __sk_common.skc_net
+                             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:925:24: note: in expansion of macro 'sk_net'
+  return read_pnet(&sk->sk_net);
+                        ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h: In function 'sock_net_set':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:254:29: error: 'struct sock_common' has no member named 'skc_net'
+ #define sk_net   __sk_common.skc_net
+                             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:931:18: note: in expansion of macro 'sk_net'
+  write_pnet(&sk->sk_net, net);
+                  ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_connection_sock.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:7,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_sock.h: At top level:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_sock.h:125:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:18:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:8:29: error: 'KBUILD_MODNAME' undeclared here (not in a function)
+ #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
+                             ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:118:43: note: in definition of macro '__module_param_call'
+  static const char __param_str_##name[] = prefix #name; \
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:110:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
+  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:98:2: note: in expansion of macro 'module_param_cb'
+  module_param_cb(name, &param_ops_##type, &value, perm);     \
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:83:2: note: in expansion of macro 'module_param_named'
+  module_param_named(name, name, type, perm)
+  ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:49:1: note: in expansion of macro 'module_param'
+ module_param(lockup, int, 0);
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:8:44: error: expected ',' or ';' before string constant
+ #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
+                                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:118:43: note: in definition of macro '__module_param_call'
+  static const char __param_str_##name[] = prefix #name; \
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:110:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
+  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:98:2: note: in expansion of macro 'module_param_cb'
+  module_param_cb(name, &param_ops_##type, &value, perm);     \
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:83:2: note: in expansion of macro 'module_param_named'
+  module_param_named(name, name, type, perm)
+  ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:49:1: note: in expansion of macro 'module_param'
+ module_param(lockup, int, 0);
+ ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:52:1: error: invalid initializer
+ module_param(timeout, int, 0);
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:18:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:8:44: error: expected ',' or ';' before string constant
+ #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
+                                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:118:43: note: in definition of macro '__module_param_call'
+  static const char __param_str_##name[] = prefix #name; \
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:110:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
+  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:98:2: note: in expansion of macro 'module_param_cb'
+  module_param_cb(name, &param_ops_##type, &value, perm);     \
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:83:2: note: in expansion of macro 'module_param_named'
+  module_param_named(name, name, type, perm)
+  ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:52:1: note: in expansion of macro 'module_param'
+ module_param(timeout, int, 0);
+ ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:58:1: error: invalid initializer
+ module_param(use_napi, int, 0);
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:18:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:8:44: error: expected ',' or ';' before string constant
+ #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
+                                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:118:43: note: in definition of macro '__module_param_call'
+  static const char __param_str_##name[] = prefix #name; \
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:110:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
+  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:98:2: note: in expansion of macro 'module_param_cb'
+  module_param_cb(name, &param_ops_##type, &value, perm);     \
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:83:2: note: in expansion of macro 'module_param_named'
+  module_param_named(name, name, type, perm)
+  ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:58:1: note: in expansion of macro 'module_param'
+ module_param(use_napi, int, 0);
+ ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:72:1: error: invalid initializer
+ module_param(pool_size, int, 0);
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:18:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:8:44: error: expected ',' or ';' before string constant
+ #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
+                                            ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:118:43: note: in definition of macro '__module_param_call'
+  static const char __param_str_##name[] = prefix #name; \
+                                           ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:110:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
+  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
+                      ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:98:2: note: in expansion of macro 'module_param_cb'
+  module_param_cb(name, &param_ops_##type, &value, perm);     \
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:83:2: note: in expansion of macro 'module_param_named'
+  module_param_named(name, name, type, perm)
+  ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:72:1: note: in expansion of macro 'module_param'
+ module_param(pool_size, int, 0);
+ ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:99:6: warning: no previous prototype for 'snull_setup_pool' [-Wmissing-prototypes]
+ void snull_setup_pool(struct net_device *dev)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:118:6: warning: no previous prototype for 'snull_teardown_pool' [-Wmissing-prototypes]
+ void snull_teardown_pool(struct net_device *dev)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:133:22: warning: no previous prototype for 'snull_get_tx_buffer' [-Wmissing-prototypes]
+ struct snull_packet *snull_get_tx_buffer(struct net_device *dev)
+                      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:151:6: warning: no previous prototype for 'snull_release_buffer' [-Wmissing-prototypes]
+ void snull_release_buffer(struct snull_packet *pkt)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:164:6: warning: no previous prototype for 'snull_enqueue_buf' [-Wmissing-prototypes]
+ void snull_enqueue_buf(struct net_device *dev, struct snull_packet *pkt)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:175:22: warning: no previous prototype for 'snull_dequeue_buf' [-Wmissing-prototypes]
+ struct snull_packet *snull_dequeue_buf(struct net_device *dev)
+                      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:203:5: warning: no previous prototype for 'snull_open' [-Wmissing-prototypes]
+ int snull_open(struct net_device *dev)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:219:5: warning: no previous prototype for 'snull_release' [-Wmissing-prototypes]
+ int snull_release(struct net_device *dev)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:230:5: warning: no previous prototype for 'snull_config' [-Wmissing-prototypes]
+ int snull_config(struct net_device *dev, struct ifmap *map)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:254:6: warning: no previous prototype for 'snull_rx' [-Wmissing-prototypes]
+ void snull_rx(struct net_device *dev, struct snull_packet *pkt)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c: In function 'snull_hw_tx':
+src/add-ons/kernel/drivers/linux_snull/snull.c:495:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  priv->tx_packetdata = buf;
+                      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
+src/add-ons/kernel/drivers/linux_snull/snull.c:510:5: warning: no previous prototype for 'snull_tx' [-Wmissing-prototypes]
+ int snull_tx(struct sk_buff *skb, struct net_device *dev)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c: In function 'snull_tx':
+src/add-ons/kernel/drivers/linux_snull/snull.c:516:7: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  data = skb->data;
+       ^
+src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
+src/add-ons/kernel/drivers/linux_snull/snull.c:557:5: warning: no previous prototype for 'snull_ioctl' [-Wmissing-prototypes]
+ int snull_ioctl(struct net_device *dev, struct ifreq *rq, int cmd)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:566:26: warning: no previous prototype for 'snull_stats' [-Wmissing-prototypes]
+ struct net_device_stats *snull_stats(struct net_device *dev)
+                          ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:576:5: warning: no previous prototype for 'snull_rebuild_header' [-Wmissing-prototypes]
+ int snull_rebuild_header(struct sk_buff *skb)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:588:5: warning: no previous prototype for 'snull_header' [-Wmissing-prototypes]
+ int snull_header(struct sk_buff *skb, struct net_device *dev,
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:609:5: warning: no previous prototype for 'snull_change_mtu' [-Wmissing-prototypes]
+ int snull_change_mtu(struct net_device *dev, int new_mtu)
+     ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:648:6: warning: no previous prototype for 'snull_init' [-Wmissing-prototypes]
+ void snull_init(struct net_device *dev)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:702:6: warning: no previous prototype for 'snull_cleanup' [-Wmissing-prototypes]
+ void snull_cleanup(void)
+      ^
+src/add-ons/kernel/drivers/linux_snull/snull.c:719:5: warning: no previous prototype for 'snull_init_module' [-Wmissing-prototypes]
+ int snull_init_module(void)
+     ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/ipv4.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:14,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_frag.h:84:21: warning: 'frag_percpu_counter_batch' defined but not used [-Wunused-variable]
+ static unsigned int frag_percpu_counter_batch = 130000;
+                     ^
+
+/home/xinyx/software/Edison/haiku/generated/cross-tools-x86/bin/i586-pc-haiku-gcc -O2 -Wall -Wno-trigraphs -Wmissing-prototypes -Wno-multichar -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -nostdinc -D_KERNEL=1 -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -nostdinc -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -finline -fno-builtin -ffreestanding -march=pentium -c "src/add-ons/kernel/drivers/linux_snull/snull.c" -D_KERNEL_MODE -DARCH_x86 -DB_USE_BUILTIN_ATOMIC_FUNCTIONS -DBOOT_ARCHIVE_IMAGE_OFFSET=320 -D__HAIKU_PRIMARY_PACKAGING_ARCH=\"x86\" -DHAIKU_DISTRO_COMPATIBILITY_DEFAULT -DHAIKU_INCLUDE_PATENTED_CODE=0 -DHAIKU_TARGET_PLATFORM_HAIKU -DHAIKU_REGULAR_BUILD -iquote /home/xinyx/software/Edison/haiku/build/user_config_headers -iquote /home/xinyx/software/Edison/haiku/build/config_headers -iquote src/add-ons/kernel/drivers/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/common/add-ons/kernel/drivers/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/linux/x86_64/common/add-ons/kernel/drivers/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/add-ons/kernel/drivers/linux_snull -I src/add-ons/kernel/drivers/linux_snull -I /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat -I /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi -I /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++ -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/i586-pc-haiku -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/backward -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/ext -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed -I /home/xinyx/software/Edison/haiku/headers -I /home/xinyx/software/Edison/haiku/headers/posix -I /home/xinyx/software/Edison/haiku/headers/glibc -I /home/xinyx/software/Edison/haiku/headers/os -I /home/xinyx/software/Edison/haiku/headers/os/add-ons -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/file_system -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/graphics -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/input_server -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/registrar -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/screen_saver -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/tracker -I /home/xinyx/software/Edison/haiku/headers/os/app -I /home/xinyx/software/Edison/haiku/headers/os/device -I /home/xinyx/software/Edison/haiku/headers/os/drivers -I /home/xinyx/software/Edison/haiku/headers/os/game -I /home/xinyx/software/Edison/haiku/headers/os/interface -I /home/xinyx/software/Edison/haiku/headers/os/kernel -I /home/xinyx/software/Edison/haiku/headers/os/locale -I /home/xinyx/software/Edison/haiku/headers/os/media -I /home/xinyx/software/Edison/haiku/headers/os/mail -I /home/xinyx/software/Edison/haiku/headers/os/midi -I /home/xinyx/software/Edison/haiku/headers/os/midi2 -I /home/xinyx/software/Edison/haiku/headers/os/net -I /home/xinyx/software/Edison/haiku/headers/os/storage -I /home/xinyx/software/Edison/haiku/headers/os/support -I /home/xinyx/software/Edison/haiku/headers/os/translation -I /home/xinyx/software/Edison/haiku/headers/private/. -o "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o" ;
+
+...failed Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o ...
+Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/snull_dummy.o 
+In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
+src/libs/compat/linux_snull/compat/asm/string_64.h:6:51: error: unknown type name 'size_t'
+ extern void *__memcpy(void *to, const void *from, size_t len);
+                                                   ^
+src/libs/compat/linux_snull/compat/asm/string_64.h:19:30: error: unknown type name 'size_t'
+ void *memset(void *s, int c, size_t n);
+                              ^
+src/libs/compat/linux_snull/compat/asm/string_64.h:22:44: error: unknown type name 'size_t'
+ void *memmove(void *dest, const void *src, size_t count);
+                                            ^
+src/libs/compat/linux_snull/compat/asm/string_64.h:24:44: error: unknown type name 'size_t'
+ int memcmp(const void *cs, const void *ct, size_t count);
+                                            ^
+src/libs/compat/linux_snull/compat/asm/string_64.h:25:1: error: unknown type name 'size_t'
+ size_t strlen(const char *s);
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/string.h:25:24: error: conflicting types for 'strlen'
+ extern __kernel_size_t strlen(const char *);
+                        ^
+In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
+src/libs/compat/linux_snull/compat/asm/string_64.h:25:8: note: previous declaration of 'strlen' was here
+ size_t strlen(const char *s);
+        ^
+In file included from src/libs/compat/linux_snull/compat/asm/segment.h:4:0,
+                 from src/libs/compat/linux_snull/compat/asm/ptrace.h:4,
+                 from src/libs/compat/linux_snull/compat/asm/alternative.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/bitops.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/bitops.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/list.h: In function 'list_del':
+src/libs/compat/linux_snull/compat/linux/poison.h:4:35: error: 'CONFIG_ILLEGAL_POINTER_VALUEUL' undeclared (first use in this function)
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                                   ^
+src/libs/compat/linux_snull/compat/uapi/linux/const.h:5:18: note: in expansion of macro '__AC'
+ #define _AC(X,Y) __AC(X,Y)
+                  ^
+src/libs/compat/linux_snull/compat/linux/poison.h:4:31: note: in expansion of macro '_AC'
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                               ^
+src/libs/compat/linux_snull/compat/linux/poison.h:11:46: note: in expansion of macro 'POISON_POINTER_DELTA'
+ #define LIST_POISON1  ((void *) 0x00100100 + POISON_POINTER_DELTA)
+                                              ^
+src/libs/compat/linux_snull/compat/linux/list.h:74:16: note: in expansion of macro 'LIST_POISON1'
+  entry->next = LIST_POISON1;
+                ^
+src/libs/compat/linux_snull/compat/linux/poison.h:4:35: note: each undeclared identifier is reported only once for each function it appears in
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                                   ^
+src/libs/compat/linux_snull/compat/uapi/linux/const.h:5:18: note: in expansion of macro '__AC'
+ #define _AC(X,Y) __AC(X,Y)
+                  ^
+src/libs/compat/linux_snull/compat/linux/poison.h:4:31: note: in expansion of macro '_AC'
+ # define POISON_POINTER_DELTA _AC(CONFIG_ILLEGAL_POINTER_VALUE, UL)
+                               ^
+src/libs/compat/linux_snull/compat/linux/poison.h:11:46: note: in expansion of macro 'POISON_POINTER_DELTA'
+ #define LIST_POISON1  ((void *) 0x00100100 + POISON_POINTER_DELTA)
+                                              ^
+src/libs/compat/linux_snull/compat/linux/list.h:74:16: note: in expansion of macro 'LIST_POISON1'
+  entry->next = LIST_POISON1;
+                ^
+In file included from src/libs/compat/linux_snull/compat/linux/mm_types.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm-generic/percpu.h: At top level:
+src/libs/compat/linux_snull/compat/linux/threads.h:4:18: error: 'CONFIG_NR_CPUS' undeclared here (not in a function)
+ #define NR_CPUS  CONFIG_NR_CPUS
+                  ^
+src/libs/compat/linux_snull/compat/asm-generic/percpu.h:8:39: note: in expansion of macro 'NR_CPUS'
+ extern unsigned long __per_cpu_offset[NR_CPUS];
+                                       ^
+In file included from src/libs/compat/linux_snull/compat/linux/cpumask.h:11:0,
+                 from src/libs/compat/linux_snull/compat/asm/cpumask.h:4,
+                 from src/libs/compat/linux_snull/compat/asm/msr.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:19,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/bitmap.h: In function 'bitmap_zero':
+src/libs/compat/linux_snull/compat/linux/bitmap.h:69:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   memset(dst, 0, len);
+   ^
+src/libs/compat/linux_snull/compat/linux/bitmap.h: In function 'bitmap_copy':
+src/libs/compat/linux_snull/compat/linux/bitmap.h:90:3: warning: implicit declaration of function '__memcpy' [-Wimplicit-function-declaration]
+   memcpy(dst, src, len);
+   ^
+In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
+src/libs/compat/linux_snull/compat/asm/string_64.h:12:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+   __ret = __memcpy((dst), (src), __len);  \
+         ^
+src/libs/compat/linux_snull/compat/linux/bitmap.h:90:3: note: in expansion of macro 'memcpy'
+   memcpy(dst, src, len);
+   ^
+In file included from src/libs/compat/linux_snull/compat/asm/segment.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm/ptrace.h:4,
+                 from src/libs/compat/linux_snull/compat/asm/alternative.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/bitops.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/bitops.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/asm/processor.h: At top level:
+src/libs/compat/linux_snull/compat/asm/cache.h:6:25: error: 'CONFIG_X86_L1_CACHE_SHIFT' undeclared here (not in a function)
+ #define L1_CACHE_SHIFT (CONFIG_X86_L1_CACHE_SHIFT)
+                         ^
+src/libs/compat/linux_snull/compat/asm/cache.h:7:30: note: in expansion of macro 'L1_CACHE_SHIFT'
+ #define L1_CACHE_BYTES (1 << L1_CACHE_SHIFT)
+                              ^
+src/libs/compat/linux_snull/compat/linux/cache.h:8:25: note: in expansion of macro 'L1_CACHE_BYTES'
+ #define SMP_CACHE_BYTES L1_CACHE_BYTES
+                         ^
+src/libs/compat/linux_snull/compat/asm/processor.h:102:30: note: in expansion of macro 'SMP_CACHE_BYTES'
+ } __attribute__((__aligned__(SMP_CACHE_BYTES)));
+                              ^
+In file included from src/libs/compat/linux_snull/compat/asm/thread_info.h:11:0,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/processor.h:102:1: error: requested alignment is not an integer constant
+ } __attribute__((__aligned__(SMP_CACHE_BYTES)));
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/percpu.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm/percpu.h:254,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/processor.h:117:39: error: requested alignment is not an integer constant
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+                                       ^
+src/libs/compat/linux_snull/compat/linux/percpu-defs.h:35:38: note: in definition of macro 'DECLARE_PER_CPU_SECTION'
+  extern __PCPU_ATTRS(sec) __typeof__(type) name
+                                      ^
+src/libs/compat/linux_snull/compat/asm/processor.h:117:1: note: in expansion of macro 'DECLARE_PER_CPU_SHARED_ALIGNED'
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/thread_info.h:11:0,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/processor.h:147:1: error: requested alignment is not an integer constant
+ } __attribute__((packed)) ____cacheline_aligned;
+ ^
+src/libs/compat/linux_snull/compat/asm/processor.h:175:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/mm_types.h:25:13: error: missing binary operator before token "("
+   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
+             ^
+src/libs/compat/linux_snull/compat/linux/mm_types.h:142:45: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
+ #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && USE_SPLIT_PMD_PTLOCKS
+                                             ^
+src/libs/compat/linux_snull/compat/linux/mm_types.h:25:13: error: missing binary operator before token "("
+   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
+             ^
+src/libs/compat/linux_snull/compat/linux/mm_types.h:402:46: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
+ #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && !USE_SPLIT_PMD_PTLOCKS
+                                              ^
+src/libs/compat/linux_snull/compat/linux/mm_types.h: In function 'mm_tlb_flush_pending':
+src/libs/compat/linux_snull/compat/linux/mm_types.h:442:11: error: 'struct mm_struct' has no member named 'tlb_flush_pending'
+  return mm->tlb_flush_pending;
+           ^
+In file included from src/libs/compat/linux_snull/compat/linux/skbuff.h:14:0,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/net.h: At top level:
+src/libs/compat/linux_snull/compat/linux/net.h:27:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8:0,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/numa.h:4:25: error: 'CONFIG_NODES_SHIFT' undeclared here (not in a function)
+ #define NODES_SHIFT     CONFIG_NODES_SHIFT
+                         ^
+src/libs/compat/linux_snull/compat/linux/kernel.h:35:30: note: in definition of macro 'DIV_ROUND_UP'
+ #define DIV_ROUND_UP(n,d) (((n) + (d) - 1) / (d))
+                              ^
+src/libs/compat/linux_snull/compat/linux/types.h:7:21: note: in expansion of macro 'BITS_TO_LONGS'
+  unsigned long name[BITS_TO_LONGS(bits)]
+                     ^
+src/libs/compat/linux_snull/compat/linux/nodemask.h:9:18: note: in expansion of macro 'DECLARE_BITMAP'
+ typedef struct { DECLARE_BITMAP(bits, MAX_NUMNODES); } nodemask_t;
+                  ^
+src/libs/compat/linux_snull/compat/linux/numa.h:6:31: note: in expansion of macro 'NODES_SHIFT'
+ #define MAX_NUMNODES    (1 << NODES_SHIFT)
+                               ^
+src/libs/compat/linux_snull/compat/linux/nodemask.h:9:39: note: in expansion of macro 'MAX_NUMNODES'
+ typedef struct { DECLARE_BITMAP(bits, MAX_NUMNODES); } nodemask_t;
+                                       ^
+In file included from src/libs/compat/linux_snull/compat/asm/segment.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm/ptrace.h:4,
+                 from src/libs/compat/linux_snull/compat/asm/alternative.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/bitops.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/bitops.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/asm/cache.h:11:31: error: 'CONFIG_X86_INTERNODE_CACHE_SHIFT' undeclared here (not in a function)
+ #define INTERNODE_CACHE_SHIFT CONFIG_X86_INTERNODE_CACHE_SHIFT
+                               ^
+src/libs/compat/linux_snull/compat/linux/cache.h:18:35: note: in expansion of macro 'INTERNODE_CACHE_SHIFT'
+  __attribute__((__aligned__(1 << (INTERNODE_CACHE_SHIFT))))
+                                   ^
+src/libs/compat/linux_snull/compat/linux/mmzone.h:67:3: note: in expansion of macro '____cacheline_internodealigned_in_smp'
+ } ____cacheline_internodealigned_in_smp;
+   ^
+In file included from src/libs/compat/linux_snull/compat/linux/gfp.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/mmzone.h:67:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+src/libs/compat/linux_snull/compat/linux/mmzone.h:429:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/pvclock.h:4:0,
+                 from src/libs/compat/linux_snull/compat/asm/fixmap.h:10,
+                 from src/libs/compat/linux_snull/compat/asm/apic.h:12,
+                 from src/libs/compat/linux_snull/compat/asm/smp.h:10,
+                 from src/libs/compat/linux_snull/compat/asm/mmzone_64.h:5,
+                 from src/libs/compat/linux_snull/compat/asm/mmzone.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/mmzone.h:542,
+                 from src/libs/compat/linux_snull/compat/linux/gfp.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/clocksource.h:91:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/slab.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/gfp.h: In function 'gfp_zonelist':
+src/libs/compat/linux_snull/compat/linux/gfp.h:123:2: warning: implicit declaration of function 'IS_ENABLED' [-Wimplicit-function-declaration]
+  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
+  ^
+src/libs/compat/linux_snull/compat/linux/gfp.h:123:17: error: 'CONFIG_NUMA' undeclared (first use in this function)
+  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
+                 ^
+In file included from src/libs/compat/linux_snull/compat/linux/bitops.h:16:0,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'PageHead':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:89:22: error: 'PG_head' undeclared (first use in this function)
+    { return test_bit(PG_##lname, &page->flags); }
+                      ^
+src/libs/compat/linux_snull/compat/asm/bitops.h:232:25: note: in definition of macro 'test_bit'
+  (__builtin_constant_p((nr))  \
+                         ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:122:34: note: in expansion of macro 'TESTPAGEFLAG'
+ #define __PAGEFLAG(uname, lname) TESTPAGEFLAG(uname, lname)  \
+                                  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/mm.h:136:0,
+                 from src/libs/compat/linux_snull/compat/linux/scatterlist.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/dmaengine.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__SetPageHead':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:101:16: error: 'PG_head' undeclared (first use in this function)
+    { __set_bit(PG_##lname, &page->flags); }
+                ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:123:2: note: in expansion of macro '__SETPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__ClearPageHead':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:105:18: error: 'PG_head' undeclared (first use in this function)
+    { __clear_bit(PG_##lname, &page->flags); }
+                  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:123:31: note: in expansion of macro '__CLEARPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+                               ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:157:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+ ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'ClearPageHead':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:97:16: error: 'PG_head' undeclared (first use in this function)
+    { clear_bit(PG_##lname, &page->flags); }
+                ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:157:24: note: in expansion of macro 'CLEARPAGEFLAG'
+ __PAGEFLAG(Head, head) CLEARPAGEFLAG(Head, head)
+                        ^
+In file included from src/libs/compat/linux_snull/compat/linux/bitops.h:16:0,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function 'PageTail':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:89:22: error: 'PG_tail' undeclared (first use in this function)
+    { return test_bit(PG_##lname, &page->flags); }
+                      ^
+src/libs/compat/linux_snull/compat/asm/bitops.h:232:25: note: in definition of macro 'test_bit'
+  (__builtin_constant_p((nr))  \
+                         ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:122:34: note: in expansion of macro 'TESTPAGEFLAG'
+ #define __PAGEFLAG(uname, lname) TESTPAGEFLAG(uname, lname)  \
+                                  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/mm.h:136:0,
+                 from src/libs/compat/linux_snull/compat/linux/scatterlist.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/dmaengine.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__SetPageTail':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:101:16: error: 'PG_tail' undeclared (first use in this function)
+    { __set_bit(PG_##lname, &page->flags); }
+                ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:123:2: note: in expansion of macro '__SETPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h: In function '__ClearPageTail':
+src/libs/compat/linux_snull/compat/linux/page-flags.h:105:18: error: 'PG_tail' undeclared (first use in this function)
+    { __clear_bit(PG_##lname, &page->flags); }
+                  ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:123:31: note: in expansion of macro '__CLEARPAGEFLAG'
+  __SETPAGEFLAG(uname, lname)  __CLEARPAGEFLAG(uname, lname)
+                               ^
+src/libs/compat/linux_snull/compat/linux/page-flags.h:158:1: note: in expansion of macro '__PAGEFLAG'
+ __PAGEFLAG(Tail, tail)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/if_ether.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__nf_copy':
+src/libs/compat/linux_snull/compat/linux/skbuff.h:1170:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_NETFILTER_XT_TARGET_TRACE) || defined(CONFIG_NF_TABLES)
+               ^
+In file included from src/libs/compat/linux_snull/compat/linux/netdevice.h:16:0,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/dynamic_queue_limits.h: At top level:
+src/libs/compat/linux_snull/compat/linux/dynamic_queue_limits.h:12:2: error: requested alignment is not an integer constant
+  unsigned int limit ____cacheline_aligned_in_smp; /* Current limit */
+  ^
+In file included from src/libs/compat/linux_snull/compat/linux/dcache.h:12:0,
+                 from src/libs/compat/linux_snull/compat/linux/fs.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/lockref.h:8:13: error: missing binary operator before token "("
+  (IS_ENABLED(CONFIG_ARCH_USE_CMPXCHG_LOCKREF) && \
+             ^
+src/libs/compat/linux_snull/compat/linux/lockref.h:13:5: note: in expansion of macro 'USE_CMPXCHG_LOCKREF'
+ #if USE_CMPXCHG_LOCKREF
+     ^
+In file included from src/libs/compat/linux_snull/compat/linux/fs.h:7:0,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/dcache.h:86:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/fs.h:12:0,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/list_lru.h:22:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/fs.h:14:0,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/radix-tree.h:40:31: error: 'CONFIG_BASE_SMALL' undeclared here (not in a function)
+ #define RADIX_TREE_MAP_SHIFT (CONFIG_BASE_SMALL ? 4 : 6)
+                               ^
+src/libs/compat/linux_snull/compat/linux/radix-tree.h:42:37: note: in expansion of macro 'RADIX_TREE_MAP_SHIFT'
+ #define RADIX_TREE_MAP_SIZE (1UL << RADIX_TREE_MAP_SHIFT)
+                                     ^
+src/libs/compat/linux_snull/compat/linux/radix-tree.h:62:20: note: in expansion of macro 'RADIX_TREE_MAP_SIZE'
+  void __rcu *slots[RADIX_TREE_MAP_SIZE];
+                    ^
+In file included from src/libs/compat/linux_snull/compat/linux/compat.h:9:0,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/fs.h:570:9: error: requested alignment is not an integer constant
+  struct list_lru  s_dentry_lru ____cacheline_aligned_in_smp;
+         ^
+src/libs/compat/linux_snull/compat/linux/fs.h:571:9: error: requested alignment is not an integer constant
+  struct list_lru  s_inode_lru ____cacheline_aligned_in_smp;
+         ^
+src/libs/compat/linux_snull/compat/linux/fs.h:672:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned;
+ ^
+In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:11:0,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/netns/mib.h:15:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+In file included from src/libs/compat/linux_snull/compat/net/netns/ipv4.h:5:0,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/inet_frag.h:14:9: error: requested alignment is not an integer constant
+  struct percpu_counter   mem ____cacheline_aligned_in_smp;
+         ^
+src/libs/compat/linux_snull/compat/net/inet_frag.h:57:2: error: requested alignment is not an integer constant
+  rwlock_t  lock ____cacheline_aligned_in_smp;
+  ^
+In file included from src/libs/compat/linux_snull/compat/net/netns/ipv6.h:6:0,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/dst_ops.h:40:9: error: requested alignment is not an integer constant
+  struct percpu_counter pcpuc_entries ____cacheline_aligned_in_smp;
+         ^
+In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:20:0,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/netns/x_tables.h:16:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IP_NF_TARGET_ULOG)
+               ^
+src/libs/compat/linux_snull/compat/net/netns/x_tables.h:19:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_BRIDGE_EBT_ULOG)
+               ^
+In file included from src/libs/compat/linux_snull/compat/linux/irq.h:172:0,
+                 from src/libs/compat/linux_snull/compat/asm/hardirq.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/hardirq.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/interrupt.h:11,
+                 from src/libs/compat/linux_snull/compat/net/flowcache.h:4,
+                 from src/libs/compat/linux_snull/compat/net/netns/xfrm.h:9,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:25,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/irqdesc.h:70:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from src/libs/compat/linux_snull/compat/net/flowcache.h:4:0,
+                 from src/libs/compat/linux_snull/compat/net/netns/xfrm.h:9,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:25,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/interrupt.h:51:1: error: requested alignment is not an integer constant
+ } ____cacheline_internodealigned_in_smp;
+ ^
+In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:25:0,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/netns/xfrm.h:58:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+In file included from src/libs/compat/linux_snull/compat/linux/netdevice.h:19:0,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/net_namespace.h:84:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IPV6)
+               ^
+src/libs/compat/linux_snull/compat/net/net_namespace.h:87:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IEEE802154_6LOWPAN)
+               ^
+src/libs/compat/linux_snull/compat/net/net_namespace.h:120:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_IP_VS)
+               ^
+In file included from src/libs/compat/linux_snull/compat/linux/netdevice.h:19:0,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/net_namespace.h: In function 'rt_genid_bump_ipv6':
+src/libs/compat/linux_snull/compat/net/net_namespace.h:174:17: error: 'struct net' has no member named 'ipv6'
+  atomic_inc(&net->ipv6.rt_genid);
+                 ^
+In file included from src/libs/compat/linux_snull/compat/linux/net.h:9:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/cgroup.h: In function 'task_css':
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:52:10: note: in definition of macro '__rcu_dereference_check'
+  typeof(*p) *_________p1 = (typeof(*p) *__force)ACCESS_ONCE(p); \
+          ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:52:37: note: in definition of macro '__rcu_dereference_check'
+  typeof(*p) *_________p1 = (typeof(*p) *__force)ACCESS_ONCE(p); \
+                                     ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/bug.h:4:0,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+src/libs/compat/linux_snull/compat/linux/compiler.h:111:43: note: in definition of macro 'ACCESS_ONCE'
+ #define ACCESS_ONCE(x) (*(volatile typeof(x) *)&(x))
+                                           ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:138:2: note: in expansion of macro '__rcu_dereference_check'
+  __rcu_dereference_check((p), rcu_read_lock_held() || (c), __rcu)
+  ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+src/libs/compat/linux_snull/compat/linux/compiler.h:111:50: note: in definition of macro 'ACCESS_ONCE'
+ #define ACCESS_ONCE(x) (*(volatile typeof(x) *)&(x))
+                                                  ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:138:2: note: in expansion of macro '__rcu_dereference_check'
+  __rcu_dereference_check((p), rcu_read_lock_held() || (c), __rcu)
+  ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from src/libs/compat/linux_snull/compat/linux/net.h:9:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:24: error: 'struct task_struct' has no member named 'cgroups'
+  rcu_dereference((task)->cgroups)
+                        ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:56:12: note: in definition of macro '__rcu_dereference_check'
+  ((typeof(*p) __force __kernel *)(_________p1)); \
+            ^
+src/libs/compat/linux_snull/compat/linux/rcupdate.h:168:28: note: in expansion of macro 'rcu_dereference_check'
+ #define rcu_dereference(p) rcu_dereference_check(p, 0)
+                            ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:405:2: note: in expansion of macro 'rcu_dereference'
+  rcu_dereference((task)->cgroups)
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:417:2: note: in expansion of macro 'task_css_set_check'
+  task_css_set_check((task), (__c))->subsys[(subsys_id)]
+  ^
+src/libs/compat/linux_snull/compat/linux/cgroup.h:429:9: note: in expansion of macro 'task_css_check'
+  return task_css_check(task, subsys_id, false);
+         ^
+In file included from src/libs/compat/linux_snull/compat/linux/netlink.h:7:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/neighbour.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:25,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/scm.h: In function 'unix_get_peersec_dgram':
+src/libs/compat/linux_snull/compat/net/scm.h:43:51: error: 'struct scm_cookie' has no member named 'secid'
+  security_socket_getpeersec_dgram(sock, NULL, &scm->secid);
+                                                   ^
+src/libs/compat/linux_snull/compat/net/scm.h: In function 'scm_passec':
+src/libs/compat/linux_snull/compat/net/scm.h:75:37: error: 'struct scm_cookie' has no member named 'secid'
+   err = security_secid_to_secctx(scm->secid, &secdata, &seclen);
+                                     ^
+In file included from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5:0,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/netdevice.h: At top level:
+src/libs/compat/linux_snull/compat/linux/netdevice.h:225:2: error: requested alignment is not an integer constant
+  spinlock_t  _xmit_lock ____cacheline_aligned_in_smp;
+  ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:243:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:316:1: error: requested alignment is not an integer constant
+ } ____cacheline_aligned_in_smp;
+ ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:667:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_FCOE)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:684:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_LIBFCOE)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:905:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_VLAN_8021Q)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:908:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_NET_DSA)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:911:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_TIPC)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:954:9: error: requested alignment is not an integer constant
+  struct netdev_queue *_tx ____cacheline_aligned_in_smp;
+         ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:1064:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_FCOE)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h:1068:15: error: missing binary operator before token "("
+ #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
+               ^
+src/libs/compat/linux_snull/compat/linux/netdevice.h: In function 'dev_net':
+src/libs/compat/linux_snull/compat/linux/netdevice.h:1097:23: error: 'const struct net_device' has no member named 'nd_net'
+  return read_pnet(&dev->nd_net);
+                       ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h: At top level:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:28:25: error: conflicting types for 'blkcnt_t'
+ typedef __haiku_int64   blkcnt_t;
+                         ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/types.h:54:23: note: previous declaration of 'blkcnt_t' was here
+ typedef unsigned long blkcnt_t;
+                       ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:33:24: error: conflicting types for 'ino_t'
+ typedef __haiku_int64  ino_t;
+                        ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/types.h:12:25: note: previous declaration of 'ino_t' was here
+ typedef __kernel_ino_t  ino_t;
+                         ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:35:24: error: conflicting types for 'dev_t'
+ typedef __haiku_int32  dev_t;
+                        ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/types.h:11:25: note: previous declaration of 'dev_t' was here
+ typedef __kernel_dev_t  dev_t;
+                         ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:36:24: error: conflicting types for 'pid_t'
+ typedef __haiku_int32  pid_t;
+                        ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/types.h:22:25: note: previous declaration of 'pid_t' was here
+ typedef __kernel_pid_t  pid_t;
+                         ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:42:28: error: conflicting types for 'umode_t'
+ typedef __haiku_std_uint32 umode_t;
+                            ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/types.h:20:25: note: previous declaration of 'umode_t' was here
+ typedef unsigned short  umode_t;
+                         ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/size_t.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:120,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include/stddef.h:413:0: warning: "offsetof" redefined [enabled by default]
+ #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:5:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/stddef.h:13:0: note: this is the location of the previous definition
+ #define offsetof(TYPE,MEMBER) __compiler_offsetof(TYPE,MEMBER)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:121:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/time.h:39:8: error: redefinition of 'struct timespec'
+ struct timespec {
+        ^
+In file included from src/libs/compat/linux_snull/compat/asm/preempt.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/thread_info.h:7:8: note: originally defined here
+ struct timespec;
+        ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:13:24: error: conflicting types for 'sigset_t'
+ typedef __haiku_uint64 sigset_t;
+                        ^
+In file included from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/signal.h:14:3: note: previous declaration of 'sigset_t' was here
+ } sigset_t;
+   ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:18:0: warning: "SIG_IGN" redefined [enabled by default]
+ #define SIG_IGN  ((__sighandler_t)1)  /* ignore signal */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/signal.h:16:0,
+                 from src/libs/compat/linux_snull/compat/asm/signal.h:16,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/signal-defs.h:12:0: note: this is the location of the previous definition
+ #define SIG_IGN ((__force __sighandler_t)1) /* ignore signal */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:29:7: error: redefinition of 'union sigval'
+ union sigval {
+       ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:6,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:7:15: note: originally defined here
+ typedef union sigval {
+               ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:57:3: error: conflicting types for 'siginfo_t'
+ } siginfo_t;
+   ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:6,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:99:24: note: previous declaration of 'siginfo_t' was here
+ } __ARCH_SI_ATTRIBUTES siginfo_t;
+                        ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:71:8: error: redefinition of 'struct sigaction'
+ struct sigaction {
+        ^
+In file included from src/libs/compat/linux_snull/compat/linux/sched.h:31:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/signal.h:100:8: note: originally defined here
+ struct sigaction {
+        ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:88:0: warning: "SA_ONSTACK" redefined [enabled by default]
+ #define SA_ONSTACK  0x20
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:16:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm/signal.h:14:0: note: this is the location of the previous definition
+ #define SA_ONSTACK 0x08000000u
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:95:0: warning: "SS_ONSTACK" redefined [enabled by default]
+ #define SS_ONSTACK  0x1
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/signal.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/signal.h:7:0: note: this is the location of the previous definition
+ #define SS_ONSTACK 1
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:96:0: warning: "SS_DISABLE" redefined [enabled by default]
+ #define SS_DISABLE  0x2
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/signal.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/signal.h:8:0: note: this is the location of the previous definition
+ #define SS_DISABLE 2
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:153:0: warning: "SIGRTMIN" redefined [enabled by default]
+ #define SIGRTMIN  (__signal_get_sigrtmin())
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:16:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:31,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm/signal.h:12:0: note: this is the location of the previous definition
+ #define SIGRTMIN 32
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:260:9: error: conflicting types for 'sigemptyset'
+ int     sigemptyset(sigset_t* set);
+         ^
+In file included from src/libs/compat/linux_snull/compat/linux/sched.h:31:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/signal.h:83:20: note: previous definition of 'sigemptyset' was here
+ static inline void sigemptyset(sigset_t *set)
+                    ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:264:6: error: conflicting types for 'sigismember'
+ int  sigismember(const sigset_t* set, int _signal);
+      ^
+In file included from src/libs/compat/linux_snull/compat/linux/sched.h:31:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:22,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/signal.h:16:19: note: previous definition of 'sigismember' was here
+ static inline int sigismember(sigset_t *set, int _sig)
+                   ^
+In file included from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:168:0,
+                 from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/syslimits.h:7,
+                 from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:34,
+                 from /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/limits.h:41:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ #define PAGE_SIZE    (4096)
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/ptrace.h:5:0,
+                 from src/libs/compat/linux_snull/compat/asm/alternative.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/bitops.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/bitops.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:8,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/asm/page_types.h:8:0: note: this is the location of the previous definition
+ #define PAGE_SIZE (_AC(1,UL) << PAGE_SHIFT)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:168:0,
+                 from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/syslimits.h:7,
+                 from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:34,
+                 from /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/limits.h:43:0: warning: "PATH_MAX" redefined [enabled by default]
+ #define PATH_MAX    (1024)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/linux/fs.h:4:0,
+                 from src/libs/compat/linux_snull/compat/linux/fs.h:33,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:18,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/limits.h:4:0: note: this is the location of the previous definition
+ #define PATH_MAX        4096 /* # chars in a path name including nul */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:137:0: warning: "ENODEV" redefined [enabled by default]
+ #define ENODEV   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 7)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:15:0: note: this is the location of the previous definition
+ #define ENODEV  19 /* No such device */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:139:0: warning: "ENOSYS" redefined [enabled by default]
+ #define ENOSYS   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 9)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:6:0: note: this is the location of the previous definition
+ #define ENOSYS  38 /* Function not implemented */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:141:0: warning: "ENXIO" redefined [enabled by default]
+ #define ENXIO   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 11)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:6:0: note: this is the location of the previous definition
+ #define ENXIO   6 /* No such device or address */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:165:0: warning: "ENOBUFS" redefined [enabled by default]
+ #define ENOBUFS   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 35)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:12:0: note: this is the location of the previous definition
+ #define ENOBUFS  105 /* No buffer space available */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:173:0: warning: "EOPNOTSUPP" redefined [enabled by default]
+ #define EOPNOTSUPP      B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 43)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:10:0: note: this is the location of the previous definition
+ #define EOPNOTSUPP 95 /* Operation not supported on transport endpoint */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:189:0: warning: "ETXTBSY" redefined [enabled by default]
+ #define ETXTBSY   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 59)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:19:0: note: this is the location of the previous definition
+ #define ETXTBSY  26 /* Text file busy */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:196:0: warning: "ENOMEM" redefined [enabled by default]
+ # define ENOMEM  B_NO_MEMORY
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:9:0: note: this is the location of the previous definition
+ #define ENOMEM  12 /* Out of memory */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:201:0: warning: "EINTR" redefined [enabled by default]
+ #define EINTR   B_TO_POSIX_ERROR(B_INTERRUPTED)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:4:0: note: this is the location of the previous definition
+ #define EINTR   4 /* Interrupted system call */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:202:0: warning: "EIO" redefined [enabled by default]
+ #define EIO    B_TO_POSIX_ERROR(B_IO_ERROR)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:5:0: note: this is the location of the previous definition
+ #define EIO   5 /* I/O error */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:203:0: warning: "EBUSY" redefined [enabled by default]
+ #define EBUSY   B_TO_POSIX_ERROR(B_BUSY)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:13:0: note: this is the location of the previous definition
+ #define EBUSY  16 /* Device or resource busy */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:204:0: warning: "EFAULT" redefined [enabled by default]
+ #define EFAULT   B_TO_POSIX_ERROR(B_BAD_ADDRESS)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:11:0: note: this is the location of the previous definition
+ #define EFAULT  14 /* Bad address */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:206:0: warning: "EAGAIN" redefined [enabled by default]
+ #define EAGAIN    B_TO_POSIX_ERROR(B_WOULD_BLOCK) /* SysV compatibility */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:8:0: note: this is the location of the previous definition
+ #define EAGAIN  11 /* Try again */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:207:0: warning: "EWOULDBLOCK" redefined [enabled by default]
+ #define EWOULDBLOCK  B_TO_POSIX_ERROR(B_WOULD_BLOCK) /* BSD compatibility */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:8:0: note: this is the location of the previous definition
+ #define EWOULDBLOCK EAGAIN /* Operation would block */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:210:0: warning: "EINVAL" redefined [enabled by default]
+ #define EINVAL   B_TO_POSIX_ERROR(B_BAD_VALUE)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:3,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:68,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:11,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:17:0: note: this is the location of the previous definition
+ #define EINVAL  22 /* Invalid argument */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/inttypes.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:15,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/stdint.h:132:0: warning: "SIZE_MAX" redefined [enabled by default]
+ #define SIZE_MAX  __HAIKU_ADDR_MAX
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/bug.h:8:0,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/kernel.h:21:0: note: this is the location of the previous definition
+ #define SIZE_MAX (~(size_t)0)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:257:1: error: conflicting types for 'atomic_set'
+ atomic_set(int32* value, int32 newValue)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/atomic.h:4:0,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/atomic.h:30:20: note: previous definition of 'atomic_set' was here
+ static inline void atomic_set(atomic_t *v, int i)
+                    ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:280:1: error: conflicting types for 'atomic_add'
+ atomic_add(int32* value, int32 addValue)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/atomic.h:4:0,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/atomic.h:42:20: note: previous definition of 'atomic_add' was here
+ static inline void atomic_add(int i, atomic_t *v)
+                    ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:56:0: warning: "S_IFMT" redefined [enabled by default]
+ #define S_IFMT    00000170000 /* type of file */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:4:0: note: this is the location of the previous definition
+ #define S_IFMT  00170000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:58:0: warning: "S_IFLNK" redefined [enabled by default]
+ #define S_IFLNK    00000120000 /* symbolic link */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:6:0: note: this is the location of the previous definition
+ #define S_IFLNK  0120000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:59:0: warning: "S_IFREG" redefined [enabled by default]
+ #define S_IFREG    00000100000 /* regular */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:7:0: note: this is the location of the previous definition
+ #define S_IFREG  0100000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:61:0: warning: "S_IFDIR" redefined [enabled by default]
+ #define S_IFDIR    00000040000 /* directory */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:9:0: note: this is the location of the previous definition
+ #define S_IFDIR  0040000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:65:0: warning: "S_ISREG" redefined [enabled by default]
+ #define S_ISREG(mode)  (((mode) & S_IFMT) == S_IFREG)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:15:0: note: this is the location of the previous definition
+ #define S_ISREG(m) (((m) & S_IFMT) == S_IFREG)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:66:0: warning: "S_ISLNK" redefined [enabled by default]
+ #define S_ISLNK(mode)  (((mode) & S_IFMT) == S_IFLNK)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:14:0: note: this is the location of the previous definition
+ #define S_ISLNK(m) (((m) & S_IFMT) == S_IFLNK)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:68:0: warning: "S_ISDIR" redefined [enabled by default]
+ #define S_ISDIR(mode)  (((mode) & S_IFMT) == S_IFDIR)
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:16:0: note: this is the location of the previous definition
+ #define S_ISDIR(m) (((m) & S_IFMT) == S_IFDIR)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:76:0: warning: "S_ISUID" redefined [enabled by default]
+ #define S_ISUID 04000       /* set user id on execution */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:11:0: note: this is the location of the previous definition
+ #define S_ISUID  0004000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:77:0: warning: "S_ISGID" redefined [enabled by default]
+ #define S_ISGID 02000       /* set group id on execution */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:108,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:12:0: note: this is the location of the previous definition
+ #define S_ISGID  0002000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:34:0: warning: "O_WRONLY" redefined [enabled by default]
+ #define O_WRONLY  0x0001  /* write only */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/fcntl.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/net.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/fcntl.h:6:0: note: this is the location of the previous definition
+ #define O_WRONLY 00000001
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:48:0: warning: "O_NONBLOCK" redefined [enabled by default]
+ #define O_NONBLOCK  0x00000080 /* non blocking io */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/fcntl.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/net.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/fcntl.h:9:0: note: this is the location of the previous definition
+ #define O_NONBLOCK 00004000
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:53:0: warning: "O_DSYNC" redefined [enabled by default]
+ #define O_DSYNC   0x00040000 /* write synchronized I/O data integrity */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/fcntl.h:3:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/fcntl.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/net.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/fcntl.h:12:0: note: this is the location of the previous definition
+ #define O_DSYNC  00010000 /* used to be O_SYNC, see below */
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
+                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:426:3: error: 'cpu_info' redeclared as different kind of symbol
+ } cpu_info;
+   ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/percpu.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm/percpu.h:254,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/asm/processor.h:117:52: note: previous declaration of 'cpu_info' was here
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+                                                    ^
+src/libs/compat/linux_snull/compat/linux/percpu-defs.h:35:44: note: in definition of macro 'DECLARE_PER_CPU_SECTION'
+  extern __PCPU_ATTRS(sec) __typeof__(type) name
+                                            ^
+src/libs/compat/linux_snull/compat/asm/processor.h:117:1: note: in expansion of macro 'DECLARE_PER_CPU_SHARED_ALIGNED'
+ DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+ ^
+src/libs/compat/linux_snull/snull_dummy.c:69:17: warning: no previous prototype for '__memcpy' [-Wmissing-prototypes]
+ DDE_WEAK void * __memcpy(void * a, const void * b, size_t c) {
+                 ^
+src/libs/compat/linux_snull/snull_dummy.c:69:17: error: conflicting types for '__memcpy'
+In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
+src/libs/compat/linux_snull/compat/asm/string_64.h:12:11: note: previous implicit declaration of '__memcpy' was here
+   __ret = __memcpy((dst), (src), __len);  \
+           ^
+src/libs/compat/linux_snull/compat/linux/bitmap.h:90:3: note: in expansion of macro 'memcpy'
+   memcpy(dst, src, len);
+   ^
+src/libs/compat/linux_snull/snull_dummy.c:76:17: warning: no previous prototype for 'memset' [-Wmissing-prototypes]
+ DDE_WEAK void * memset(void * a, int b, size_t c) {
+                 ^
+src/libs/compat/linux_snull/snull_dummy.c:76:17: error: conflicting types for 'memset'
+In file included from src/libs/compat/linux_snull/compat/linux/cpumask.h:11:0,
+                 from src/libs/compat/linux_snull/compat/asm/cpumask.h:4,
+                 from src/libs/compat/linux_snull/compat/asm/msr.h:8,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:19,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:46,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:13,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:4,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/bitmap.h:69:3: note: previous implicit declaration of 'memset' was here
+   memset(dst, 0, len);
+   ^
+In file included from src/libs/compat/linux_snull/compat/net/netns/ipv4.h:5:0,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/inet_frag.h:84:21: warning: 'frag_percpu_counter_batch' defined but not used [-Wunused-variable]
+ static unsigned int frag_percpu_counter_batch = 130000;
+                     ^
+
+/home/xinyx/software/Edison/haiku/generated/cross-tools-x86/bin/i586-pc-haiku-gcc -O2 -Wall -Wno-trigraphs -Wmissing-prototypes -Wno-multichar -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -nostdinc -D_KERNEL=1 -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -nostdinc -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -finline -fno-builtin -ffreestanding -march=pentium -c "src/libs/compat/linux_snull/snull_dummy.c" -D_KERNEL_MODE -DARCH_x86 -DB_USE_BUILTIN_ATOMIC_FUNCTIONS -DBOOT_ARCHIVE_IMAGE_OFFSET=320 -D__HAIKU_PRIMARY_PACKAGING_ARCH=\"x86\" -DHAIKU_DISTRO_COMPATIBILITY_DEFAULT -DHAIKU_INCLUDE_PATENTED_CODE=0 -DHAIKU_TARGET_PLATFORM_HAIKU -DHAIKU_REGULAR_BUILD -iquote /home/xinyx/software/Edison/haiku/build/user_config_headers -iquote /home/xinyx/software/Edison/haiku/build/config_headers -iquote src/libs/compat/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/common/libs/compat/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/linux/x86_64/common/libs/compat/linux_snull -iquote /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/libs/compat/linux_snull -I src/libs/compat/linux_snull -I src/libs/compat/linux_snull/compat -I src/libs/compat/linux_snull/compat/uapi -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/kernel -I /home/xinyx/software/Edison/haiku/headers/private/libroot -I /home/xinyx/software/Edison/haiku/headers/private/shared -I /home/xinyx/software/Edison/haiku/headers/private/kernel/boot/platform/bios_ia32 -I /home/xinyx/software/Edison/haiku/headers/private/kernel/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/common/system/kernel -I /home/xinyx/software/Edison/haiku/headers/private/. -I /home/xinyx/software/Edison/haiku/headers/private/system -I /home/xinyx/software/Edison/haiku/headers/private/system/arch/x86 -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++ -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/i586-pc-haiku -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/backward -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/c++/ext -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include -I /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed -I /home/xinyx/software/Edison/haiku/headers -I /home/xinyx/software/Edison/haiku/headers/posix -I /home/xinyx/software/Edison/haiku/headers/glibc -I /home/xinyx/software/Edison/haiku/headers/os -I /home/xinyx/software/Edison/haiku/headers/os/add-ons -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/file_system -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/graphics -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/input_server -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/registrar -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/screen_saver -I /home/xinyx/software/Edison/haiku/headers/os/add-ons/tracker -I /home/xinyx/software/Edison/haiku/headers/os/app -I /home/xinyx/software/Edison/haiku/headers/os/device -I /home/xinyx/software/Edison/haiku/headers/os/drivers -I /home/xinyx/software/Edison/haiku/headers/os/game -I /home/xinyx/software/Edison/haiku/headers/os/interface -I /home/xinyx/software/Edison/haiku/headers/os/kernel -I /home/xinyx/software/Edison/haiku/headers/os/locale -I /home/xinyx/software/Edison/haiku/headers/os/media -I /home/xinyx/software/Edison/haiku/headers/os/mail -I /home/xinyx/software/Edison/haiku/headers/os/midi -I /home/xinyx/software/Edison/haiku/headers/os/midi2 -I /home/xinyx/software/Edison/haiku/headers/os/net -I /home/xinyx/software/Edison/haiku/headers/os/storage -I /home/xinyx/software/Edison/haiku/headers/os/support -I /home/xinyx/software/Edison/haiku/headers/os/translation -I /home/xinyx/software/Edison/haiku/headers/private/. -o "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/snull_dummy.o" ;
+
+...failed Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/snull_dummy.o ...
+
+BUILD FAILURE:
+...failed updating 2 target(s)...
+...skipped 2 target(s)...

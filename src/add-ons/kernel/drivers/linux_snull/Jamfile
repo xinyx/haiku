@@ -1,0 +1,17 @@
+SubDir HAIKU_TOP src add-ons kernel drivers linux_snull ;
+
+UseHeaders [ FDirName $(SUBDIR) ] : true ;
+UseHeaders [ FDirName $(HAIKU_TOP) src libs compat linux_snull compat ] : true ;
+UseHeaders [ FDirName $(HAIKU_TOP) src libs compat linux_snull compat uapi ] : true ;
+UseHeaders [ FDirName $(HAIKU_TOP) src libs compat linux_snull ] : true ;
+UsePrivateKernelHeaders net system : true ;
+UsePrivateKernelHeaders ;
+UseHeaders $(HAIKU_PRIVATE_KERNEL_HEADERS) : true ;
+
+SubDirCcFlags [ FDefines _KERNEL=1 ] ;
+
+KernelAddon linux_snull :
+	snull.c
+	:
+	liblinux_snull.a
+	;

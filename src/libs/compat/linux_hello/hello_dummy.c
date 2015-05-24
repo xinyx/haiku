@@ -17,7 +17,7 @@ static int len(const char * a) {
 
 /*
  */
-int printk(const char * a, ...) {
+DDE_WEAK int printk(const char * a, ...) {
 	//dde_printf("printk not implemented\n");
 	
 	/*

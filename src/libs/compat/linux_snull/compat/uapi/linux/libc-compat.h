@@ -1,0 +1,10 @@
+#ifndef __UAPI_LINUX_LIBC_COMPAT_H__
+#define __UAPI_LINUX_LIBC_COMPAT_H__
+
+#define __UAPI_DEF_IN6_ADDR		1
+#define __UAPI_DEF_IN6_ADDR_ALT		1
+#define __UAPI_DEF_SOCKADDR_IN6		1
+#define __UAPI_DEF_IPV6_MREQ		1
+#define __UAPI_DEF_IPPROTO_V6		1
+
+#endif /* ! __UAPI_LINUX_LIBC_COMPAT_H__ */
