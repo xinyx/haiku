@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_ATOMIC_H__
 #define __LINUX_ATOMIC_H__
 

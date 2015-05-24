@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PERCPU_REFCOUNT_H__
 #define __LINUX_PERCPU_REFCOUNT_H__
 

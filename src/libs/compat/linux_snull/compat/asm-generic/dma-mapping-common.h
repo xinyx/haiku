@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_GENERIC_DMA_MAPPING_COMMON_H__
 #define __ASM_GENERIC_DMA_MAPPING_COMMON_H__
 

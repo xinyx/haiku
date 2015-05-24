@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DQBLK_V2_H__
 #define __LINUX_DQBLK_V2_H__
 

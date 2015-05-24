@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_JUMP_LABEL_H__
 #define __LINUX_JUMP_LABEL_H__
 

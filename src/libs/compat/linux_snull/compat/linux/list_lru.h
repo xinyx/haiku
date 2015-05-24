@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_LIST_LRU_H__
 #define __LINUX_LIST_LRU_H__
 

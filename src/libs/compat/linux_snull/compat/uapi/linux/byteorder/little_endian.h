@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_BYTEORDER_LITTLE_ENDIAN_H__
 #define __UAPI_LINUX_BYTEORDER_LITTLE_ENDIAN_H__
 

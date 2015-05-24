@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_IO_APIC_H__
 #define __ASM_IO_APIC_H__
 

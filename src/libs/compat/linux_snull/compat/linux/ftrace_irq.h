@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_FTRACE_IRQ_H__
 #define __LINUX_FTRACE_IRQ_H__
 

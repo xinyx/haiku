@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_MATH_EMU_H__
 #define __ASM_MATH_EMU_H__
 

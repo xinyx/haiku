@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_DESC_DEFS_H__
 #define __ASM_DESC_DEFS_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_HW_IRQ_H__
 #define __ASM_HW_IRQ_H__
 

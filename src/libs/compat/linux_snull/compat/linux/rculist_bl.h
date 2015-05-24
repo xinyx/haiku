@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RCULIST_BL_H__
 #define __LINUX_RCULIST_BL_H__
 

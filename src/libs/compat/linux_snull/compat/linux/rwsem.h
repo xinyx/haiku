@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RWSEM_H__
 #define __LINUX_RWSEM_H__
 

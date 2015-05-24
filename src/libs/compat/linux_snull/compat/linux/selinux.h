@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_SELINUX_H__
 #define __LINUX_SELINUX_H__
 

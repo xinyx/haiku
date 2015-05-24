@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_NETNS_IPV6_H__
 #define __NET_NETNS_IPV6_H__
 

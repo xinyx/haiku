@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_DST_OPS_H__
 #define __NET_DST_OPS_H__
 

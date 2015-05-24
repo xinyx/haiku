@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_IDR_H__
 #define __LINUX_IDR_H__
 

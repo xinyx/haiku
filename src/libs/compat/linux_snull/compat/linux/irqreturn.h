@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_IRQRETURN_H__
 #define __LINUX_IRQRETURN_H__
 

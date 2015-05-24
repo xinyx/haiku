@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_BITMAP_H__
 #define __LINUX_BITMAP_H__
 

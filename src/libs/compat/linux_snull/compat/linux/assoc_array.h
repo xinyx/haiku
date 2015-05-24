@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_ASSOC_ARRAY_H__
 #define __LINUX_ASSOC_ARRAY_H__
 

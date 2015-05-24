@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PFN_H__
 #define __LINUX_PFN_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_GENERIC_BITOPS_LE_H__
 #define __ASM_GENERIC_BITOPS_LE_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ACPI_PDC_INTEL_H__
 #define __ACPI_PDC_INTEL_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_NET_NAMESPACE_H__
 #define __NET_NET_NAMESPACE_H__
 

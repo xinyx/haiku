@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_NUMA_H__
 #define __ASM_NUMA_H__
 

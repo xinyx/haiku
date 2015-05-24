@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DYNAMIC_QUEUE_LIMITS_H__
 #define __LINUX_DYNAMIC_QUEUE_LIMITS_H__
 

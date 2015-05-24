@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_CHECKSUM_H__
 #define __NET_CHECKSUM_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_SNMP_H__
 #define __UAPI_LINUX_SNMP_H__
 

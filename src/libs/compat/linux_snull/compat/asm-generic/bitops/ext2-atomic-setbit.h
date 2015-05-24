@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_GENERIC_BITOPS_EXT2_ATOMIC_SETBIT_H__
 #define __ASM_GENERIC_BITOPS_EXT2_ATOMIC_SETBIT_H__
 

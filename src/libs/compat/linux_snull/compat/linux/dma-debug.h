@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DMA_DEBUG_H__
 #define __LINUX_DMA_DEBUG_H__
 

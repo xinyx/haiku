@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DMA_CONTIGUOUS_H__
 #define __LINUX_DMA_CONTIGUOUS_H__
 

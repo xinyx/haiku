@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_FCNTL_H__
 #define __LINUX_FCNTL_H__
 

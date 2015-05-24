@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_MODULEPARAM_H__
 #define __LINUX_MODULEPARAM_H__
 

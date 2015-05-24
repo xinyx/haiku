@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_SEQ_FILE_H__
 #define __LINUX_SEQ_FILE_H__
 

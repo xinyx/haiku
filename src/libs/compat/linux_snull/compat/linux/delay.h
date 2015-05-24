@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DELAY_H__
 #define __LINUX_DELAY_H__
 

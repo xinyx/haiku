@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_ASM_GENERIC_ERRNO_H__
 #define __UAPI_ASM_GENERIC_ERRNO_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_SEM_H__
 #define __LINUX_SEM_H__
 

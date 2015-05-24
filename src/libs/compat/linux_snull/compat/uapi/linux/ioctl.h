@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_IOCTL_H__
 #define __UAPI_LINUX_IOCTL_H__
 

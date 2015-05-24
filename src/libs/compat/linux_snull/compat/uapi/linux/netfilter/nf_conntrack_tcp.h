@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_NETFILTER_NF_CONNTRACK_TCP_H__
 #define __UAPI_LINUX_NETFILTER_NF_CONNTRACK_TCP_H__
 

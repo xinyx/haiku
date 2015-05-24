@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_GENERIC_RESOURCE_H__
 #define __ASM_GENERIC_RESOURCE_H__
 

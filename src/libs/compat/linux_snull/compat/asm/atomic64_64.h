@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_ATOMIC64_64_H__
 #define __ASM_ATOMIC64_64_H__
 

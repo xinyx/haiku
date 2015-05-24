@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_OSQ_LOCK_H__
 #define __LINUX_OSQ_LOCK_H__
 

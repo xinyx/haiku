@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_PVCLOCK_ABI_H__
 #define __ASM_PVCLOCK_ABI_H__
 

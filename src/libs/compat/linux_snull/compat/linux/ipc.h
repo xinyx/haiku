@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_IPC_H__
 #define __LINUX_IPC_H__
 

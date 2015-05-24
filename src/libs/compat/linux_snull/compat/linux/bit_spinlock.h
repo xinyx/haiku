@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_BIT_SPINLOCK_H__
 #define __LINUX_BIT_SPINLOCK_H__
 

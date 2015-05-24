@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_MSR_H__
 #define __ASM_MSR_H__
 

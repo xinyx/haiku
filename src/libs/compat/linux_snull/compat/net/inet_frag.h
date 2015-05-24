@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_INET_FRAG_H__
 #define __NET_INET_FRAG_H__
 

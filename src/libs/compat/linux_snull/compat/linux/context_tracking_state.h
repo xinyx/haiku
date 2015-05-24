@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_CONTEXT_TRACKING_STATE_H__
 #define __LINUX_CONTEXT_TRACKING_STATE_H__
 

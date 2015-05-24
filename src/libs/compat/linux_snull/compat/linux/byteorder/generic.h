@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_BYTEORDER_GENERIC_H__
 #define __LINUX_BYTEORDER_GENERIC_H__
 

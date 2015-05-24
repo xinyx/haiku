@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_REQUIRED_FEATURES_H__
 #define __ASM_REQUIRED_FEATURES_H__
 

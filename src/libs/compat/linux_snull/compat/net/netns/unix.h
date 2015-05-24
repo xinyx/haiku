@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_NETNS_UNIX_H__
 #define __NET_NETNS_UNIX_H__
 

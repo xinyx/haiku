@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_NFS_FS_I_H__
 #define __LINUX_NFS_FS_I_H__
 

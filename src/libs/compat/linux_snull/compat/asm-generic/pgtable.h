@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_GENERIC_PGTABLE_H__
 #define __ASM_GENERIC_PGTABLE_H__
 

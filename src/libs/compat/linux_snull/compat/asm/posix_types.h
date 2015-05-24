@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_POSIX_TYPES_H__
 #define __ASM_POSIX_TYPES_H__
 

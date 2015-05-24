@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_SCREEN_INFO_H__
 #define __LINUX_SCREEN_INFO_H__
 

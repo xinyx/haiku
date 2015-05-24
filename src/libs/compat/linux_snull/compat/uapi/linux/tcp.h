@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_TCP_H__
 #define __UAPI_LINUX_TCP_H__
 

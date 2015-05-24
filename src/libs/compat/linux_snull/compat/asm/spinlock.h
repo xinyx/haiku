@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_SPINLOCK_H__
 #define __ASM_SPINLOCK_H__
 

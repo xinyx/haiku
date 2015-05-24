@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RCUPDATE_H__
 #define __LINUX_RCUPDATE_H__
 

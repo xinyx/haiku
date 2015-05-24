@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_QRWLOCK_H__
 #define __ASM_QRWLOCK_H__
 

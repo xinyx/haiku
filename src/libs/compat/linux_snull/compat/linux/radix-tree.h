@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RADIX_TREE_H__
 #define __LINUX_RADIX_TREE_H__
 

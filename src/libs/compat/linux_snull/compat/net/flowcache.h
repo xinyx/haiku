@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_FLOWCACHE_H__
 #define __NET_FLOWCACHE_H__
 

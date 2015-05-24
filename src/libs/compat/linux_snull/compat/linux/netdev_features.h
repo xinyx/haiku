@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_NETDEV_FEATURES_H__
 #define __LINUX_NETDEV_FEATURES_H__
 

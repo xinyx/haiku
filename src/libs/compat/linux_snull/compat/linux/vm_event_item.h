@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_VM_EVENT_ITEM_H__
 #define __LINUX_VM_EVENT_ITEM_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PAGEBLOCK_FLAGS_H__
 #define __LINUX_PAGEBLOCK_FLAGS_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_UNALIGNED_PACKED_STRUCT_H__
 #define __LINUX_UNALIGNED_PACKED_STRUCT_H__
 

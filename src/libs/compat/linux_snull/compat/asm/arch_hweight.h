@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_ARCH_HWEIGHT_H__
 #define __ASM_ARCH_HWEIGHT_H__
 

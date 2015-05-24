@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RES_COUNTER_H__
 #define __LINUX_RES_COUNTER_H__
 

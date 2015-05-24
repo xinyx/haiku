@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_SPECIAL_INSNS_H__
 #define __ASM_SPECIAL_INSNS_H__
 

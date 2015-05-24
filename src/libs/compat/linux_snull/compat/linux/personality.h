@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PERSONALITY_H__
 #define __LINUX_PERSONALITY_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_MODULE_H__
 #define __ASM_MODULE_H__
 

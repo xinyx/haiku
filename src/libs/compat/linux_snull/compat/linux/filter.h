@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_FILTER_H__
 #define __LINUX_FILTER_H__
 

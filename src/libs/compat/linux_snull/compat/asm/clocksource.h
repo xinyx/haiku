@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_CLOCKSOURCE_H__
 #define __ASM_CLOCKSOURCE_H__
 

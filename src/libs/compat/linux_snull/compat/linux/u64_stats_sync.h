@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_U64_STATS_SYNC_H__
 #define __LINUX_U64_STATS_SYNC_H__
 

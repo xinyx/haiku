@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_NETPRIO_CGROUP_H__
 #define __NET_NETPRIO_CGROUP_H__
 

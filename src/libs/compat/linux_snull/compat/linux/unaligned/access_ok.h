@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_UNALIGNED_ACCESS_OK_H__
 #define __LINUX_UNALIGNED_ACCESS_OK_H__
 

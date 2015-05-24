@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_KERN_LEVELS_H__
 #define __LINUX_KERN_LEVELS_H__
 

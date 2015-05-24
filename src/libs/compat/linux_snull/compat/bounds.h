@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __BOUNDS_H__
 #define __BOUNDS_H__
 

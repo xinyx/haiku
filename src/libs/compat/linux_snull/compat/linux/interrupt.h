@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_INTERRUPT_H__
 #define __LINUX_INTERRUPT_H__
 

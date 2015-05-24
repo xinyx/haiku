@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PREEMPT_MASK_H__
 #define __LINUX_PREEMPT_MASK_H__
 

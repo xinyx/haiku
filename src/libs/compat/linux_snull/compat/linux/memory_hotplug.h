@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_MEMORY_HOTPLUG_H__
 #define __LINUX_MEMORY_HOTPLUG_H__
 

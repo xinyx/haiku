@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_KEY_H__
 #define __LINUX_KEY_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_ASM_STAT_H__
 #define __UAPI_ASM_STAT_H__
 

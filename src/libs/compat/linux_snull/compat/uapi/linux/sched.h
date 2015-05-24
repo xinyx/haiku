@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __UAPI_LINUX_SCHED_H__
 #define __UAPI_LINUX_SCHED_H__
 

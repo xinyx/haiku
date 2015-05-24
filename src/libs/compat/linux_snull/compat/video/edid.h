@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __VIDEO_EDID_H__
 #define __VIDEO_EDID_H__
 

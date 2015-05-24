@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_KLIST_H__
 #define __LINUX_KLIST_H__
 

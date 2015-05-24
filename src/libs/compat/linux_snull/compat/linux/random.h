@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_RANDOM_H__
 #define __LINUX_RANDOM_H__
 

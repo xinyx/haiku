@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_SCM_H__
 #define __NET_SCM_H__
 

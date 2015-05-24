@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DEVICE_H__
 #define __LINUX_DEVICE_H__
 

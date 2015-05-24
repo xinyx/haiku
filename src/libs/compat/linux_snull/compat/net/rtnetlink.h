@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_RTNETLINK_H__
 #define __NET_RTNETLINK_H__
 

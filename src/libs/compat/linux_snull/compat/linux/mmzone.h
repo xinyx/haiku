@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_MMZONE_H__
 #define __LINUX_MMZONE_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_BARRIER_H__
 #define __ASM_BARRIER_H__
 

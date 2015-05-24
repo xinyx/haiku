@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_X86_INIT_H__
 #define __ASM_X86_INIT_H__
 

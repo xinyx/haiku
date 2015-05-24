@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_FLOW_H__
 #define __NET_FLOW_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __NET_REQUEST_SOCK_H__
 #define __NET_REQUEST_SOCK_H__
 

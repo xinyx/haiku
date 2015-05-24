@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_COMPILER_GCC4_H__
 #define __LINUX_COMPILER_GCC4_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PROPORTIONS_H__
 #define __LINUX_PROPORTIONS_H__
 

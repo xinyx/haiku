@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_TASK_IO_ACCOUNTING_H__
 #define __LINUX_TASK_IO_ACCOUNTING_H__
 

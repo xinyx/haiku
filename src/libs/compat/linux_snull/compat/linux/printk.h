@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PRINTK_H__
 #define __LINUX_PRINTK_H__
 

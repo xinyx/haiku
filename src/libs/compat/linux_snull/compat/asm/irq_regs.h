@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_IRQ_REGS_H__
 #define __ASM_IRQ_REGS_H__
 

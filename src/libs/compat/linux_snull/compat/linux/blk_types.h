@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_BLK_TYPES_H__
 #define __LINUX_BLK_TYPES_H__
 

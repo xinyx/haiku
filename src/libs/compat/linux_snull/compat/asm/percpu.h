@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_PERCPU_H__
 #define __ASM_PERCPU_H__
 

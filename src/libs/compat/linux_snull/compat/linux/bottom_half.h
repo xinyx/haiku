@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_BOTTOM_HALF_H__
 #define __LINUX_BOTTOM_HALF_H__
 

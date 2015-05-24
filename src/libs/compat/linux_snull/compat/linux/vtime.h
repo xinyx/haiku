@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_VTIME_H__
 #define __LINUX_VTIME_H__
 

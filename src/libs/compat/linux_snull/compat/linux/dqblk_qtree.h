@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DQBLK_QTREE_H__
 #define __LINUX_DQBLK_QTREE_H__
 

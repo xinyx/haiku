@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_ELF_H__
 #define __LINUX_ELF_H__
 

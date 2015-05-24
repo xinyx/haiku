@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_SECURITY_H__
 #define __LINUX_SECURITY_H__
 

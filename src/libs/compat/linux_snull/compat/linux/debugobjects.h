@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_DEBUGOBJECTS_H__
 #define __LINUX_DEBUGOBJECTS_H__
 

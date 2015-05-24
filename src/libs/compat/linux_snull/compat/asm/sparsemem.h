@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_SPARSEMEM_H__
 #define __ASM_SPARSEMEM_H__
 

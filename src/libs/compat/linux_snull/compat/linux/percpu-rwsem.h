@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_PERCPU_RWSEM_H__
 #define __LINUX_PERCPU_RWSEM_H__
 

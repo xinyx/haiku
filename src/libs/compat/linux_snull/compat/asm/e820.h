@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_E820_H__
 #define __ASM_E820_H__
 

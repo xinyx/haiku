@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_MIGRATE_MODE_H__
 #define __LINUX_MIGRATE_MODE_H__
 

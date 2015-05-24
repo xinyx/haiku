@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __LINUX_APM_BIOS_H__
 #define __LINUX_APM_BIOS_H__
 

@@ -1,3 +1,4 @@
+#include <generated/autoconf.h>
 #ifndef __ASM_VM86_H__
 #define __ASM_VM86_H__
 
