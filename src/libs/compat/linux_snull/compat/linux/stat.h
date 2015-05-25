@@ -7,6 +7,7 @@
 
 #define S_IXUGO		(S_IXUSR|S_IXGRP|S_IXOTH)
 
+#include <linux/types.h>
 #include <sys/types.h>
 #include <linux/time.h>
 #include <linux/uidgid.h>

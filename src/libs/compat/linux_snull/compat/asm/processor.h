@@ -30,6 +30,7 @@ struct mm_struct;
 #include <linux/err.h>
 #include <linux/irqflags.h>
 
+#include <OS.h>	//@xinyx cpu_info
 /*
  * We handle most unaligned accesses in hardware.  On the other hand
  * unaligned DMA can be quite expensive on some Nehalem processors.
@@ -115,7 +116,12 @@ extern struct cpuinfo_x86	boot_cpu_data;
 
 extern struct tss_struct	doublefault_tss;
 
-DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+/*
+ * redefined in haiku
+ * @xinyx
+ * DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
+ */
+
 #define cpu_data(cpu)		per_cpu(cpu_info, cpu)
 
 extern const struct seq_operations cpuinfo_op;

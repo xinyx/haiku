@@ -137,7 +137,11 @@ static inline void dst_hold(struct dst_entry *dst)
 	 * If your kernel compilation stops here, please check
 	 * __pad_to_align_refcnt declaration in struct dst_entry
 	 */
-	BUILD_BUG_ON(offsetof(struct dst_entry, __refcnt) & 63);
+	/*
+	 * deleted! may be considered  again!
+	 * @xinyx 
+	 * BUILD_BUG_ON(offsetof(struct dst_entry, __refcnt) & 63);
+	 */
 	atomic_inc(&dst->__refcnt);
 }
 

@@ -55,6 +55,8 @@
 
 #include <asm/processor.h>
 
+#include <signal.h>//@xinyx
+
 struct exec_domain;
 struct futex_pi_state;
 struct robust_list_head;

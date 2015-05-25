@@ -12,6 +12,8 @@
 #include <linux/atomic.h>
 #include <linux/wait.h>
 
+#include <sys/types.h>
+
 struct file;
 struct dentry;
 struct iattr;

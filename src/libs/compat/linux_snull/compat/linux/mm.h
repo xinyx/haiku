@@ -20,6 +20,7 @@
 #include <linux/bit_spinlock.h>
 #include <linux/shrinker.h>
 
+#include <SupportDefs.h> //@xinyx atomic_*
 struct mempolicy;
 struct anon_vma;
 

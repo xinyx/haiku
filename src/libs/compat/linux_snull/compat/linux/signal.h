@@ -5,6 +5,8 @@
 #include <linux/list.h>
 #include <uapi/linux/signal.h>
 
+#include <signal.h>	//@xinyx
+
 struct task_struct;
 
 struct sigpending {

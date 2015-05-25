@@ -5,6 +5,8 @@
 #include <linux/compiler.h>
 #include <linux/types.h>
 
+#include <posix/signal.h> //@xinyx
+
 /* defined in haiku
  * @xinyx
 
@@ -13,7 +15,7 @@ typedef union sigval {
 	void __user *sival_ptr;
 } sigval_t;
 */
-typedef sigval sigval_t;
+typedef union sigval sigval_t;
 
 #define SI_MAX_SIZE	128
 #ifndef SI_PAD_SIZE
