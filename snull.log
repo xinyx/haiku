@@ -2,120 +2,9 @@ Starting build of type regular ...
 qrencode support not available on x86 
 ...patience...
 ...patience...
-...found 10250 target(s)...
+...found 10252 target(s)...
 ...updating 4 target(s)...
 Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o 
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kmod.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:15,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h: In function 'gfp_zonelist':
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/gfp.h:124:2: warning: implicit declaration of function 'IS_ENABLED' [-Wimplicit-function-declaration]
-  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
-  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/vdso.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/elf.h:21,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/elf.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:16,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:26:13: error: missing binary operator before token "("
-   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
-             ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:143:45: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
- #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && USE_SPLIT_PMD_PTLOCKS
-                                             ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:26:13: error: missing binary operator before token "("
-   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
-             ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm_types.h:403:46: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
- #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && !USE_SPLIT_PMD_PTLOCKS
-                                              ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dcache.h:13:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:10,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/lockref.h:9:13: error: missing binary operator before token "("
-  (IS_ENABLED(CONFIG_ARCH_USE_CMPXCHG_LOCKREF) && \
-             ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/lockref.h:14:5: note: in expansion of macro 'USE_CMPXCHG_LOCKREF'
- #if USE_CMPXCHG_LOCKREF
-     ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/if_ether.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/ethtool.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__nf_copy':
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h:1171:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NETFILTER_XT_TARGET_TRACE) || defined(CONFIG_NF_TABLES)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:12:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/mib.h: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/mib.h:16:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:21:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/x_tables.h:17:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IP_NF_TARGET_ULOG)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/x_tables.h:20:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_BRIDGE_EBT_ULOG)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:26:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/xfrm.h:59:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:85:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:88:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IEEE802154_6LOWPAN)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:106:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NF_DEFRAG_IPV6)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:121:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IP_VS)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h: In function 'rt_genid_bump_ipv6':
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:175:17: error: 'struct net' has no member named 'ipv6'
-  atomic_inc(&net->ipv6.rt_genid);
-                 ^
-In file included from src/add-ons/kernel/drivers/linux_snull/snull.c:30:0:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:668:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_FCOE)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:685:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_LIBFCOE)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:906:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_VLAN_8021Q)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:909:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NET_DSA)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:912:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_TIPC)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:1065:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_FCOE)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:1069:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
-               ^
 In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:30:0,
                  from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:7,
                  from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
@@ -123,23 +12,9 @@ In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_sn
 /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/dst.h:140:2: error: size of unnamed array is negative
   BUILD_BUG_ON(offsetof(struct dst_entry, __refcnt) & 63);
   ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:7:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:127:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:332:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
-               ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_connection_sock.h:10:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:8,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_sock.h:126:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
 In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:19:0,
                  from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
 /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:29: error: 'KBUILD_MODNAME' undeclared here (not in a function)
  #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
                              ^
@@ -382,129 +257,11 @@ src/libs/compat/linux_snull/compat/asm/string_64.h:13:9: warning: assignment mak
 src/libs/compat/linux_snull/compat/linux/bitmap.h:91:3: note: in expansion of macro 'memcpy'
    memcpy(dst, src, len);
    ^
-In file included from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5:0,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/mm_types.h: At top level:
-src/libs/compat/linux_snull/compat/linux/mm_types.h:26:13: error: missing binary operator before token "("
-   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
-             ^
-src/libs/compat/linux_snull/compat/linux/mm_types.h:143:45: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
- #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && USE_SPLIT_PMD_PTLOCKS
-                                             ^
-src/libs/compat/linux_snull/compat/linux/mm_types.h:26:13: error: missing binary operator before token "("
-   IS_ENABLED(CONFIG_ARCH_ENABLE_SPLIT_PMD_PTLOCK))
-             ^
-src/libs/compat/linux_snull/compat/linux/mm_types.h:403:46: note: in expansion of macro 'USE_SPLIT_PMD_PTLOCKS'
- #if defined(CONFIG_TRANSPARENT_HUGEPAGE) && !USE_SPLIT_PMD_PTLOCKS
-                                              ^
-In file included from src/libs/compat/linux_snull/compat/linux/slab.h:5:0,
-                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/gfp.h: In function 'gfp_zonelist':
-src/libs/compat/linux_snull/compat/linux/gfp.h:124:2: warning: implicit declaration of function 'IS_ENABLED' [-Wimplicit-function-declaration]
-  if (IS_ENABLED(CONFIG_NUMA) && unlikely(flags & __GFP_THISNODE))
-  ^
-In file included from src/libs/compat/linux_snull/compat/linux/if_ether.h:5:0,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__nf_copy':
-src/libs/compat/linux_snull/compat/linux/skbuff.h:1171:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NETFILTER_XT_TARGET_TRACE) || defined(CONFIG_NF_TABLES)
-               ^
-In file included from src/libs/compat/linux_snull/compat/linux/dcache.h:13:0,
-                 from src/libs/compat/linux_snull/compat/linux/fs.h:8,
-                 from src/libs/compat/linux_snull/compat/linux/compat.h:10,
-                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/lockref.h: At top level:
-src/libs/compat/linux_snull/compat/linux/lockref.h:9:13: error: missing binary operator before token "("
-  (IS_ENABLED(CONFIG_ARCH_USE_CMPXCHG_LOCKREF) && \
-             ^
-src/libs/compat/linux_snull/compat/linux/lockref.h:14:5: note: in expansion of macro 'USE_CMPXCHG_LOCKREF'
- #if USE_CMPXCHG_LOCKREF
-     ^
-In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:12:0,
-                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/net/netns/mib.h:16:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:21:0,
-                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/net/netns/x_tables.h:17:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IP_NF_TARGET_ULOG)
-               ^
-src/libs/compat/linux_snull/compat/net/netns/x_tables.h:20:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_BRIDGE_EBT_ULOG)
-               ^
-In file included from src/libs/compat/linux_snull/compat/net/net_namespace.h:26:0,
-                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/net/netns/xfrm.h:59:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-In file included from src/libs/compat/linux_snull/compat/linux/netdevice.h:20:0,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/net/net_namespace.h:85:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IPV6)
-               ^
-src/libs/compat/linux_snull/compat/net/net_namespace.h:88:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IEEE802154_6LOWPAN)
-               ^
-src/libs/compat/linux_snull/compat/net/net_namespace.h:106:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NF_DEFRAG_IPV6)
-               ^
-src/libs/compat/linux_snull/compat/net/net_namespace.h:121:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_IP_VS)
-               ^
-In file included from src/libs/compat/linux_snull/compat/linux/netdevice.h:20:0,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/net/net_namespace.h: In function 'rt_genid_bump_ipv6':
-src/libs/compat/linux_snull/compat/net/net_namespace.h:175:17: error: 'struct net' has no member named 'ipv6'
-  atomic_inc(&net->ipv6.rt_genid);
-                 ^
-In file included from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6:0,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/netdevice.h: At top level:
-src/libs/compat/linux_snull/compat/linux/netdevice.h:668:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_FCOE)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:685:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_LIBFCOE)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:906:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_VLAN_8021Q)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:909:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_NET_DSA)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:912:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_TIPC)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:1065:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_FCOE)
-               ^
-src/libs/compat/linux_snull/compat/linux/netdevice.h:1069:15: error: missing binary operator before token "("
- #if IS_ENABLED(CONFIG_CGROUP_NET_PRIO)
-               ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
                  from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
                  from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
                  from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h: At top level:
 /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:28:25: error: conflicting types for 'blkcnt_t'
  typedef __haiku_int64   blkcnt_t;
                          ^
