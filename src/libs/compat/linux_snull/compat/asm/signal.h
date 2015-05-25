@@ -10,9 +10,14 @@
 
 #define _NSIG_WORDS	(_NSIG / _NSIG_BPW)
 
+/*
+ * conflict with haiku(which is __haiku_uint64)
+ * @xinyx
+ *
 typedef struct {
 	unsigned long sig[_NSIG_WORDS];
 } sigset_t;
+*/
 
 #include <uapi/asm/signal.h>
 

@@ -27,11 +27,15 @@ static inline int atomic_read(const atomic_t *v)
  * @i: required value
  *
  * Atomically sets the value of @v to @i.
- */
+ *
+ * defined in haiku
+ * @xinyx
+ *
 static inline void atomic_set(atomic_t *v, int i)
 {
 	v->counter = i;
 }
+*/
 
 /**
  * atomic_add - add integer to atomic variable
@@ -39,13 +43,17 @@ static inline void atomic_set(atomic_t *v, int i)
  * @v: pointer of type atomic_t
  *
  * Atomically adds @i to @v.
- */
+ *
+ * defined in haiku
+ * @xinyx
+ *
 static inline void atomic_add(int i, atomic_t *v)
 {
 	asm volatile(LOCK_PREFIX "addl %1,%0"
 		     : "+m" (v->counter)
 		     : "ir" (i));
 }
+*/
 
 /**
  * atomic_sub - subtract integer from atomic variable

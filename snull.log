@@ -2,9 +2,94 @@ Starting build of type regular ...
 qrencode support not available on x86 
 ...patience...
 ...patience...
-...found 10252 target(s)...
+...found 10262 target(s)...
 ...updating 4 target(s)...
 Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o 
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/size_t.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:120,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include/stddef.h:413:0: warning: "offsetof" redefined [enabled by default]
+ #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/posix_types.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/types.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/types.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:5,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stddef.h:14:0: note: this is the location of the previous definition
+ #define offsetof(TYPE,MEMBER) __compiler_offsetof(TYPE,MEMBER)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:8:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:11,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/time.h:7:8: error: redefinition of 'struct timespec'
+ struct timespec {
+        ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:121:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+/home/xinyx/software/Edison/haiku/headers/posix/time.h:39:8: note: originally defined here
+ struct timespec {
+        ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:16:1: error: unknown type name 'sigval'
+ typedef sigval sigval_t;
+ ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:12:2: error: unknown type name 'sigset_t'
+  sigset_t signal;
+  ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:109:1: error: unknown type name 'sigset_t'
+ extern void __set_current_blocked(const sigset_t *);
+ ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:129:19: error: field 'sa' has incomplete type
+  struct sigaction sa;
+                   ^
+In file included from src/add-ons/kernel/drivers/linux_snull/snull.c:22:0:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:777:2: error: unknown type name 'sigset_t'
+  sigset_t blocked, real_blocked;
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:778:2: error: unknown type name 'sigset_t'
+  sigset_t saved_sigmask; /* restored if set_restore_sigmask() was used */
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:785:2: error: unknown type name 'sigset_t'
+  sigset_t *notifier_mask;
+  ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:862:2: error: unknown type name 'siginfo_t'
+  siginfo_t *last_siginfo; /* For ptrace use.  */
+  ^
+In file included from src/add-ons/kernel/drivers/linux_snull/snull.c:22:0:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:1107:52: error: unknown type name 'sigset_t'
+ extern int dequeue_signal(struct task_struct *tsk, sigset_t *mask, siginfo_t *info);
+                                                    ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:1107:68: error: unknown type name 'siginfo_t'
+ extern int dequeue_signal(struct task_struct *tsk, sigset_t *mask, siginfo_t *info);
+                                                                    ^
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h: In function '__fatal_signal_pending':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:1171:2: warning: implicit declaration of function 'sigismember' [-Wimplicit-function-declaration]
+  return unlikely(sigismember(&p->pending.signal, SIGKILL));
+  ^
+In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/scatterlist.h:7:0,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dmaengine.h:9,
+                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:15,
+                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h: In function 'init_page_count':
+/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h:226:2: warning: implicit declaration of function 'atomic_set' [-Wimplicit-function-declaration]
+  atomic_set(&page->_count, 1);
+  ^
 In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/sock.h:30:0,
                  from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/tcp.h:7,
                  from src/add-ons/kernel/drivers/linux_snull/snull.c:33:
@@ -12,114 +97,7 @@ In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_sn
 /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/dst.h:140:2: error: size of unnamed array is negative
   BUILD_BUG_ON(offsetof(struct dst_entry, __refcnt) & 63);
   ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:19:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
 src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:29: error: 'KBUILD_MODNAME' undeclared here (not in a function)
- #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-                             ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:119:43: note: in definition of macro '__module_param_call'
-  static const char __param_str_##name[] = prefix #name; \
-                                           ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:111:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
-  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
-                      ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:99:2: note: in expansion of macro 'module_param_cb'
-  module_param_cb(name, &param_ops_##type, &value, perm);     \
-  ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:84:2: note: in expansion of macro 'module_param_named'
-  module_param_named(name, name, type, perm)
-  ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:49:1: note: in expansion of macro 'module_param'
- module_param(lockup, int, 0);
- ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:44: error: expected ',' or ';' before string constant
- #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-                                            ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:119:43: note: in definition of macro '__module_param_call'
-  static const char __param_str_##name[] = prefix #name; \
-                                           ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:111:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
-  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
-                      ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:99:2: note: in expansion of macro 'module_param_cb'
-  module_param_cb(name, &param_ops_##type, &value, perm);     \
-  ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:84:2: note: in expansion of macro 'module_param_named'
-  module_param_named(name, name, type, perm)
-  ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:49:1: note: in expansion of macro 'module_param'
- module_param(lockup, int, 0);
- ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:52:1: error: invalid initializer
- module_param(timeout, int, 0);
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:19:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:44: error: expected ',' or ';' before string constant
- #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-                                            ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:119:43: note: in definition of macro '__module_param_call'
-  static const char __param_str_##name[] = prefix #name; \
-                                           ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:111:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
-  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
-                      ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:99:2: note: in expansion of macro 'module_param_cb'
-  module_param_cb(name, &param_ops_##type, &value, perm);     \
-  ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:84:2: note: in expansion of macro 'module_param_named'
-  module_param_named(name, name, type, perm)
-  ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:52:1: note: in expansion of macro 'module_param'
- module_param(timeout, int, 0);
- ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:58:1: error: invalid initializer
- module_param(use_napi, int, 0);
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:19:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:44: error: expected ',' or ';' before string constant
- #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-                                            ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:119:43: note: in definition of macro '__module_param_call'
-  static const char __param_str_##name[] = prefix #name; \
-                                           ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:111:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
-  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
-                      ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:99:2: note: in expansion of macro 'module_param_cb'
-  module_param_cb(name, &param_ops_##type, &value, perm);     \
-  ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:84:2: note: in expansion of macro 'module_param_named'
-  module_param_named(name, name, type, perm)
-  ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:58:1: note: in expansion of macro 'module_param'
- module_param(use_napi, int, 0);
- ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:72:1: error: invalid initializer
- module_param(pool_size, int, 0);
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:19:0,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:9:44: error: expected ',' or ';' before string constant
- #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-                                            ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:119:43: note: in definition of macro '__module_param_call'
-  static const char __param_str_##name[] = prefix #name; \
-                                           ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:111:22: note: in expansion of macro 'MODULE_PARAM_PREFIX'
-  __module_param_call(MODULE_PARAM_PREFIX, name, ops, arg, perm, -1)
-                      ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:99:2: note: in expansion of macro 'module_param_cb'
-  module_param_cb(name, &param_ops_##type, &value, perm);     \
-  ^
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/moduleparam.h:84:2: note: in expansion of macro 'module_param_named'
-  module_param_named(name, name, type, perm)
-  ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:72:1: note: in expansion of macro 'module_param'
- module_param(pool_size, int, 0);
- ^
 src/add-ons/kernel/drivers/linux_snull/snull.c:99:6: warning: no previous prototype for 'snull_setup_pool' [-Wmissing-prototypes]
  void snull_setup_pool(struct net_device *dev)
       ^
@@ -199,150 +177,64 @@ In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_sn
 
 ...failed Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o ...
 Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/snull_dummy.o 
-In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
-src/libs/compat/linux_snull/compat/asm/string_64.h:7:51: error: unknown type name 'size_t'
- extern void *__memcpy(void *to, const void *from, size_t len);
-                                                   ^
-src/libs/compat/linux_snull/compat/asm/string_64.h:20:30: error: unknown type name 'size_t'
- void *memset(void *s, int c, size_t n);
-                              ^
-src/libs/compat/linux_snull/compat/asm/string_64.h:23:44: error: unknown type name 'size_t'
- void *memmove(void *dest, const void *src, size_t count);
-                                            ^
-src/libs/compat/linux_snull/compat/asm/string_64.h:25:44: error: unknown type name 'size_t'
- int memcmp(const void *cs, const void *ct, size_t count);
-                                            ^
-src/libs/compat/linux_snull/compat/asm/string_64.h:26:1: error: unknown type name 'size_t'
- size_t strlen(const char *s);
- ^
-In file included from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:5:0,
-                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/string.h:26:24: error: conflicting types for 'strlen'
- extern __kernel_size_t strlen(const char *);
-                        ^
-In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
-src/libs/compat/linux_snull/compat/asm/string_64.h:26:8: note: previous declaration of 'strlen' was here
- size_t strlen(const char *s);
-        ^
-In file included from src/libs/compat/linux_snull/compat/linux/cpumask.h:12:0,
-                 from src/libs/compat/linux_snull/compat/asm/cpumask.h:5,
-                 from src/libs/compat/linux_snull/compat/asm/msr.h:9,
-                 from src/libs/compat/linux_snull/compat/asm/processor.h:20,
-                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
-                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+In file included from src/libs/compat/linux_snull/compat/linux/sysfs.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
                  from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
                  from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
                  from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/bitmap.h: In function 'bitmap_zero':
-src/libs/compat/linux_snull/compat/linux/bitmap.h:70:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
-   memset(dst, 0, len);
-   ^
-src/libs/compat/linux_snull/compat/linux/bitmap.h: In function 'bitmap_copy':
-src/libs/compat/linux_snull/compat/linux/bitmap.h:91:3: warning: implicit declaration of function '__memcpy' [-Wimplicit-function-declaration]
-   memcpy(dst, src, len);
-   ^
-In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
-src/libs/compat/linux_snull/compat/asm/string_64.h:13:9: warning: assignment makes pointer from integer without a cast [enabled by default]
-   __ret = __memcpy((dst), (src), __len);  \
+src/libs/compat/linux_snull/compat/linux/kernfs.h:105:2: error: unknown type name 'umode_t'
+  umode_t   mode;
+  ^
+src/libs/compat/linux_snull/compat/linux/kernfs.h:122:8: error: unknown type name 'umode_t'
+        umode_t mode);
+        ^
+src/libs/compat/linux_snull/compat/linux/kernfs.h:230:25: error: unknown type name 'umode_t'
+       const char *name, umode_t mode,
+                         ^
+src/libs/compat/linux_snull/compat/linux/kernfs.h:234:7: error: unknown type name 'umode_t'
+       umode_t mode, loff_t size,
+       ^
+src/libs/compat/linux_snull/compat/linux/kernfs.h:259:9: error: unknown type name 'umode_t'
+         umode_t mode, loff_t size, const struct kernfs_ops *ops,
          ^
-src/libs/compat/linux_snull/compat/linux/bitmap.h:91:3: note: in expansion of macro 'memcpy'
-   memcpy(dst, src, len);
-   ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h: At top level:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:28:25: error: conflicting types for 'blkcnt_t'
- typedef __haiku_int64   blkcnt_t;
-                         ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:7:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/types.h:55:23: note: previous declaration of 'blkcnt_t' was here
- typedef unsigned long blkcnt_t;
-                       ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:33:24: error: conflicting types for 'ino_t'
- typedef __haiku_int64  ino_t;
-                        ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:7:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/types.h:13:25: note: previous declaration of 'ino_t' was here
- typedef __kernel_ino_t  ino_t;
-                         ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:35:24: error: conflicting types for 'dev_t'
- typedef __haiku_int32  dev_t;
-                        ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:7:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/types.h:12:25: note: previous declaration of 'dev_t' was here
- typedef __kernel_dev_t  dev_t;
-                         ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:36:24: error: conflicting types for 'pid_t'
- typedef __haiku_int32  pid_t;
-                        ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:7:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/types.h:23:25: note: previous declaration of 'pid_t' was here
- typedef __kernel_pid_t  pid_t;
-                         ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:42:28: error: conflicting types for 'umode_t'
- typedef __haiku_std_uint32 umode_t;
-                            ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:7:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
-src/libs/compat/linux_snull/compat/linux/types.h:21:25: note: previous declaration of 'umode_t' was here
- typedef unsigned short  umode_t;
-                         ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/size_t.h:9:0,
                  from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:120,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+                 from src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include/stddef.h:413:0: warning: "offsetof" redefined [enabled by default]
  #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
  ^
-In file included from src/libs/compat/linux_snull/compat/linux/kernel.h:6:0,
-                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
-                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+In file included from src/libs/compat/linux_snull/compat/uapi/linux/posix_types.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/types.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/types.h:5,
+                 from src/libs/compat/linux_snull/compat/asm/string_64.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:1:
 src/libs/compat/linux_snull/compat/linux/stddef.h:14:0: note: this is the location of the previous definition
  #define offsetof(TYPE,MEMBER) __compiler_offsetof(TYPE,MEMBER)
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:121:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/signal.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
+                 from src/libs/compat/linux_snull/compat/linux/stat.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/posix/time.h:39:8: error: redefinition of 'struct timespec'
  struct timespec {
         ^
@@ -358,30 +250,87 @@ In file included from src/libs/compat/linux_snull/compat/asm/preempt.h:7:0,
 src/libs/compat/linux_snull/compat/linux/thread_info.h:8:8: note: originally defined here
  struct timespec;
         ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:13:24: error: conflicting types for 'sigset_t'
- typedef __haiku_uint64 sigset_t;
-                        ^
-In file included from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5:0,
+In file included from src/libs/compat/linux_snull/compat/linux/scatterlist.h:7:0,
+                 from src/libs/compat/linux_snull/compat/linux/dmaengine.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/mm.h: In function 'init_page_count':
+src/libs/compat/linux_snull/compat/linux/mm.h:226:2: warning: implicit declaration of function 'atomic_set' [-Wimplicit-function-declaration]
+  atomic_set(&page->_count, 1);
+  ^
+In file included from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
                  from src/libs/compat/linux_snull/compat/linux/signal.h:6,
                  from src/libs/compat/linux_snull/compat/linux/sched.h:32,
                  from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
                  from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
                  from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
                  from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/asm/signal.h:15:3: note: previous declaration of 'sigset_t' was here
- } sigset_t;
-   ^
+src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h: At top level:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:16:1: error: unknown type name 'sigval'
+ typedef sigval sigval_t;
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/signal.h:12:2: error: unknown type name 'sigset_t'
+  sigset_t signal;
+  ^
+In file included from src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/signal.h:109:1: error: unknown type name 'sigset_t'
+ extern void __set_current_blocked(const sigset_t *);
+ ^
+src/libs/compat/linux_snull/compat/linux/signal.h:129:19: error: field 'sa' has incomplete type
+  struct sigaction sa;
+                   ^
+In file included from src/libs/compat/linux_snull/compat/linux/skbuff.h:23:0,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/sched.h:777:2: error: unknown type name 'sigset_t'
+  sigset_t blocked, real_blocked;
+  ^
+src/libs/compat/linux_snull/compat/linux/sched.h:778:2: error: unknown type name 'sigset_t'
+  sigset_t saved_sigmask; /* restored if set_restore_sigmask() was used */
+  ^
+src/libs/compat/linux_snull/compat/linux/sched.h:785:2: error: unknown type name 'sigset_t'
+  sigset_t *notifier_mask;
+  ^
+src/libs/compat/linux_snull/compat/linux/sched.h:862:2: error: unknown type name 'siginfo_t'
+  siginfo_t *last_siginfo; /* For ptrace use.  */
+  ^
+In file included from src/libs/compat/linux_snull/compat/linux/skbuff.h:23:0,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/sched.h:1107:52: error: unknown type name 'sigset_t'
+ extern int dequeue_signal(struct task_struct *tsk, sigset_t *mask, siginfo_t *info);
+                                                    ^
+src/libs/compat/linux_snull/compat/linux/sched.h:1107:68: error: unknown type name 'siginfo_t'
+ extern int dequeue_signal(struct task_struct *tsk, sigset_t *mask, siginfo_t *info);
+                                                                    ^
+src/libs/compat/linux_snull/compat/linux/sched.h: In function '__fatal_signal_pending':
+src/libs/compat/linux_snull/compat/linux/sched.h:1171:2: warning: implicit declaration of function 'sigismember' [-Wimplicit-function-declaration]
+  return unlikely(sigismember(&p->pending.signal, SIGKILL));
+  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
                  from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
                  from src/libs/compat/linux_snull/snull_dummy.c:12:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h: At top level:
 /home/xinyx/software/Edison/haiku/headers/posix/signal.h:18:0: warning: "SIG_IGN" redefined [enabled by default]
  #define SIG_IGN  ((__sighandler_t)1)  /* ignore signal */
  ^
 In file included from src/libs/compat/linux_snull/compat/uapi/asm/signal.h:17:0,
-                 from src/libs/compat/linux_snull/compat/asm/signal.h:17,
+                 from src/libs/compat/linux_snull/compat/asm/signal.h:22,
                  from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
                  from src/libs/compat/linux_snull/compat/linux/signal.h:6,
                  from src/libs/compat/linux_snull/compat/linux/sched.h:32,
@@ -395,60 +344,10 @@ src/libs/compat/linux_snull/compat/uapi/asm-generic/signal-defs.h:13:0: note: th
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
                  from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
                  from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:29:7: error: redefinition of 'union sigval'
- union sigval {
-       ^
-In file included from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5:0,
-                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:15: note: originally defined here
- typedef union sigval {
-               ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:57:3: error: conflicting types for 'siginfo_t'
- } siginfo_t;
-   ^
-In file included from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5:0,
-                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:100:24: note: previous declaration of 'siginfo_t' was here
- } __ARCH_SI_ATTRIBUTES siginfo_t;
-                        ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:71:8: error: redefinition of 'struct sigaction'
- struct sigaction {
-        ^
-In file included from src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/signal.h:101:8: note: originally defined here
- struct sigaction {
-        ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
 /home/xinyx/software/Edison/haiku/headers/posix/signal.h:88:0: warning: "SA_ONSTACK" redefined [enabled by default]
  #define SA_ONSTACK  0x20
  ^
-In file included from src/libs/compat/linux_snull/compat/asm/signal.h:17:0,
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
                  from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
                  from src/libs/compat/linux_snull/compat/linux/signal.h:6,
                  from src/libs/compat/linux_snull/compat/linux/sched.h:32,
@@ -495,7 +394,7 @@ In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:1
 /home/xinyx/software/Edison/haiku/headers/posix/signal.h:153:0: warning: "SIGRTMIN" redefined [enabled by default]
  #define SIGRTMIN  (__signal_get_sigrtmin())
  ^
-In file included from src/libs/compat/linux_snull/compat/asm/signal.h:17:0,
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
                  from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
                  from src/libs/compat/linux_snull/compat/linux/signal.h:6,
                  from src/libs/compat/linux_snull/compat/linux/sched.h:32,
@@ -506,34 +405,6 @@ In file included from src/libs/compat/linux_snull/compat/asm/signal.h:17:0,
 src/libs/compat/linux_snull/compat/uapi/asm/signal.h:13:0: note: this is the location of the previous definition
  #define SIGRTMIN 32
  ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:260:9: error: conflicting types for 'sigemptyset'
- int     sigemptyset(sigset_t* set);
-         ^
-In file included from src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/signal.h:84:20: note: previous definition of 'sigemptyset' was here
- static inline void sigemptyset(sigset_t *set)
-                    ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/setjmp.h:11:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:12,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:264:6: error: conflicting types for 'sigismember'
- int  sigismember(const sigset_t* set, int _signal);
-      ^
-In file included from src/libs/compat/linux_snull/compat/linux/sched.h:32:0,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/signal.h:17:19: note: previous definition of 'sigismember' was here
- static inline int sigismember(sigset_t *set, int _sig)
-                   ^
 In file included from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:168:0,
                  from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/syslimits.h:7,
                  from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:34,
@@ -854,45 +725,19 @@ src/libs/compat/linux_snull/compat/linux/kernel.h:22:0: note: this is the locati
 In file included from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9:0,
                  from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
                  from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:257:1: error: conflicting types for 'atomic_set'
+/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:257:1: warning: conflicting types for 'atomic_set' [enabled by default]
  atomic_set(int32* value, int32 newValue)
  ^
-In file included from src/libs/compat/linux_snull/compat/linux/atomic.h:5:0,
-                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:13,
-                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
-                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:257:1: error: static declaration of 'atomic_set' follows non-static declaration
+In file included from src/libs/compat/linux_snull/compat/linux/scatterlist.h:7:0,
+                 from src/libs/compat/linux_snull/compat/linux/dmaengine.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:19,
                  from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
                  from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
                  from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/asm/atomic.h:31:20: note: previous definition of 'atomic_set' was here
- static inline void atomic_set(atomic_t *v, int i)
-                    ^
-In file included from /home/xinyx/software/Edison/haiku/headers/os/drivers/KernelExport.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/private/kernel/debug.h:14,
-                 from src/libs/compat/linux_snull/snull_dummy.c:12:
-/home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:280:1: error: conflicting types for 'atomic_add'
- atomic_add(int32* value, int32 addValue)
- ^
-In file included from src/libs/compat/linux_snull/compat/linux/atomic.h:5:0,
-                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:13,
-                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
-                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/asm/atomic.h:43:20: note: previous definition of 'atomic_add' was here
- static inline void atomic_add(int i, atomic_t *v)
-                    ^
+src/libs/compat/linux_snull/compat/linux/mm.h:226:2: note: previous implicit declaration of 'atomic_set' was here
+  atomic_set(&page->_count, 1);
+  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
@@ -1174,39 +1019,6 @@ src/libs/compat/linux_snull/compat/linux/percpu-defs.h:36:44: note: in definitio
 src/libs/compat/linux_snull/compat/asm/processor.h:118:1: note: in expansion of macro 'DECLARE_PER_CPU_SHARED_ALIGNED'
  DECLARE_PER_CPU_SHARED_ALIGNED(struct cpuinfo_x86, cpu_info);
  ^
-src/libs/compat/linux_snull/snull_dummy.c:69:17: warning: no previous prototype for '__memcpy' [-Wmissing-prototypes]
- DDE_WEAK void * __memcpy(void * a, const void * b, size_t c) {
-                 ^
-src/libs/compat/linux_snull/snull_dummy.c:69:17: error: conflicting types for '__memcpy'
-In file included from src/libs/compat/linux_snull/snull_dummy.c:1:0:
-src/libs/compat/linux_snull/compat/asm/string_64.h:13:11: note: previous implicit declaration of '__memcpy' was here
-   __ret = __memcpy((dst), (src), __len);  \
-           ^
-src/libs/compat/linux_snull/compat/linux/bitmap.h:91:3: note: in expansion of macro 'memcpy'
-   memcpy(dst, src, len);
-   ^
-src/libs/compat/linux_snull/snull_dummy.c:76:17: warning: no previous prototype for 'memset' [-Wmissing-prototypes]
- DDE_WEAK void * memset(void * a, int b, size_t c) {
-                 ^
-src/libs/compat/linux_snull/snull_dummy.c:76:17: error: conflicting types for 'memset'
-In file included from src/libs/compat/linux_snull/compat/linux/cpumask.h:12:0,
-                 from src/libs/compat/linux_snull/compat/asm/cpumask.h:5,
-                 from src/libs/compat/linux_snull/compat/asm/msr.h:9,
-                 from src/libs/compat/linux_snull/compat/asm/processor.h:20,
-                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
-                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
-                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
-                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
-                 from src/libs/compat/linux_snull/snull_dummy.c:3:
-src/libs/compat/linux_snull/compat/linux/bitmap.h:70:3: note: previous implicit declaration of 'memset' was here
-   memset(dst, 0, len);
-   ^
 In file included from src/libs/compat/linux_snull/compat/net/netns/ipv4.h:6:0,
                  from src/libs/compat/linux_snull/compat/net/net_namespace.h:15,
                  from src/libs/compat/linux_snull/compat/linux/netdevice.h:20,

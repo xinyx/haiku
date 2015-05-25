@@ -14,6 +14,10 @@ struct sigpending {
 
 #include <linux/bitops.h>
 
+/*
+ * defined in haiku
+ * @xinyx
+ *
 static inline int sigismember(sigset_t *set, int _sig)
 {
 	unsigned long sig = _sig - 1;
@@ -22,6 +26,7 @@ static inline int sigismember(sigset_t *set, int _sig)
 	else
 		return 1 & (set->sig[sig / _NSIG_BPW] >> (sig % _NSIG_BPW));
 }
+*/
 
 #include <linux/string.h>
 
@@ -81,6 +86,10 @@ static inline void name(sigset_t *set)					\
 #undef _SIG_SET_OP
 #undef _sig_not
 
+/*
+ * defined in haiku
+ * @xinyx
+ *
 static inline void sigemptyset(sigset_t *set)
 {
 	switch (_NSIG_WORDS) {
@@ -92,25 +101,29 @@ static inline void sigemptyset(sigset_t *set)
 		break;
 	}
 }
+*/
 
 struct timespec;
 struct pt_regs;
 
 extern void __set_current_blocked(const sigset_t *);
 
-struct sigaction {
-#ifndef __ARCH_HAS_IRIX_SIGACTION
-	__sighandler_t	sa_handler;
-	unsigned long	sa_flags;
-#else
-	unsigned int	sa_flags;
-	__sighandler_t	sa_handler;
-#endif
-#ifdef __ARCH_HAS_SA_RESTORER
-	__sigrestore_t sa_restorer;
-#endif
-	sigset_t	sa_mask;	/* mask last for extensibility */
-};
+/* defined in haiku
+ * @xinyx
+ */
+//struct sigaction {
+//#ifndef __ARCH_HAS_IRIX_SIGACTION
+//	__sighandler_t	sa_handler;
+//	unsigned long	sa_flags;
+//#else
+//	unsigned int	sa_flags;
+//	__sighandler_t	sa_handler;
+//#endif
+//#ifdef __ARCH_HAS_SA_RESTORER
+//	__sigrestore_t sa_restorer;
+//#endif
+//	sigset_t	sa_mask;	/* mask last for extensibility */
+//};
 
 struct k_sigaction {
 	struct sigaction sa;

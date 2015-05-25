@@ -1087,4 +1087,5 @@
 #define CONFIG_INLINE_WRITE_UNLOCK 1
 #define CONFIG_E1000 1
 
+#define KBUILD_MODNAME "linux_snull"
 #endif

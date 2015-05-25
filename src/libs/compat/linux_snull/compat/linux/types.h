@@ -9,19 +9,15 @@
 
 typedef __u32 __kernel_dev_t;
 
-typedef __kernel_dev_t		dev_t;
-typedef __kernel_ino_t		ino_t;
-
 /*
- * conflict with haiku 
+ * conflict with haiku
  * @xinyx
- * 
+ *
+ * typedef __kernel_ino_t		ino 
+ * typedef __kernel_pid_t		pid_t;
  * typedef unsigned short		umode_t;
+ * typedef __kernel_dev_t		dev_t;
  */
-typedef unsigned short		umode_t;
-
-typedef __kernel_pid_t		pid_t;
-
 typedef __kernel_clockid_t	clockid_t;
 
 typedef _Bool			bool;
@@ -52,7 +48,12 @@ typedef		__u32		uint32_t;
 #define aligned_u64 __u64 __attribute__((aligned(8)))
 
 typedef unsigned long sector_t;
-typedef unsigned long blkcnt_t;
+/*
+ * conflict with haiku
+ * @xinyx
+ *
+ * typedef unsigned long blkcnt_t;
+ */
 
 /*
  * The type of an index into the pagecache.  Use a #define so asm/types.h

@@ -2,6 +2,7 @@
 #ifndef __ASM_STRING_64_H__
 #define __ASM_STRING_64_H__
 
+#include <linux/types.h>
 #define __HAVE_ARCH_MEMCPY 1
 
 extern void *__memcpy(void *to, const void *from, size_t len);
