@@ -1,4 +1,4 @@
-generated*
+generated/*
 build/jam/UserBuildConfig
 build/user_config_headers
 
