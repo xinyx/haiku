@@ -65,6 +65,15 @@ DDE_WEAK void * __kmalloc(size_t a, gfp_t b) {
 }
 
 /*
+ * added by xinyx
+ */
+struct kmem_cache *kmalloc_caches[KMALLOC_SHIFT_HIGH + 1];
+DDE_WEAK void *  kmem_cache_alloc_trace(struct kmem_cache *cachep, gfp_t flags, size_t size) {
+	dde_printf("kmem_cache_alloc_trace not implemented\n");
+	return 0;
+}
+
+/*
  */
 DDE_WEAK void * __memcpy(void * a, const void * b, size_t c) {
 	dde_printf("__memcpy not implemented\n");

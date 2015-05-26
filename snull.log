@@ -3,52 +3,56 @@ qrencode support not available on x86
 ...patience...
 ...patience...
 ...found 10281 target(s)...
-...updating 2 target(s)...
-Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o 
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/size_t.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:120,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:11,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include/stddef.h:413:0: warning: "offsetof" redefined [enabled by default]
- #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/posix_types.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/types.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/types.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/list.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:11,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stddef.h:14:0: note: this is the location of the previous definition
- #define offsetof(TYPE,MEMBER) __compiler_offsetof(TYPE,MEMBER)
- ^
+...updating 3 target(s)...
+Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/snull_dummy.o 
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/pthread.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:10,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/posix/stdint.h:132:0: warning: "SIZE_MAX" redefined [enabled by default]
  #define SIZE_MAX  __HAIKU_ADDR_MAX
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:22:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9:0,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/linux/kernel.h:22:0: note: this is the location of the previous definition
  #define SIZE_MAX (~(size_t)0)
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/size_t.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/sys/types.h:120,
+                 from /home/xinyx/software/Edison/haiku/headers/posix/pthread.h:11,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:10,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include/stddef.h:413:0: warning: "offsetof" redefined [enabled by default]
+ #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/linux/posix_types.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/types.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/types.h:5,
+                 from src/libs/compat/linux_snull/compat/asm/string_64.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:1:
+src/libs/compat/linux_snull/compat/linux/stddef.h:14:0: note: this is the location of the previous definition
+ #define offsetof(TYPE,MEMBER) __compiler_offsetof(TYPE,MEMBER)
  ^
 In file included from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:168:0,
                  from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/syslimits.h:7,
@@ -56,855 +60,908 @@ In file included from /home/xinyx/software/Edison/haiku/generated/build_packages
                  from /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/posix/limits.h:41:0: warning: "PAGE_SIZE" redefined [enabled by default]
  #define PAGE_SIZE    (4096)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/ptrace.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/alternative.h:9,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/bitops.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/bitops.h:17,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:9,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/page_types.h:9:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/asm/ptrace.h:6:0,
+                 from src/libs/compat/linux_snull/compat/asm/alternative.h:9,
+                 from src/libs/compat/linux_snull/compat/asm/bitops.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/bitops.h:17,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:9,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/asm/page_types.h:9:0: note: this is the location of the previous definition
  #define PAGE_SIZE (_AC(1,UL) << PAGE_SHIFT)
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:137:0: warning: "ENODEV" redefined [enabled by default]
  #define ENODEV   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 7)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:16:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:16:0: note: this is the location of the previous definition
  #define ENODEV  19 /* No such device */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:139:0: warning: "ENOSYS" redefined [enabled by default]
  #define ENOSYS   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 9)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:7:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:7:0: note: this is the location of the previous definition
  #define ENOSYS  38 /* Function not implemented */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:141:0: warning: "ENXIO" redefined [enabled by default]
  #define ENXIO   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 11)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:7:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:7:0: note: this is the location of the previous definition
  #define ENXIO   6 /* No such device or address */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:165:0: warning: "ENOBUFS" redefined [enabled by default]
  #define ENOBUFS   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 35)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:13:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:13:0: note: this is the location of the previous definition
  #define ENOBUFS  105 /* No buffer space available */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:173:0: warning: "EOPNOTSUPP" redefined [enabled by default]
  #define EOPNOTSUPP      B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 43)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:11:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:11:0: note: this is the location of the previous definition
  #define EOPNOTSUPP 95 /* Operation not supported on transport endpoint */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:189:0: warning: "ETXTBSY" redefined [enabled by default]
  #define ETXTBSY   B_TO_POSIX_ERROR(B_POSIX_ERROR_BASE + 59)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:20:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:20:0: note: this is the location of the previous definition
  #define ETXTBSY  26 /* Text file busy */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:196:0: warning: "ENOMEM" redefined [enabled by default]
  # define ENOMEM  B_NO_MEMORY
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:10:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:10:0: note: this is the location of the previous definition
  #define ENOMEM  12 /* Out of memory */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:201:0: warning: "EINTR" redefined [enabled by default]
  #define EINTR   B_TO_POSIX_ERROR(B_INTERRUPTED)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:5:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:5:0: note: this is the location of the previous definition
  #define EINTR   4 /* Interrupted system call */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:202:0: warning: "EIO" redefined [enabled by default]
  #define EIO    B_TO_POSIX_ERROR(B_IO_ERROR)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:6:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:6:0: note: this is the location of the previous definition
  #define EIO   5 /* I/O error */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:203:0: warning: "EBUSY" redefined [enabled by default]
  #define EBUSY   B_TO_POSIX_ERROR(B_BUSY)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:14:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:14:0: note: this is the location of the previous definition
  #define EBUSY  16 /* Device or resource busy */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:204:0: warning: "EFAULT" redefined [enabled by default]
  #define EFAULT   B_TO_POSIX_ERROR(B_BAD_ADDRESS)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:12:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:12:0: note: this is the location of the previous definition
  #define EFAULT  14 /* Bad address */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:206:0: warning: "EAGAIN" redefined [enabled by default]
  #define EAGAIN    B_TO_POSIX_ERROR(B_WOULD_BLOCK) /* SysV compatibility */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:9:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:9:0: note: this is the location of the previous definition
  #define EAGAIN  11 /* Try again */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:207:0: warning: "EWOULDBLOCK" redefined [enabled by default]
  #define EWOULDBLOCK  B_TO_POSIX_ERROR(B_WOULD_BLOCK) /* BSD compatibility */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:9:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:9:0: note: this is the location of the previous definition
  #define EWOULDBLOCK EAGAIN /* Operation would block */
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:210:0: warning: "EINVAL" redefined [enabled by default]
  #define EINVAL   B_TO_POSIX_ERROR(B_BAD_VALUE)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/errno.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/printk.h:69,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/kernel.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/percpu.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:18:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/errno.h:5:0,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/errno.h:4,
+                 from src/libs/compat/linux_snull/compat/linux/errno.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/dynamic_debug.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/printk.h:69,
+                 from src/libs/compat/linux_snull/compat/linux/kernel.h:12,
+                 from src/libs/compat/linux_snull/compat/asm-generic/bug.h:9,
+                 from src/libs/compat/linux_snull/snull_dummy.c:2:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/errno-base.h:18:0: note: this is the location of the previous definition
  #define EINVAL  22 /* Invalid argument */
  ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
-                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:56:0: warning: "S_IFMT" redefined [enabled by default]
- #define S_IFMT    00000170000 /* type of file */
+In file included from src/libs/compat/linux_snull/compat/linux/time.h:8:0,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/time.h:12:30: warning: "/*" within comment [-Wcomment]
+ // __kernel_time_t tv_sec;   /* seconds */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:5:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/fcntl.h:4:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/fcntl.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/fcntl.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/net.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/fcntl.h:7:0: warning: "O_WRONLY" redefined [enabled by default]
+ #define O_WRONLY 00000001
+ ^
+In file included from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:34:0: note: this is the location of the previous definition
+ #define O_WRONLY  0x0001  /* write only */
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:5:0: warning: "S_IFMT" redefined [enabled by default]
  #define S_IFMT  00170000
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:58:0: warning: "S_IFLNK" redefined [enabled by default]
- #define S_IFLNK    00000120000 /* symbolic link */
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:56:0: note: this is the location of the previous definition
+ #define S_IFMT    00000170000 /* type of file */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:7:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:7:0: warning: "S_IFLNK" redefined [enabled by default]
  #define S_IFLNK  0120000
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:59:0: warning: "S_IFREG" redefined [enabled by default]
- #define S_IFREG    00000100000 /* regular */
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:58:0: note: this is the location of the previous definition
+ #define S_IFLNK    00000120000 /* symbolic link */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:8:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:8:0: warning: "S_IFREG" redefined [enabled by default]
  #define S_IFREG  0100000
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:61:0: warning: "S_IFDIR" redefined [enabled by default]
- #define S_IFDIR    00000040000 /* directory */
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:59:0: note: this is the location of the previous definition
+ #define S_IFREG    00000100000 /* regular */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:10:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:10:0: warning: "S_IFDIR" redefined [enabled by default]
  #define S_IFDIR  0040000
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:65:0: warning: "S_ISREG" redefined [enabled by default]
- #define S_ISREG(mode)  (((mode) & S_IFMT) == S_IFREG)
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:61:0: note: this is the location of the previous definition
+ #define S_IFDIR    00000040000 /* directory */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:16:0: note: this is the location of the previous definition
- #define S_ISREG(m) (((m) & S_IFMT) == S_IFREG)
- ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
-                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:66:0: warning: "S_ISLNK" redefined [enabled by default]
- #define S_ISLNK(mode)  (((mode) & S_IFMT) == S_IFLNK)
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:15:0: note: this is the location of the previous definition
- #define S_ISLNK(m) (((m) & S_IFMT) == S_IFLNK)
- ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
-                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:68:0: warning: "S_ISDIR" redefined [enabled by default]
- #define S_ISDIR(mode)  (((mode) & S_IFMT) == S_IFDIR)
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:17:0: note: this is the location of the previous definition
- #define S_ISDIR(m) (((m) & S_IFMT) == S_IFDIR)
- ^
-In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
-                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
-                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:76:0: warning: "S_ISUID" redefined [enabled by default]
- #define S_ISUID 04000       /* set user id on execution */
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:12:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:12:0: warning: "S_ISUID" redefined [enabled by default]
  #define S_ISUID  0004000
  ^
 In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
                  from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:77:0: warning: "S_ISGID" redefined [enabled by default]
- #define S_ISGID 02000       /* set group id on execution */
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:76:0: note: this is the location of the previous definition
+ #define S_ISUID 04000       /* set user id on execution */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/stat.h:13:0: note: this is the location of the previous definition
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:13:0: warning: "S_ISGID" redefined [enabled by default]
  #define S_ISGID  0002000
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/time.h:12:30: warning: "/*" within comment [-Wcomment]
- // __kernel_time_t tv_sec;   /* seconds */
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:77:0: note: this is the location of the previous definition
+ #define S_ISGID 02000       /* set group id on execution */
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:18:0: warning: "SIG_IGN" redefined [enabled by default]
- #define SIG_IGN  ((__sighandler_t)1)  /* ignore signal */
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:15:0: warning: "S_ISLNK" redefined [enabled by default]
+ #define S_ISLNK(m) (((m) & S_IFMT) == S_IFLNK)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/signal.h:17:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/signal.h:22,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/signal-defs.h:13:0: note: this is the location of the previous definition
- #define SIG_IGN ((__force __sighandler_t)1) /* ignore signal */
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:66:0: note: this is the location of the previous definition
+ #define S_ISLNK(mode)  (((mode) & S_IFMT) == S_IFLNK)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:88:0: warning: "SA_ONSTACK" redefined [enabled by default]
- #define SA_ONSTACK  0x20
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:16:0: warning: "S_ISREG" redefined [enabled by default]
+ #define S_ISREG(m) (((m) & S_IFMT) == S_IFREG)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/signal.h:15:0: note: this is the location of the previous definition
- #define SA_ONSTACK 0x08000000u
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:65:0: note: this is the location of the previous definition
+ #define S_ISREG(mode)  (((mode) & S_IFMT) == S_IFREG)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:153:0: warning: "SIGRTMIN" redefined [enabled by default]
- #define SIGRTMIN  (__signal_get_sigrtmin())
+In file included from src/libs/compat/linux_snull/compat/linux/stat.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sysfs.h:11,
+                 from src/libs/compat/linux_snull/compat/linux/kobject.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/slub_def.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/slab.h:109,
+                 from src/libs/compat/linux_snull/compat/linux/textsearch.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:16,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/stat.h:17:0: warning: "S_ISDIR" redefined [enabled by default]
+ #define S_ISDIR(m) (((m) & S_IFMT) == S_IFDIR)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/signal.h:13:0: note: this is the location of the previous definition
- #define SIGRTMIN 32
+In file included from /home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:10:0,
+                 from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9,
+                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/sys/stat.h:68:0: note: this is the location of the previous definition
+ #define S_ISDIR(mode)  (((mode) & S_IFMT) == S_IFDIR)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:8:0: warning: "SS_ONSTACK" redefined [enabled by default]
- #define SS_ONSTACK 1
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:95:0: note: this is the location of the previous definition
- #define SS_ONSTACK  0x1
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:9:0: warning: "SS_DISABLE" redefined [enabled by default]
- #define SS_DISABLE 2
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/signal.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/sched.h:32,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:22:
-/home/xinyx/software/Edison/haiku/headers/posix/signal.h:96:0: note: this is the location of the previous definition
- #define SS_DISABLE  0x2
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/scatterlist.h:7:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/dmaengine.h:9,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:15,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h: In function 'init_page_count':
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/mm.h:227:2: warning: passing argument 1 of 'atomic_set' from incompatible pointer type [enabled by default]
+In file included from src/libs/compat/linux_snull/compat/linux/scatterlist.h:7:0,
+                 from src/libs/compat/linux_snull/compat/linux/dmaengine.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/mm.h: In function 'init_page_count':
+src/libs/compat/linux_snull/compat/linux/mm.h:227:2: warning: passing argument 1 of 'atomic_set' from incompatible pointer type [enabled by default]
   atomic_set(&page->_count, 1);
   ^
 In file included from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:257:1: note: expected 'int32 *' but argument is of type 'struct atomic_t *'
  atomic_set(int32* value, int32 newValue)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/fs.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:34,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:10,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/limits.h: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/limits.h:5:0: warning: "PATH_MAX" redefined [enabled by default]
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h: At top level:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:18:0: warning: "SIG_IGN" redefined [enabled by default]
+ #define SIG_IGN  ((__sighandler_t)1)  /* ignore signal */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm/signal.h:17:0,
+                 from src/libs/compat/linux_snull/compat/asm/signal.h:22,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm-generic/signal-defs.h:13:0: note: this is the location of the previous definition
+ #define SIG_IGN ((__force __sighandler_t)1) /* ignore signal */
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:88:0: warning: "SA_ONSTACK" redefined [enabled by default]
+ #define SA_ONSTACK  0x20
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm/signal.h:15:0: note: this is the location of the previous definition
+ #define SA_ONSTACK 0x08000000u
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:153:0: warning: "SIGRTMIN" redefined [enabled by default]
+ #define SIGRTMIN  (__signal_get_sigrtmin())
+ ^
+In file included from src/libs/compat/linux_snull/compat/asm/signal.h:22:0,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/asm/signal.h:13:0: note: this is the location of the previous definition
+ #define SIGRTMIN 32
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/signal.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/signal.h:8:0: warning: "SS_ONSTACK" redefined [enabled by default]
+ #define SS_ONSTACK 1
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:95:0: note: this is the location of the previous definition
+ #define SS_ONSTACK  0x1
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/signal.h:6:0,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/signal.h:9:0: warning: "SS_DISABLE" redefined [enabled by default]
+ #define SS_DISABLE 2
+ ^
+In file included from src/libs/compat/linux_snull/compat/uapi/asm-generic/siginfo.h:8:0,
+                 from src/libs/compat/linux_snull/compat/asm-generic/siginfo.h:5,
+                 from src/libs/compat/linux_snull/compat/uapi/asm/siginfo.h:7,
+                 from src/libs/compat/linux_snull/compat/uapi/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/signal.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/sched.h:32,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:23,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+/home/xinyx/software/Edison/haiku/headers/posix/signal.h:96:0: note: this is the location of the previous definition
+ #define SS_DISABLE  0x2
+ ^
+In file included from src/libs/compat/linux_snull/compat/linux/if_ether.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__skb_linearize':
+src/libs/compat/linux_snull/compat/linux/skbuff.h:1098:52: warning: integer overflow in expression [-Woverflow]
+  return __pskb_pull_tail(skb, skb->data_len) ? 0 : -ENOMEM;
+                                                    ^
+In file included from src/libs/compat/linux_snull/compat/uapi/linux/fs.h:5:0,
+                 from src/libs/compat/linux_snull/compat/linux/fs.h:34,
+                 from src/libs/compat/linux_snull/compat/linux/compat.h:10,
+                 from src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/uapi/linux/limits.h: At top level:
+src/libs/compat/linux_snull/compat/uapi/linux/limits.h:5:0: warning: "PATH_MAX" redefined [enabled by default]
  #define PATH_MAX        4096 /* # chars in a path name including nul */
  ^
 In file included from /home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/headers/gcc/include-fixed/limits.h:168:0,
@@ -913,149 +970,34 @@ In file included from /home/xinyx/software/Edison/haiku/generated/build_packages
                  from /home/xinyx/software/Edison/haiku/headers/os/support/Errors.h:9,
                  from /home/xinyx/software/Edison/haiku/headers/os/support/SupportDefs.h:13,
                  from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:13,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
+                 from src/libs/compat/linux_snull/compat/asm/processor.h:33,
+                 from src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
+                 from src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
+                 from src/libs/compat/linux_snull/compat/asm/preempt.h:7,
+                 from src/libs/compat/linux_snull/compat/linux/preempt.h:14,
+                 from src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
+                 from src/libs/compat/linux_snull/compat/linux/mm_types.h:9,
+                 from src/libs/compat/linux_snull/compat/linux/kmemcheck.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/skbuff.h:6,
+                 from src/libs/compat/linux_snull/compat/linux/if_ether.h:5,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:5,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
 /home/xinyx/software/Edison/haiku/headers/posix/limits.h:43:0: note: this is the location of the previous definition
  #define PATH_MAX    (1024)
  ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm/fcntl.h:4:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/fcntl.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fcntl.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/fs.h:449,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/compat.h:10,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/asm-generic/fcntl.h:7:0: warning: "O_WRONLY" redefined [enabled by default]
- #define O_WRONLY 00000001
- ^
-In file included from /home/xinyx/software/Edison/haiku/headers/os/storage/StorageDefs.h:9:0,
-                 from /home/xinyx/software/Edison/haiku/headers/os/kernel/OS.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/processor.h:33,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/thread_info.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/thread_info.h:47,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/asm/preempt.h:7,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/preempt.h:14,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/spinlock.h:8,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/seqlock.h:5,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/time.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/stat.h:12,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/module.h:12,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:18:
-/home/xinyx/software/Edison/haiku/headers/posix/fcntl.h:34:0: note: this is the location of the previous definition
- #define O_WRONLY  0x0001  /* write only */
- ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/if_ether.h:5:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/uapi/linux/ethtool.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/ethtool.h:6,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:19,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h: In function '__skb_linearize':
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/skbuff.h:1098:52: warning: integer overflow in expression [-Woverflow]
-  return __pskb_pull_tail(skb, skb->data_len) ? 0 : -ENOMEM;
-                                                    ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
-src/add-ons/kernel/drivers/linux_snull/snull.c:99:6: warning: no previous prototype for 'snull_setup_pool' [-Wmissing-prototypes]
- void snull_setup_pool(struct net_device *dev)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:118:6: warning: no previous prototype for 'snull_teardown_pool' [-Wmissing-prototypes]
- void snull_teardown_pool(struct net_device *dev)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:133:22: warning: no previous prototype for 'snull_get_tx_buffer' [-Wmissing-prototypes]
- struct snull_packet *snull_get_tx_buffer(struct net_device *dev)
-                      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:151:6: warning: no previous prototype for 'snull_release_buffer' [-Wmissing-prototypes]
- void snull_release_buffer(struct snull_packet *pkt)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:164:6: warning: no previous prototype for 'snull_enqueue_buf' [-Wmissing-prototypes]
- void snull_enqueue_buf(struct net_device *dev, struct snull_packet *pkt)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:175:22: warning: no previous prototype for 'snull_dequeue_buf' [-Wmissing-prototypes]
- struct snull_packet *snull_dequeue_buf(struct net_device *dev)
-                      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:203:5: warning: no previous prototype for 'snull_open' [-Wmissing-prototypes]
- int snull_open(struct net_device *dev)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:219:5: warning: no previous prototype for 'snull_release' [-Wmissing-prototypes]
- int snull_release(struct net_device *dev)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:230:5: warning: no previous prototype for 'snull_config' [-Wmissing-prototypes]
- int snull_config(struct net_device *dev, struct ifmap *map)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:254:6: warning: no previous prototype for 'snull_rx' [-Wmissing-prototypes]
- void snull_rx(struct net_device *dev, struct snull_packet *pkt)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: In function 'snull_hw_tx':
-src/add-ons/kernel/drivers/linux_snull/snull.c:495:22: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
-  priv->tx_packetdata = buf;
-                      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
-src/add-ons/kernel/drivers/linux_snull/snull.c:510:5: warning: no previous prototype for 'snull_tx' [-Wmissing-prototypes]
- int snull_tx(struct sk_buff *skb, struct net_device *dev)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: In function 'snull_tx':
-src/add-ons/kernel/drivers/linux_snull/snull.c:516:7: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
-  data = skb->data;
-       ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
-src/add-ons/kernel/drivers/linux_snull/snull.c:557:5: warning: no previous prototype for 'snull_ioctl' [-Wmissing-prototypes]
- int snull_ioctl(struct net_device *dev, struct ifreq *rq, int cmd)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:566:26: warning: no previous prototype for 'snull_stats' [-Wmissing-prototypes]
- struct net_device_stats *snull_stats(struct net_device *dev)
-                          ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:576:5: warning: no previous prototype for 'snull_rebuild_header' [-Wmissing-prototypes]
- int snull_rebuild_header(struct sk_buff *skb)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:588:5: warning: no previous prototype for 'snull_header' [-Wmissing-prototypes]
- int snull_header(struct sk_buff *skb, struct net_device *dev,
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:609:5: warning: no previous prototype for 'snull_change_mtu' [-Wmissing-prototypes]
- int snull_change_mtu(struct net_device *dev, int new_mtu)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:648:6: warning: no previous prototype for 'snull_init' [-Wmissing-prototypes]
- void snull_init(struct net_device *dev)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:702:6: warning: no previous prototype for 'snull_cleanup' [-Wmissing-prototypes]
- void snull_cleanup(void)
-      ^
-src/add-ons/kernel/drivers/linux_snull/snull.c:719:5: warning: no previous prototype for 'snull_init_module' [-Wmissing-prototypes]
- int snull_init_module(void)
-     ^
-src/add-ons/kernel/drivers/linux_snull/snull.c: In function 'snull_init_module':
-src/add-ons/kernel/drivers/linux_snull/snull.c:721:23: warning: integer overflow in expression [-Woverflow]
-  int result, i, ret = -ENOMEM;
-                       ^
-In file included from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/netns/ipv4.h:6:0,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/net_namespace.h:15,
-                 from /home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
-                 from src/add-ons/kernel/drivers/linux_snull/snull.c:30:
-src/add-ons/kernel/drivers/linux_snull/snull.c: At top level:
-/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull/compat/net/inet_frag.h:85:21: warning: 'frag_percpu_counter_batch' defined but not used [-Wunused-variable]
+In file included from src/libs/compat/linux_snull/compat/net/netns/ipv4.h:6:0,
+                 from src/libs/compat/linux_snull/compat/net/net_namespace.h:15,
+                 from src/libs/compat/linux_snull/compat/linux/netdevice.h:20,
+                 from src/libs/compat/linux_snull/compat/linux/etherdevice.h:6,
+                 from src/libs/compat/linux_snull/snull_dummy.c:3:
+src/libs/compat/linux_snull/compat/net/inet_frag.h:85:21: warning: 'frag_percpu_counter_batch' defined but not used [-Wunused-variable]
  static unsigned int frag_percpu_counter_batch = 130000;
                      ^
+Archive /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/liblinux_snull.a 
+Ranlib /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/liblinux_snull.a 
 Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull 
-/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o: In function `snull_setup_pool':
-snull.c:(.text+0x440): undefined reference to `kmalloc_caches'
-snull.c:(.text+0x453): undefined reference to `kmem_cache_alloc_trace'
-collect2: error: ld returned 1 exit status
-
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/xinyx/software/Edison/haiku/generated/objects/linux/lib ; /home/xinyx/software/Edison/haiku/build/scripts/rm_attrs /home/xinyx/software/Edison/haiku/generated/objects/linux/x86_64/release/tools/rm_attrs -f "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull"
-/home/xinyx/software/Edison/haiku/generated/cross-tools-x86/bin/i586-pc-haiku-gcc -fno-strict-aliasing -fno-tree-vrp -Wno-array-bounds -Xlinker --no-undefined -nostdlib -Xlinker --no-undefined -Xlinker -soname="linux_snull" -o "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull"  "/home/xinyx/software/Edison/haiku/generated/cross-tools-x86/lib/gcc/i586-pc-haiku/4.8.4/crtbeginS.o" "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/glue/haiku_version_glue.o" "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/snull.o" \
-"/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_snull/liblinux_snull.a" "/home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/kernel/kernel.so"  "/home/xinyx/software/Edison/haiku/generated/build_packages/gcc_syslibs_devel-4.8.4_2014_12_21-1-x86/develop/lib/libgcc-kernel.a" "/home/xinyx/software/Edison/haiku/generated/cross-tools-x86/lib/gcc/i586-pc-haiku/4.8.4/crtendS.o" \
-
-
-...failed Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull ...
-
-BUILD FAILURE:
-...failed updating 1 target(s)...
-...updated 1 target(s)...
+SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull 
+MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull 
+SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull 
+Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_snull/linux_snull 
+...updated 3 target(s)...
