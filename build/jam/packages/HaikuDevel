@@ -65,6 +65,9 @@ CopyDirectoryToPackage develop headers private libs compat
 CopyDirectoryToPackage develop headers private libs compat
 	: [ FDirName $(HAIKU_TOP) src libs compat linux_hello ]
 	: : -x *.c -x Jamfile ;
+CopyDirectoryToPackage develop headers private libs compat
+	: [ FDirName $(HAIKU_TOP) src libs compat linux_snull ]
+	: : -x *.c -x Jamfile ;
 
 # create be -> os symlink for now
 AddSymlinkToPackage develop headers : os : be ;

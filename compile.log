@@ -15,68 +15,62 @@ qrencode support not available on x86
 ...patience...
 ...patience...
 ...patience...
-...found 136263 target(s)...
-...updating 952 target(s)...
+...found 137359 target(s)...
+...updating 955 target(s)...
 InitScript1 /home/xinyx/software/Edison/haiku/generated/haiku.image-init-vars 
+DetermineHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/build/haiku-revision 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-init-vars 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-make-dirs 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-copy-files 
 AddTargetVariableToScript1 <unique!target>_target_871 
 AddTargetVariableToScript1 <unique!target>_target_971 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-make-dirs 
-AddTargetVariableToScript1 <unique!target>_target_43 
-AppendToContainerCopyFilesScript <hpkg_-haiku_loader.hpkg>haiku.package-copy-files-dummy-. 
 AddTargetVariableToScript1 <unique!target>_target_081 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-extract-files 
-AddTargetVariableToScript1 <unique!target>_target_53 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-init-vars 
 AddTargetVariableToScript1 <unique!target>_target_181 
-AddTargetVariableToScript1 <unique!target>_target_63 
 AddTargetVariableToScript1 <unique!target>_target_281 
-AddTargetVariableToScript1 <unique!target>_target_73 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-make-dirs 
 AddTargetVariableToScript1 <unique!target>_target_381 
-AddTargetVariableToScript1 <unique!target>_target_83 
 AddTargetVariableToScript1 <unique!target>_target_481 
-AddTargetVariableToScript1 <unique!target>_target_93 
 AddTargetVariableToScript1 <unique!target>_target_581 
-AddTargetVariableToScript1 <unique!target>_target_88 
-AddTargetVariableToScript1 <unique!target>_target_04 
 AddTargetVariableToScript1 <unique!target>_target_681 
-AddTargetVariableToScript1 <unique!target>_target_98 
-AddTargetVariableToScript1 <unique!target>_target_14 
 AddTargetVariableToScript1 <unique!target>_target_781 
-AddTargetVariableToScript1 <unique!target>_target_09 
-AddTargetVariableToScript1 <unique!target>_target_24 
-AddTargetVariableToScript1 <unique!target>_target_19 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-make-dirs 
 AddTargetVariableToScript1 <unique!target>_target_881 
-AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-init-vars 
-AddTargetVariableToScript1 <unique!target>_target_29 
 AddTargetVariableToScript1 <unique!target>_target_981 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-copy-files 
 AddTargetVariableToScript1 <unique!target>_target_091 
-BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_loader.hpkg 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-copy-files 
+AddTargetVariableToScript1 <unique!target>_target_43 
+AddTargetVariableToScript1 <unique!target>_target_53 
+AddTargetVariableToScript1 <unique!target>_target_63 
+AddTargetVariableToScript1 <unique!target>_target_73 
+AddTargetVariableToScript1 <unique!target>_target_83 
+AddTargetVariableToScript1 <unique!target>_target_93 
+AddTargetVariableToScript1 <unique!target>_target_04 
+AddTargetVariableToScript1 <unique!target>_target_14 
+AddTargetVariableToScript1 <unique!target>_target_24 
+AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-init-vars 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-extract-files 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/scripts/haiku.package-make-dirs 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-init-vars 
+AddTargetVariableToScript1 <unique!target>_target_88 
+AddTargetVariableToScript1 <unique!target>_target_98 
+AddTargetVariableToScript1 <unique!target>_target_09 
+AddTargetVariableToScript1 <unique!target>_target_19 
+AddTargetVariableToScript1 <unique!target>_target_29 
 AddTargetVariableToScript1 <unique!target>_target_39 
-haiku_loader.hpkg: Removing and re-creating package contents dir ...
-haiku_loader.hpkg: Collecting package contents ...
-haiku_loader.hpkg: mimeset'ing package contents ...
-GenerateKeymapLocalizationHeader1 /home/xinyx/software/Edison/haiku/generated/objects/common/data/keymaps/KeymapNames.h 
-AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/firmware/iprowifi2100 
 AddTargetVariableToScript1 <unique!target>_target_49 
-AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/firmware/iprowifi2200 
 AddTargetVariableToScript1 <unique!target>_target_59 
-haiku_loader.hpkg: Creating the package ...
+AddTargetVariableToScript1 <unique!target>_target_69 
+AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-init-vars 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-make-dirs 
+AppendToContainerCopyFilesScript <hpkg_-haiku_loader.hpkg>haiku.package-copy-files-dummy-. 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-copy-files 
+GenerateKeymapLocalizationHeader1 /home/xinyx/software/Edison/haiku/generated/objects/common/data/keymaps/KeymapNames.h 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-make-dirs 
+AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/firmware/iprowifi2100 
+AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/firmware/iprowifi2200 
+C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator.o 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/bus_managers 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->usb_mimedb 
-C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/KeymapWindow.o 
-AddTargetVariableToScript1 <unique!target>_target_69 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app-<usb>uhci_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app-<usb>ohci_mimedb 
-AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-init-vars 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app-<usb>ehci_mimedb 
-C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator.o 
-C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFView.o 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->libbe.so_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->libmail.so_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->libtextencoding.so_mimedb 
@@ -120,9 +114,9 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->df_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->diff_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->diff3_mimedb 
-...on 100th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->diskimage_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->draggers_mimedb 
+...on 100th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->driveinfo_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->dstcheck_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->eject_mimedb 
@@ -134,6 +128,7 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->findpaths_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->fortune_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->fstrim_mimedb 
+C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/KeymapWindow.o 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->getarch_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->hd_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->hey_mimedb 
@@ -221,8 +216,8 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->StyledEdit_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Terminal_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->TextSearch_mimedb 
-...on 200th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Workspaces_mimedb 
+...on 200th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->CodyCam_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->GLInfo_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->HaikuDepot_mimedb 
@@ -234,7 +229,6 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->MediaConverter_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->MediaPlayer_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->MidiPlayer_mimedb 
-Cc /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_hello/hello_dummy.o 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->PackageInstaller_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->People_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->PoorMan_mimedb 
@@ -242,7 +236,6 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->RemoteDesktop_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Screenshot_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->SerialConnect_mimedb 
-Archive /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_hello/liblinux_hello.a 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->SoundRecorder_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->TV_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->WebWatch_mimedb 
@@ -251,51 +244,55 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app-<preference>Deskbar_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->FileTypes_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Keyboard_mimedb 
+C++ /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFView.o 
+DetermineEffectiveHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/build/effective-haiku-revision 
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/haiku_loader-package-info 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_loader.hpkg/haiku_loader-package-info 
+BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_loader.hpkg 
+haiku_loader.hpkg: Removing and re-creating package contents dir ...
+haiku_loader.hpkg: Collecting package contents ...
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/haiku-package-info 
+haiku_loader.hpkg: mimeset'ing package contents ...
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/haiku-package-info 
+haiku_loader.hpkg: Creating the package ...
 CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/kernel/revisioned/kernel_x86 
-Ranlib /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/libs/compat/linux_hello/liblinux_hello.a 
-Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_hello/linux_hello 
 CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/libroot/revisioned/libroot.so 
-SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_hello/linux_hello 
-MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_hello/linux_hello 
+Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
 ExtractCatalogEntries1 /home/xinyx/software/Edison/haiku/generated/objects/catalogs/preferences/keymap/en.catkeys 
-LinkApplicationCatalog1 /home/xinyx/software/Edison/haiku/generated/objects/catalogs/preferences/keymap/en.catalog 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku.hpkg/scripts/haiku.package-extract-files 
-SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_hello/linux_hello 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi3945-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi3945/iwlwifi-3945-ucode-15.32.2.9.tgz 
-Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/kernel/drivers/linux_hello/linux_hello 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-1000-ucode-39.31.5.1.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-4965-ucode-228.61.2.24.tgz 
-PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/haiku_devel-package-info 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-5000-ucode-8.83.5.1.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-5150-ucode-8.24.2.2.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-6000-ucode-9.221.4.1.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-6000g2a-ucode-18.168.6.1.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-6000g2b-ucode-18.168.6.1.tgz 
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/haiku_devel-package-info 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/iprowifi4965-/home/xinyx/software/Edison/haiku/data/system/data/firmware/iprowifi4965/iwlwifi-6050-ucode-41.28.5.1.tgz 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/marvell88w8363-/home/xinyx/software/Edison/haiku/data/system/data/firmware/marvell88w8363/88w8363-fw-3.6.2.2.zip 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/ralinkwifi-/home/xinyx/software/Edison/haiku/data/system/data/firmware/ralinkwifi/RT61_Firmware_V1.2.zip 
 AddExtractFileToContainerExtractFilesScript <hpkg_-haiku.hpkg>haiku.package-extract-files-dummy-data/firmware/ralinkwifi-/home/xinyx/software/Edison/haiku/data/system/data/firmware/ralinkwifi/RT2860_Firmware_V26.zip 
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/haiku_devel-package-info 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/haiku_devel-package-info 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-init-vars 
-Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
 AddTargetVariableToScript1 <unique!target>_target_52 
 AddTargetVariableToScript1 <unique!target>_target_62 
 AddTargetVariableToScript1 <unique!target>_target_72 
 AddTargetVariableToScript1 <unique!target>_target_82 
 AddTargetVariableToScript1 <unique!target>_target_92 
 AddTargetVariableToScript1 <unique!target>_target_03 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-make-dirs 
 AddTargetVariableToScript1 <unique!target>_target_13 
 AddTargetVariableToScript1 <unique!target>_target_23 
 AddTargetVariableToScript1 <unique!target>_target_33 
 AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-init-vars 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-make-dirs 
+Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-make-dirs 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-copy-files 
 AppendToContainerCopyFilesScriptSingleFile <hpkg_-haiku_devel.hpkg>haiku.package-copy-files-dummy-develop/lib-kernel.so 
 AppendToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>haiku.package-copy-files-dummy-develop/lib 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libroot.so 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-make-dirs 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libalm.so 
-CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/libroot/revisioned/libroot_debug.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libbe.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libbsd.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libbnetapi.so 
@@ -305,35 +302,40 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libgame
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libglut.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libgnu.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libmail.so 
-CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/libroot/revisioned/libroot_guarded.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libmedia.so 
-XRes1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libmidi.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libmidi2.so 
-SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libnetwork.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libpackage.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libscreensaver.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libtextencoding.so 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-extract-files 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libtracker.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libtranslation.so 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libroot_debug.so 
-MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/lib/libroot_guarded.so 
+CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/libroot/revisioned/libroot_debug.so 
+CopySetHaikuRevision1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/system/libroot/revisioned/libroot_guarded.so 
+XRes1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
+LinkApplicationCatalog1 /home/xinyx/software/Edison/haiku/generated/objects/catalogs/preferences/keymap/en.catalog 
+SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
+MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
+SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_devel.hpkg/scripts/haiku.package-extract-files 
+Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
+CreateAppMimeDBEntries1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator_mimedb 
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/makefile_engine-package-info 
 AppendToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>haiku.package-copy-files-dummy-lib 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/config/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/config 
-PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/makefile_engine-package-info 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/glibc/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/glibc 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/alm/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/libs/alm 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/os/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/os 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/posix/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/posix 
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/makefile_engine-package-info 
+...on 300th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/private/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/private 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/private/libs/compat/freebsd_network/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/src/libs/compat/freebsd_network 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/private/libs/compat/freebsd_wlan/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/src/libs/compat/freebsd_wlan 
-...on 300th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/private/libs/compat/linux_hello/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/src/libs/compat/linux_hello 
+AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/private/libs/compat/linux_snull/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/src/libs/compat/linux_snull 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/be 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/bsd/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/compatibility/bsd 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>develop/headers/gnu/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/headers/compatibility/gnu 
@@ -341,6 +343,7 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>data/deskbar/menu/A
 AppendToContainerCopyFilesScript <hpkg_-haiku_devel.hpkg>haiku.package-copy-files-dummy-bin 
 BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_devel.hpkg 
 haiku_devel.hpkg: Removing and re-creating package contents dir ...
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/makefile_engine-package-info 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/scripts/haiku.package-init-vars 
 AddTargetVariableToScript1 <unique!target>_target_16 
 AddTargetVariableToScript1 <unique!target>_target_26 
@@ -355,22 +358,17 @@ AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/scripts/haiku.package-make-dirs 
 CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/scripts/haiku.package-make-dirs 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/scripts/haiku.package-copy-files 
-AppendToContainerCopyFilesScript <hpkg_-makefile_engine.hpkg>haiku.package-copy-files-dummy-develop/etc 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-makefile_engine.hpkg/scripts/haiku.package-extract-files 
+AppendToContainerCopyFilesScript <hpkg_-makefile_engine.hpkg>haiku.package-copy-files-dummy-develop/etc 
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/webpositive-package-info 
+XRes1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
 BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/makefile_engine.hpkg 
 makefile_engine.hpkg: Removing and re-creating package contents dir ...
 makefile_engine.hpkg: Collecting package contents ...
-makefile_engine.hpkg: mimeset'ing package contents ...
-SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
-Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator 
-CreateAppMimeDBEntries1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/add-ons/translators/tiff/TIFFTranslator_mimedb 
-haiku_devel.hpkg: Collecting package contents ...
-makefile_engine.hpkg: Creating the package ...
-PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/webpositive-package-info 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/webpositive-package-info 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/scripts/haiku.package-init-vars 
 AddTargetVariableToScript1 <unique!target>_target_151 
 AddTargetVariableToScript1 <unique!target>_target_251 
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/webpositive-package-info 
 AddTargetVariableToScript1 <unique!target>_target_351 
 AddTargetVariableToScript1 <unique!target>_target_451 
 AddTargetVariableToScript1 <unique!target>_target_551 
@@ -387,76 +385,31 @@ AppendToContainerCopyFilesScript <hpkg_-webpositive.hpkg>haiku.package-copy-file
 AddDirectoryToContainerCopyFilesScript <hpkg_-webpositive.hpkg>data/mime_db/-/<mimedb-app->WebPositive_mimedb 
 AddSymlinkToContainerCopyFilesScript <hpkg_-webpositive.hpkg>data/deskbar/menu/Applications/WebPositive 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-webpositive.hpkg/scripts/haiku.package-extract-files 
+BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/webpositive.hpkg 
+webpositive.hpkg: Removing and re-creating package contents dir ...
+webpositive.hpkg: Collecting package contents ...
+SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
+MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
+SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
+Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
+CreateAppMimeDBEntries1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap_mimedb 
+makefile_engine.hpkg: mimeset'ing package contents ...
+makefile_engine.hpkg: Creating the package ...
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/repositories/Haiku-repository-init-vars 
 AddTargetVariableToScript1 <unique!target>_target_32 
 AddTargetVariableToScript1 <unique!target>_target_42 
 AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/repositories/Haiku-repository-init-vars 
 PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/repositories/Haiku-info 
-BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/webpositive.hpkg 
 PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/haiku_userguide-package-info 
-webpositive.hpkg: Removing and re-creating package contents dir ...
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/haiku_userguide-package-info 
-webpositive.hpkg: Collecting package contents ...
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-init-vars 
-AddTargetVariableToScript1 <unique!target>_target_34 
-AddTargetVariableToScript1 <unique!target>_target_44 
-AddTargetVariableToScript1 <unique!target>_target_54 
-AddTargetVariableToScript1 <unique!target>_target_64 
-AddTargetVariableToScript1 <unique!target>_target_74 
-AddTargetVariableToScript1 <unique!target>_target_84 
-AddTargetVariableToScript1 <unique!target>_target_94 
-AddTargetVariableToScript1 <unique!target>_target_05 
-AddTargetVariableToScript1 <unique!target>_target_15 
-AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-init-vars 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-make-dirs 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-make-dirs 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-copy-files 
-webpositive.hpkg: mimeset'ing package contents ...
-AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_userguide.hpkg>documentation/userguide/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/docs/userguide 
-AppendToContainerCopyFilesScript <hpkg_-haiku_userguide.hpkg>haiku.package-copy-files-dummy-bin 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-extract-files 
-BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_userguide.hpkg 
-haiku_userguide.hpkg: Removing and re-creating package contents dir ...
-webpositive.hpkg: Creating the package ...
-Link /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-XRes1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-SetType1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-MimeSet1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/haiku_welcome-package-info 
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/haiku_welcome-package-info 
-SetVersion1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-init-vars 
-Chmod1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap 
-AddTargetVariableToScript1 <unique!target>_target_25 
-CreateAppMimeDBEntries1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/release/preferences/keymap/Keymap_mimedb 
-AddTargetVariableToScript1 <unique!target>_target_35 
-AddTargetVariableToScript1 <unique!target>_target_45 
-AddTargetVariableToScript1 <unique!target>_target_55 
-AddTargetVariableToScript1 <unique!target>_target_65 
-AddTargetVariableToScript1 <unique!target>_target_75 
-AddTargetVariableToScript1 <unique!target>_target_85 
-AddTargetVariableToScript1 <unique!target>_target_95 
-AddTargetVariableToScript1 <unique!target>_target_06 
-AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-init-vars 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-make-dirs 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-make-dirs 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-copy-files 
-AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_welcome.hpkg>documentation/welcome/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/docs/welcome 
-haiku_userguide.hpkg: Collecting package contents ...
-AppendToContainerCopyFilesScript <hpkg_-haiku_welcome.hpkg>haiku.package-copy-files-dummy-bin 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-extract-files 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Keymap_mimedb 
-BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_welcome.hpkg 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Locale_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Mouse_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Network_mimedb 
-haiku_welcome.hpkg: Removing and re-creating package contents dir ...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Notifications_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Screen_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Shortcuts_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Time_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Touchpad_mimedb 
-...on 400th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app-<preference>Tracker_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->VirtualMemory_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->DataTranslations_mimedb 
@@ -466,7 +419,6 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->ScreenSaver_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Sounds_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Chart_mimedb 
-haiku_welcome.hpkg: Collecting package contents ...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Clock_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->Cortex_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->FontDemo_mimedb 
@@ -493,6 +445,7 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->PSDTranslator_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->RAWTranslator_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->RTFTranslator_mimedb 
+...on 400th target...
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->SGITranslator_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->TGATranslator_mimedb 
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb-app->TIFFTranslator_mimedb 
@@ -543,7 +496,6 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/mime_db/-/<mimedb>
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/agp_gart 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/ata 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/random 
-haiku_welcome.hpkg: mimeset'ing package contents ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/scsi 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/usb 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/busses/virtio 
@@ -559,7 +511,6 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/drivers/disk/virtual 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/drivers/power 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/drivers/bin 
-...on 500th target...
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/console 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/dprintf 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/null 
@@ -595,6 +546,7 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/de
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/graphics/3dfx 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/graphics/ati 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/graphics/neomagic 
+...on 500th target...
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/graphics/s3 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/input/ps2_hid 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/input/usb_hid 
@@ -624,7 +576,6 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/de
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/etherpci 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/pegasus 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/sis900 
-haiku_welcome.hpkg: Creating the package ...
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/usb_asix 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/usb_davicom 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/usb_ecm 
@@ -640,12 +591,14 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/de
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/marvell88w8335 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/ralinkwifi 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/wavelanwifi 
+AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/net/linux_snull 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/ports/pc_serial 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/drivers/dev/ports/usb_serial 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-. 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-lib 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>lib/liblocale.so 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-libbe 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/haiku_userguide-package-info 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-libmail 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-libtextencoding 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-libtracker 
@@ -655,18 +608,15 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-mount_server 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-notification_server 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.haiku-registrar 
-PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/netfs-package-info 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SystemLogger 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-POST 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-PSRV 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-TSKB 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-TRAK 
-...on 600th target...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-bin 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>bin/untrash 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>bin/more 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>bin/gunzip 
-UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/netfs-package-info 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>bin/zcat 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>bin/zcmp 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-desklink 
@@ -679,7 +629,6 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-About 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ActivityMonitor 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-BootManager 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-init-vars 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-CharacterMap 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-DeskCalc 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Devices 
@@ -691,26 +640,16 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ProcessController 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ShowImage 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-StyledEdit 
-AddTargetVariableToScript1 <unique!target>_target_07 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Terminal 
-AddTargetVariableToScript1 <unique!target>_target_17 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku.TextSearch 
-AddTargetVariableToScript1 <unique!target>_target_27 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-WORK 
-AddTargetVariableToScript1 <unique!target>_target_37 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-CodyCam 
-AddTargetVariableToScript1 <unique!target>_target_47 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-GLInfo 
-AddTargetVariableToScript1 <unique!target>_target_57 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-HaikuDepot 
-AddTargetVariableToScript1 <unique!target>_target_67 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.haiku-icon_o_matic 
-AddTargetVariableToScript1 <unique!target>_target_77 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Installer 
-AddTargetVariableToScript1 <unique!target>_target_87 
+...on 600th target...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-LaunchBox 
-AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-init-vars 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-make-dirs 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Magnify 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-MAIL 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-MediaConverter 
@@ -719,39 +658,26 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-PackageInstaller 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Be-PEPL 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-PoorMan 
-CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-make-dirs 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-PowerStatus 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-copy-files 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.haiku-screenshot 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SoundRecorder 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku.TV 
-AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-add-ons/userlandfs 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.mahlzeit.webwatch 
-AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-servers 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-preferences 
-AddDirectoryToContainerCopyFilesScript <hpkg_-netfs.hpkg>data/mime_db/-/<mimedb-app->netfs_server_mimedb 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Appearance 
-AddDirectoryToContainerCopyFilesScript <hpkg_-netfs.hpkg>data/mime_db/-/<mimedb-app->authentication_server_mimedb 
-AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-bin 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Backgrounds 
-AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-data/userlandfs/file_systems 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-DeskbarPreferences 
-AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-documentation/add-ons 
-InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-extract-files 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-FileTypes 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Keyboard 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Keymap 
-BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/netfs.hpkg 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Locale 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Mouse 
-netfs.hpkg: Removing and re-creating package contents dir ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Network 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Notifications 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Screen 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Shortcuts 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Time 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Touchpad 
-netfs.hpkg: Collecting package contents ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-TrackerPreferences 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-VirtualMemory 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-DataTranslations 
@@ -765,7 +691,6 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Clock 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-FontDemo 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-GLTeapot 
-...on 700th target...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Mandelbrot 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-OverlayImage 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Pairs 
@@ -799,7 +724,6 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/isa
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/intel 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/it8211 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/legacy_sata 
-netfs.hpkg: mimeset'ing package contents ...
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/locked_pool 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/packagefs 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/kernel/boot/pci 
@@ -825,6 +749,7 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-GIFTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-HVIFTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ICOTranslator 
+...on 700th target...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ICNSTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-JPEGTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-JPEG2000Translator 
@@ -837,6 +762,7 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SGITranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-TGATranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-TIFFTranslator 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-init-vars 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-WebPTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-WonderBrushTranslator 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/locale/catalogs 
@@ -848,51 +774,66 @@ AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dumm
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/mail_daemon/inbound_filters 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-MatchHeader 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SpamFilter 
-haiku_devel.hpkg: mimeset'ing package contents ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-NewMailNotification 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/mail_daemon/outbound_filters 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-Fortune 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/media 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-hmulti_audio.media_addon 
+AddTargetVariableToScript1 <unique!target>_target_34 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-mixer.media_addon 
+AddTargetVariableToScript1 <unique!target>_target_44 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/media/plugins 
+AddTargetVariableToScript1 <unique!target>_target_54 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/Network Settings 
+AddTargetVariableToScript1 <unique!target>_target_64 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-IPv4Interface 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-IPv6Interface 
+AddTargetVariableToScript1 <unique!target>_target_74 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-DNSClientService 
+AddTargetVariableToScript1 <unique!target>_target_84 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-FTPService 
+AddTargetVariableToScript1 <unique!target>_target_94 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SSHService 
+AddTargetVariableToScript1 <unique!target>_target_05 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-TelnetService 
+AddTargetVariableToScript1 <unique!target>_target_15 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/Tracker 
+AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-init-vars 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/Tracker/Background 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-make-dirs 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/Tracker/TextSearch 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>add-ons/Tracker/DiskUsage 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.haiku.zip-o-matic 
-...on 800th target...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/input_server/devices 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-KeyboardInputServerDevice 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-make-dirs 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/input_server/filters 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-copy-files 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/network 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/network/devices 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/network/datalink_protocols 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/kernel/network/protocols 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/Print 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/Print/transport 
+AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_userguide.hpkg>documentation/userguide/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/docs/userguide 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/Screen Savers 
+AppendToContainerCopyFilesScript <hpkg_-haiku_userguide.hpkg>haiku.package-copy-files-dummy-bin 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-ButterflyScreensaver 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_userguide.hpkg/scripts/haiku.package-extract-files 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-DebugNowScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-FlurryScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-GLifeScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-GravityScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-IconsScreensaver 
+BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_userguide.hpkg 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-IFSScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-LeavesScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-MessageScreensaver 
+haiku_userguide.hpkg: Removing and re-creating package contents dir ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-SpiderScreensaver 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-add-ons/disk_systems 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-IntelDiskAddOn 
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-BFSAddOn 
-netfs.hpkg: Creating the package ...
 AppendToContainerCopyFilesScript <hpkg_-haiku.hpkg>haiku.package-copy-files-dummy-data/locale/catalogs/x-vnd.Haiku-NTFSDiskAddOn 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/ActivityMonitor 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/CharacterMap 
@@ -910,6 +851,7 @@ AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applica
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/Installer 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/Magnify 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/Mail 
+...on 800th target...
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/MediaConverter 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/MediaPlayer 
 AddSymlinkToContainerCopyFilesScript <hpkg_-haiku.hpkg>data/deskbar/menu/Applications/MidiPlayer 
@@ -965,14 +907,70 @@ AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>documentation/pdflib/-/
 AddDirectoryToContainerCopyFilesScript <hpkg_-haiku.hpkg>develop/sample-code/pdflib/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/src/libs/pdflib/bind/pdflib 
 BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku.hpkg 
 haiku.hpkg: Removing and re-creating package contents dir ...
+webpositive.hpkg: mimeset'ing package contents ...
+webpositive.hpkg: Creating the package ...
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/haiku_welcome-package-info 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/haiku_welcome-package-info 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-init-vars 
+AddTargetVariableToScript1 <unique!target>_target_25 
+AddTargetVariableToScript1 <unique!target>_target_35 
+AddTargetVariableToScript1 <unique!target>_target_45 
+AddTargetVariableToScript1 <unique!target>_target_55 
+AddTargetVariableToScript1 <unique!target>_target_65 
+AddTargetVariableToScript1 <unique!target>_target_75 
+AddTargetVariableToScript1 <unique!target>_target_85 
+AddTargetVariableToScript1 <unique!target>_target_95 
+AddTargetVariableToScript1 <unique!target>_target_06 
+AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-init-vars 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-make-dirs 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-make-dirs 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-copy-files 
+AddDirectoryToContainerCopyFilesScript <hpkg_-haiku_welcome.hpkg>documentation/welcome/-/<copy-directory-to-container>/home/xinyx/software/Edison/haiku/docs/welcome 
+AppendToContainerCopyFilesScript <hpkg_-haiku_welcome.hpkg>haiku.package-copy-files-dummy-bin 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-haiku_welcome.hpkg/scripts/haiku.package-extract-files 
+BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/haiku_welcome.hpkg 
+haiku_welcome.hpkg: Removing and re-creating package contents dir ...
+haiku_welcome.hpkg: Collecting package contents ...
+haiku_welcome.hpkg: mimeset'ing package contents ...
+haiku_welcome.hpkg: Creating the package ...
+PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/netfs-package-info 
+UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/netfs-package-info 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-init-vars 
+AddTargetVariableToScript1 <unique!target>_target_07 
+AddTargetVariableToScript1 <unique!target>_target_17 
+AddTargetVariableToScript1 <unique!target>_target_27 
+AddTargetVariableToScript1 <unique!target>_target_37 
+AddTargetVariableToScript1 <unique!target>_target_47 
+AddTargetVariableToScript1 <unique!target>_target_57 
+AddTargetVariableToScript1 <unique!target>_target_67 
+AddTargetVariableToScript1 <unique!target>_target_77 
+AddTargetVariableToScript1 <unique!target>_target_87 
+AddVariableToScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-init-vars 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-make-dirs 
+CreateContainerMakeDirectoriesScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-make-dirs 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-copy-files 
+AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-add-ons/userlandfs 
+AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-servers 
+AddDirectoryToContainerCopyFilesScript <hpkg_-netfs.hpkg>data/mime_db/-/<mimedb-app->netfs_server_mimedb 
+AddDirectoryToContainerCopyFilesScript <hpkg_-netfs.hpkg>data/mime_db/-/<mimedb-app->authentication_server_mimedb 
+AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-bin 
+AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-data/userlandfs/file_systems 
+AppendToContainerCopyFilesScript <hpkg_-netfs.hpkg>haiku.package-copy-files-dummy-documentation/add-ons 
+InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-netfs.hpkg/scripts/haiku.package-extract-files 
+BuildHaikuPackage1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages/netfs.hpkg 
+netfs.hpkg: Removing and re-creating package contents dir ...
+netfs.hpkg: Collecting package contents ...
+haiku_devel.hpkg: Collecting package contents ...
+netfs.hpkg: mimeset'ing package contents ...
+netfs.hpkg: Creating the package ...
 PreprocessPackageOrRepositoryInfo1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-userland_fs.hpkg/userland_fs-package-info 
 UpdatePackageInfoRequires /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-userland_fs.hpkg/userland_fs-package-info 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/packages_build/regular/hpkg_-userland_fs.hpkg/scripts/haiku.package-init-vars 
 AddTargetVariableToScript1 <unique!target>_target_97 
+...on 900th target...
 AddTargetVariableToScript1 <unique!target>_target_08 
 AddTargetVariableToScript1 <unique!target>_target_18 
 AddTargetVariableToScript1 <unique!target>_target_28 
-...on 900th target...
 AddTargetVariableToScript1 <unique!target>_target_38 
 AddTargetVariableToScript1 <unique!target>_target_48 
 AddTargetVariableToScript1 <unique!target>_target_58 
@@ -1007,9 +1005,11 @@ BuildHaikuImageHostnameFile /home/xinyx/software/Edison/haiku/generated/objects/
 RepositoryConfig1 /home/xinyx/software/Edison/haiku/generated/objects/haiku/x86/packaging/repositories/Haiku-config 
 InitScript1 /home/xinyx/software/Edison/haiku/generated/haiku.image-extract-files 
 AddExtractFileToContainerExtractFilesScript <HaikuImage>haiku.image-extract-files-dummy-home/config/settings/WebPositive-<download>WebPositiveBookmarks-2014-07-21.zip 
-haiku_userguide.hpkg: mimeset'ing package contents ...
+haiku_userguide.hpkg: Collecting package contents ...
 haiku.hpkg: Collecting package contents ...
+haiku_devel.hpkg: mimeset'ing package contents ...
 haiku_devel.hpkg: Creating the package ...
+haiku_userguide.hpkg: mimeset'ing package contents ...
 haiku_userguide.hpkg: Creating the package ...
 haiku.hpkg: mimeset'ing package contents ...
 haiku.hpkg: Creating the package ...
@@ -1032,30 +1032,30 @@ AddDirectoryToContainerCopyFilesScript <HaikuImage>home/config/settings/Media/dv
 AppendToContainerCopyFilesScriptSingleFile <HaikuImage>haiku.image-copy-files-dummy-system/settings/package-repositories-<repository-config>HaikuPorts-config 
 AppendToContainerCopyFilesScriptSingleFile <HaikuImage>haiku.image-copy-files-dummy-system/settings/package-repositories-<repository-config>Haiku-config 
 haiku (r1~alpha4_pm_hrev49060-1)
-	checksum: 774ca37da7c32eaa84731852310aa2a9a5135577a9cbc209e39afa4281238f8e
+	checksum: 350f93e1810787c59d4ec95ae75306b6c40c7736061fa176f29dfbff1c2f85d8
 haiku_devel (r1~alpha4_pm_hrev49060-1)
-	checksum: 2ed7194ec3c49cb01358ff2db9b5d62560bd349c30152ea5a26f3558b4df03e1
+	checksum: 436bb3534e11e745104d8d8f1b88f07ed7ab15732471109b05b324214a55a15d
 haiku_loader (r1~alpha4_pm_hrev49060-1)
-	checksum: 3d91845fd6ea613d4143027c2f075700507708ff64bab5c6de72fd520abf52bd
+	checksum: c6db96c3824360bb5313d28cd45b39ecfd7e3bca356e6d7595ee64f1896fd374
 haiku_userguide (r1~alpha4_pm_hrev49060-1)
-	checksum: 2417170fd6769c0b34f73580c7f9fddfb15d4ff5c1cf2228bdef8b380a9f9654
+	checksum: 1555db944af6fa31fcbc9328fe6f4a11bd279d7394d703caf799cd3fe64360ce
 haiku_welcome (r1~alpha4_pm_hrev49060-1)
-	checksum: eeb49272160d70c0667a1c8632409f12565f7d65a8cfc4aa7ac6d2f35ec60b79
+	checksum: f56dba87b8473a983942f5874314b912a2d20b075994e0aa2ddf6f05089ff26c
 makefile_engine (r1~alpha4_pm_hrev49060-1)
-	checksum: def1c6c938e36af954cb0d4c42bc552b1d6baeed0174c14b93b0f479b65b402f
+	checksum: 268b2d93fd378f7020702dd707000cfeb7487a8429c27e5cc1a96876ac0b2efa
 netfs (r1~alpha4_pm_hrev49060-1)
-	checksum: 172f438252049546d7456dcb5676af0c770d460e9ca3286772d8cc29a5726055
+	checksum: 6eebfa9c30f1d198cbe7a8f328474f500d4d55df70bf5d985cf76744eef8d933
 userland_fs (r1~alpha4_pm_hrev49060-1)
-	checksum: 2b698cfd365df02705dfd2a72dbaac5d25870ef7a92f160a98b75265396c1ced
+	checksum: 7babede77eb8e6bdfb579a71ce3a5d7d9d2a05db12714c51d747815dafbc2e7d
 webpositive (r1~alpha4_pm_hrev49060-1)
-	checksum: 880df3ec2d381e2cb3a3913150e221c4053753c3a299250984636afd15e8b1b3
+	checksum: 3c7c295939fbf236978b82867690e911a74b52823c37db672011de6e6dc2b7a1
 ----- Package Repository Info -----
 package count                     9
 -----------------------------------
 header size:                     72
 repository header size:      299894
 package attributes size:       3815
-total size:                   93020
+total size:                   93022
 -----------------------------------
 AddTargetVariableToScript1 <unique!target>_target_291 
 AppendToContainerCopyFilesScriptSingleFile <HaikuImage>haiku.image-copy-files-dummy-system/cache/package-repositories-<repository-cache>repo 
@@ -1074,4 +1074,4 @@ Extracting /home/xinyx/software/Edison/haiku/generated/download/less-451-4-x86.h
 Extracting /home/xinyx/software/Edison/haiku/generated/download/wget-1.16.3-1-x86.hpkg ...
 Extracting /home/xinyx/software/Edison/haiku/generated/download/cdrtools-3.01~a27-1-x86.hpkg ...
 Unmounting ...
-...updated 952 target(s)...
+...updated 955 target(s)...
