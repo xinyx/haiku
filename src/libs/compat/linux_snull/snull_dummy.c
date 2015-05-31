@@ -44,7 +44,8 @@ DDE_WEAK __be16 eth_type_trans(struct sk_buff * a, struct net_device * b) {
 /*
  */
 DDE_WEAK void free_netdev(struct net_device * a) {
-	dde_printf("free_netdev not implemented\n");
+	//dde_printf("free_netdev not implemented\n");
+	free(a);
 }
 
 /*
@@ -54,14 +55,15 @@ volatile unsigned long jiffies;
 /*
  */
 DDE_WEAK void kfree(const void * a) {
-	dde_printf("kfree not implemented\n");
+	//dde_printf("kfree not implemented\n");
+	free(a);
 }
 
 /*
  */
 DDE_WEAK void * __kmalloc(size_t a, gfp_t b) {
-	dde_printf("__kmalloc not implemented\n");
-	return 0;
+	//dde_printf("__kmalloc not implemented\n");
+	return malloc(a);
 }
 
 /*
@@ -75,18 +77,16 @@ DDE_WEAK void *  kmem_cache_alloc_trace(struct kmem_cache *cachep, gfp_t flags, 
 }
 
 /*
- */
 DDE_WEAK void * __memcpy(void * a, const void * b, size_t c) {
 	dde_printf("__memcpy not implemented\n");
 	return 0;
 }
 
-/*
- */
 DDE_WEAK void * memset(void * a, int b, size_t c) {
-	dde_printf("memset not implemented\n");
+	dde_printf("memset not implemented\n");	
 	return 0;
 }
+*/
 
 /*
  */

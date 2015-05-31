@@ -1,0 +1,74 @@
+./if_em_osdep.h:114:void *contigmalloc(int size, int p1, int p2, int p3, int p4, int p5, int p6);
+./if_em_osdep.h:165:#undef malloc
+./if_em_osdep.h:166:#define malloc driver_malloc
+./if_em_osdep.h:170:void *driver_malloc(int size, int p2, int p3);
+./if_em.c:288:	      contigmalloc(tsize, M_DEVBUF, M_NOWAIT, 0, ~0, 
+./if_em.c:301:	      contigmalloc(rsize, M_DEVBUF, M_NOWAIT, 0, ~0, 
+./if_em.c:1780:	      (struct em_buffer *) malloc(sizeof(struct em_buffer) *
+./if_em.c:2132:	      (struct em_buffer *) malloc(sizeof(struct em_buffer) *
+./if_em_osdep.c:23:#undef malloc
+./if_em_osdep.c:28:driver_malloc(int size, int p2, int p3)
+./if_em_osdep.c:30:	return malloc(size);
+./if_em_osdep.c:42:contigmalloc(int size, int p1, int p2, int p3, int p4, int p5, int p6)
+./if_em_osdep.c:45:	if (create_area("contigmalloc", &adr, B_ANY_KERNEL_ADDRESS, size,
+./if_em_osdep.c:159:	struct int_tag *int_tag = (struct int_tag *) malloc(sizeof(struct int_tag));
+./dev/e1000/if_igb.h:256: * e1000_dma_malloc and e1000_dma_free.
+./dev/e1000/if_em.h:257: * e1000_dma_malloc and e1000_dma_free.
+./dev/e1000/if_em.c:55:#include <sys/malloc.h>
+./dev/e1000/if_em.c:270:static int	em_dma_malloc(struct adapter *, bus_size_t,
+./dev/e1000/if_em.c:650:	adapter->mta = malloc(sizeof(u8) * ETH_ADDR_LEN *
+./dev/e1000/if_em.c:3099:em_dma_malloc(struct adapter *adapter, bus_size_t size,
+./dev/e1000/if_em.c:3192:	    (struct tx_ring *) malloc(sizeof(struct tx_ring) *
+./dev/e1000/if_em.c:3201:	    (struct rx_ring *) malloc(sizeof(struct rx_ring) *
+./dev/e1000/if_em.c:3226:		if (em_dma_malloc(adapter, tsize,
+./dev/e1000/if_em.c:3266:		if (em_dma_malloc(adapter, rsize,
+./dev/e1000/if_em.c:3341:	    (struct em_buffer *) malloc(sizeof(struct em_buffer) *
+./dev/e1000/if_em.c:4064:	rxr->rx_buffers = malloc(sizeof(struct em_buffer) *
+./dev/e1000/if_lem.c:50:#include <sys/malloc.h>
+./dev/e1000/if_lem.c:224:static int	lem_dma_malloc(struct adapter *, bus_size_t,
+./dev/e1000/if_lem.c:542:	if (lem_dma_malloc(adapter, tsize, &adapter->txdma, BUS_DMA_NOWAIT)) {
+./dev/e1000/if_lem.c:554:	if (lem_dma_malloc(adapter, rsize, &adapter->rxdma, BUS_DMA_NOWAIT)) {
+./dev/e1000/if_lem.c:563:	adapter->mta = malloc(sizeof(u8) * ETH_ADDR_LEN *
+./dev/e1000/if_lem.c:2539:lem_dma_malloc(struct adapter *adapter, bus_size_t size,
+./dev/e1000/if_lem.c:2648:	adapter->tx_buffer_area = malloc(sizeof(struct em_buffer) *
+./dev/e1000/if_lem.c:3204:	adapter->rx_buffer_area = malloc(sizeof(struct em_buffer) *
+./dev/e1000/e1000_osdep.h:47:#include <sys/malloc.h>
+./dev/e1000/if_igb.c:53:#include <sys/malloc.h>
+./dev/e1000/if_igb.c:250:static int	igb_dma_malloc(struct adapter *, bus_size_t,
+./dev/e1000/if_igb.c:573:		    (struct e1000_vf_stats *)malloc(sizeof \
+./dev/e1000/if_igb.c:578:		    (struct e1000_hw_stats *)malloc(sizeof \
+./dev/e1000/if_igb.c:587:	adapter->mta = malloc(sizeof(u8) * ETH_ADDR_LEN *
+./dev/e1000/if_igb.c:3220:igb_dma_malloc(struct adapter *adapter, bus_size_t size,
+./dev/e1000/if_igb.c:3312:	    (struct igb_queue *) malloc(sizeof(struct igb_queue) *
+./dev/e1000/if_igb.c:3321:	    (struct tx_ring *) malloc(sizeof(struct tx_ring) *
+./dev/e1000/if_igb.c:3330:	    (struct rx_ring *) malloc(sizeof(struct rx_ring) *
+./dev/e1000/if_igb.c:3355:		if (igb_dma_malloc(adapter, tsize,
+./dev/e1000/if_igb.c:3394:		if (igb_dma_malloc(adapter, rsize,
+./dev/e1000/if_igb.c:3478:	    (struct igb_tx_buffer *) malloc(sizeof(struct igb_tx_buffer) *
+./dev/e1000/if_igb.c:4129:	    (struct igb_rx_buf *) malloc(bsize,
+./dev/e1000/if_lem.h:272: * e1000_dma_malloc and e1000_dma_free.
+./if_compat.c:25:#undef malloc
+./if_compat.c:144:	addr = (struct ifmultiaddr *)malloc(sizeof(struct ifmultiaddr));
+./tags:4218:area_malloc	util.c	/^area_malloc(size_t size)$/;"	f
+./tags:4354:contigmalloc	if_em_osdep.c	/^contigmalloc(int size, int p1, int p2, int p3, int p4, int p5, int p6)$/;"	f
+./tags:4458:driver_malloc	if_em_osdep.c	/^driver_malloc(int size, int p2, int p3)$/;"	f
+./tags:5427:em_dma_malloc	dev/e1000/if_em.c	/^em_dma_malloc(struct adapter *adapter, bus_size_t size,$/;"	f	file:
+./tags:6004:igb_dma_malloc	dev/e1000/if_igb.c	/^igb_dma_malloc(struct adapter *adapter, bus_size_t size,$/;"	f	file:
+./tags:6231:lem_dma_malloc	dev/e1000/if_lem.c	/^lem_dma_malloc(struct adapter *adapter, bus_size_t size,$/;"	f	file:
+./tags:6395:malloc	device.c	39;"	d	file:
+./tags:6396:malloc	if_compat.c	25;"	d	file:
+./tags:6397:malloc	if_em_osdep.c	23;"	d	file:
+./tags:6398:malloc	if_em_osdep.h	165;"	d
+./tags:6399:malloc	if_em_osdep.h	166;"	d
+./util.h:26:void *	area_malloc(size_t size);
+./driver.c:119:	item = (pci_info *)malloc(sizeof(pci_info));
+./driver.c:138:			item = (pci_info *)malloc(sizeof(pci_info));
+./mempool.c:20:#include <malloc.h>
+./mempool.c:52:	chunk_pool = area_malloc(chunk_alloc_size);
+./mempool.c:57:	mbuf_pool = area_malloc(mbuf_alloc_size);
+./device.c:39:#undef malloc
+./device.c:95:	*cookie = device = (ipro1000_device *)malloc(sizeof(ipro1000_device));
+./util.c:55:area_malloc(size_t size)
+./util.c:60:	if (create_area("area_malloc", &p, B_ANY_KERNEL_ADDRESS, size, B_FULL_LOCK, 0) < 0)
+匹配到二进制文件 ./.device.c.swp
+./if_compat.h:277:	(dev->adapter ? dev->adapter : (dev->adapter = (struct adapter *)malloc(sizeof(struct adapter), 0, 0)))

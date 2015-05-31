@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PDEBUG	snull.h	21;"	d
+PDEBUG	snull.h	25;"	d
+PDEBUG	snull.h	28;"	d
+PDEBUG	snull.h	31;"	d
+PDEBUGG	snull.h	34;"	d
+PDEBUGG	snull.h	35;"	d
+SNULL_RX_INTR	snull.h	39;"	d
+SNULL_TIMEOUT	snull.h	43;"	d
+SNULL_TX_INTR	snull.h	40;"	d
+data	snull.c	/^	u8 data[ETH_DATA_LEN];$/;"	m	struct:snull_packet	file:
+datalen	snull.c	/^	int	datalen;$/;"	m	struct:snull_packet	file:
+dev	snull.c	/^	struct net_device *dev;$/;"	m	struct:snull_packet	typeref:struct:snull_packet::net_device	file:
+dev	snull.c	/^	struct net_device *dev;$/;"	m	struct:snull_priv	typeref:struct:snull_priv::net_device	file:
+lock	snull.c	/^	spinlock_t lock;$/;"	m	struct:snull_priv	file:
+lockup	snull.c	/^static int lockup = 0;$/;"	v	file:
+napi	snull.c	/^	struct napi_struct napi;$/;"	m	struct:snull_priv	typeref:struct:snull_priv::napi_struct	file:
+next	snull.c	/^	struct snull_packet *next;$/;"	m	struct:snull_packet	typeref:struct:snull_packet::snull_packet	file:
+pool_size	snull.c	/^int pool_size = 8;$/;"	v
+ppool	snull.c	/^	struct snull_packet *ppool;$/;"	m	struct:snull_priv	typeref:struct:snull_priv::snull_packet	file:
+rx_int_enabled	snull.c	/^	int rx_int_enabled;$/;"	m	struct:snull_priv	file:
+rx_queue	snull.c	/^	struct snull_packet *rx_queue;  \/* List of incoming packets *\/$/;"	m	struct:snull_priv	typeref:struct:snull_priv::snull_packet	file:
+skb	snull.c	/^	struct sk_buff *skb;$/;"	m	struct:snull_priv	typeref:struct:snull_priv::sk_buff	file:
+snull_change_mtu	snull.c	/^int snull_change_mtu(struct net_device *dev, int new_mtu)$/;"	f
+snull_cleanup	snull.c	/^module_exit(snull_cleanup);$/;"	v
+snull_cleanup	snull.c	/^void snull_cleanup(void)$/;"	f
+snull_config	snull.c	/^int snull_config(struct net_device *dev, struct ifmap *map)$/;"	f
+snull_dequeue_buf	snull.c	/^struct snull_packet *snull_dequeue_buf(struct net_device *dev)$/;"	f
+snull_devs	snull.c	/^struct net_device *snull_devs[2];$/;"	v	typeref:struct:net_device
+snull_enqueue_buf	snull.c	/^void snull_enqueue_buf(struct net_device *dev, struct snull_packet *pkt)$/;"	f
+snull_get_tx_buffer	snull.c	/^struct snull_packet *snull_get_tx_buffer(struct net_device *dev)$/;"	f
+snull_header	snull.c	/^int snull_header(struct sk_buff *skb, struct net_device *dev,$/;"	f
+snull_header_ops	snull.c	/^static const struct header_ops snull_header_ops = {$/;"	v	typeref:struct:header_ops	file:
+snull_hw_tx	snull.c	/^static void snull_hw_tx(char *buf, int len, struct net_device *dev)$/;"	f	file:
+snull_init	snull.c	/^void snull_init(struct net_device *dev)$/;"	f
+snull_init_module	snull.c	/^int snull_init_module(void)$/;"	f
+snull_init_module	snull.c	/^module_init(snull_init_module);$/;"	v
+snull_interrupt	snull.c	/^static void (*snull_interrupt)(int, void *, struct pt_regs *);$/;"	v	file:
+snull_ioctl	snull.c	/^int snull_ioctl(struct net_device *dev, struct ifreq *rq, int cmd)$/;"	f
+snull_napi_interrupt	snull.c	/^static void snull_napi_interrupt(int irq, void *dev_id, struct pt_regs *regs)$/;"	f	file:
+snull_netdev_ops	snull.c	/^static const struct net_device_ops snull_netdev_ops = {$/;"	v	typeref:struct:net_device_ops	file:
+snull_open	snull.c	/^int snull_open(struct net_device *dev)$/;"	f
+snull_packet	snull.c	/^struct snull_packet {$/;"	s	file:
+snull_poll	snull.c	/^static int snull_poll(struct napi_struct *napi, int budget)$/;"	f	file:
+snull_priv	snull.c	/^struct snull_priv {$/;"	s	file:
+snull_rebuild_header	snull.c	/^int snull_rebuild_header(struct sk_buff *skb)$/;"	f
+snull_regular_interrupt	snull.c	/^static void snull_regular_interrupt(int irq, void *dev_id, struct pt_regs *regs)$/;"	f	file:
+snull_release	snull.c	/^int snull_release(struct net_device *dev)$/;"	f
+snull_release_buffer	snull.c	/^void snull_release_buffer(struct snull_packet *pkt)$/;"	f
+snull_rx	snull.c	/^void snull_rx(struct net_device *dev, struct snull_packet *pkt)$/;"	f
+snull_rx_ints	snull.c	/^static void snull_rx_ints(struct net_device *dev, int enable)$/;"	f	file:
+snull_setup_pool	snull.c	/^void snull_setup_pool(struct net_device *dev)$/;"	f
+snull_stats	snull.c	/^struct net_device_stats *snull_stats(struct net_device *dev)$/;"	f
+snull_teardown_pool	snull.c	/^void snull_teardown_pool(struct net_device *dev)$/;"	f
+snull_tx	snull.c	/^int snull_tx(struct sk_buff *skb, struct net_device *dev)$/;"	f
+snull_tx_timeout	snull.c	/^void snull_tx_timeout (struct net_device *dev)$/;"	f
+stats	snull.c	/^	struct net_device_stats stats;$/;"	m	struct:snull_priv	typeref:struct:snull_priv::net_device_stats	file:
+status	snull.c	/^	int status;$/;"	m	struct:snull_priv	file:
+timeout	snull.c	/^static int timeout = SNULL_TIMEOUT;$/;"	v	file:
+tx_packetdata	snull.c	/^	u8 *tx_packetdata;$/;"	m	struct:snull_priv	file:
+tx_packetlen	snull.c	/^	int tx_packetlen;$/;"	m	struct:snull_priv	file:
+use_napi	snull.c	/^static int use_napi = 0;$/;"	v	file:

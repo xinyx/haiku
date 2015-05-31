@@ -38,18 +38,9 @@
 #include <linux/in6.h>
 #include <asm/checksum.h>
 
-#include <KernelExport.h>
-#include <Drivers.h>
-#include <Errors.h>
-#include "memcpy.c"
-#include "memset.c"
-//#include <string.h>
-
-
 MODULE_AUTHOR("Alessandro Rubini, Jonathan Corbet");
 MODULE_LICENSE("Dual BSD/GPL");
 
-int32 api_version = B_CUR_DRIVER_API_VERSION;
 
 /*
  * Transmitter lockup simulation, normally disabled.
@@ -752,53 +743,6 @@ int snull_init_module(void)
 	return ret;
 }
 
-//module_init(snull_init_module);
-//module_exit(snull_cleanup);
 
-/**
-  * haiku functions
-  */
-
-status_t
-init_hardware(void)
-{
-	printk("linux_snull:init_hardware()");
-	return B_OK;
-}
-
-status_t
-init_driver(void)
-{
-	snull_init_module();
-}
-
-void
-uninit_driver(void)
-{
-	snull_cleanup();
-}
-
-static char* devices[] = {
-	"/dev/net/sn0",
-	"/dev/net/sn1",
-	NULL
-};
-
-const char** publish_devices() {
-	return devices;
-}
-
-device_hooks 
-linux_snull_hooks = {
-	snull_open,
-	snull_release,
-	NULL,	//free
-	snull_ioctl,
-	NULL,	//read
-	NULL	//write
-};
-
-device_hooks* find_device(const char* name) {
-
-	return &linux_snull_hooks;
-}
+module_init(snull_init_module);
+module_exit(snull_cleanup);

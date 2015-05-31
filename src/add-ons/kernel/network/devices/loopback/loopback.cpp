@@ -37,7 +37,7 @@ loopback_init(const char *name, net_device **_device)
 {
 	loopback_device *device;
 
-	if (strncmp(name, "loop", 4))
+	if (strncmp(name, "loop_xinyx", 10))
 		return B_BAD_VALUE;
 
 	status_t status = get_module(NET_STACK_MODULE_NAME, (module_info **)&sStackModule);
